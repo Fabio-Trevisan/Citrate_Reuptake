@@ -1,0 +1,88 @@
+$Length.cm.
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 1076836  538418   22.05 6.645e-05 ***
+Residuals 13  317434   24418                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$ProjArea.cm2.
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 674.84  337.42  14.566 0.0004794 ***
+Residuals 13 301.15   23.17                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$SurfArea.cm2.
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 6660.3  3330.2  14.566 0.0004794 ***
+Residuals 13 2972.2   228.6                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$AvgDiam.mm.
+Analysis of Variance Table
+
+Response: Value
+          Df    Sum Sq   Mean Sq F value   Pr(>F)    
+Treatment  2 0.0164499 0.0082250  28.975 1.62e-05 ***
+Residuals 13 0.0036903 0.0002839                     
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$RootVolume.cm3.
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value   Pr(>F)   
+Treatment  2 357000  178500  12.153 0.001057 **
+Residuals 13 190942   14688                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Tips
+Analysis of Variance Table
+
+Response: Value
+          Df Sum Sq Mean Sq F value   Pr(>F)   
+Treatment  2 777612  388806  8.5825 0.004206 **
+Residuals 13 588930   45302                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Forks
+Analysis of Variance Table
+
+Response: Value
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 55380392 27690196  25.616 3.092e-05 ***
+Residuals 13 14052638  1080972                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Crossings
+Analysis of Variance Table
+
+Response: Value
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 9933864 4966932  36.269 4.804e-06 ***
+Residuals 13 1780320  136948                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

@@ -1,0 +1,48 @@
+$Length.cm.
+      Value groups
+C  966.6669      a
+Fe 664.4859      b
+P  338.5834      c
+
+$ProjArea.cm2.
+      Value groups
+C  23.96918      a
+Fe 21.41592      a
+P   8.98314      b
+
+$SurfArea.cm2.
+      Value groups
+C  75.30140      a
+Fe 67.28004      a
+P  28.22138      b
+
+$AvgDiam.mm.
+     Value groups
+Fe 0.32220      a
+P  0.26562      b
+C  0.24645      b
+
+$RootVolume.cm3.
+   Value groups
+Fe 544.2      a
+C  468.0      a
+P  187.6      b
+
+$Tips
+      Value groups
+C  897.8333      a
+Fe 644.4000     ab
+P  364.0000      b
+
+$Forks
+    Value groups
+C  5548.0      a
+Fe 3093.4      b
+P  1066.2      c
+
+$Crossings
+    Value groups
+C  2241.0      a
+Fe  953.8      b
+P   400.8      b
+
