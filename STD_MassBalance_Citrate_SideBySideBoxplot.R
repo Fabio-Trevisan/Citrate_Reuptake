@@ -48,7 +48,7 @@ f1 <- ggplot(table, aes(x = factor(Time), y = Value, fill = Treatment)) +
   stat_regline_equation()
 
 f2 <- f1 + facet_wrap(~Species_Tissue, scales="free", ncol = 2)+
-  ylab("Mass Balance (mg/g Gly/DW)") + 
+  ylab("Mass Balance (mg/g Citrate/DW)") + 
   xlab("Time (Days)")
 f2
 ggsave(filename = "STD_MassBalance_Citrate_SideBySide_Boxplot_2.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 60, scale = 0.5)

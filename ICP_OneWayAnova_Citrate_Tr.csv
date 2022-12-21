@@ -1,0 +1,281 @@
+$R
+$R$Mg
+Analysis of Variance Table
+
+Response: ppm
+          Df    Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment  2 218342226 109171113  43.619 9.736e-10 ***
+Residuals 31  77587895   2502835                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$P
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 26088219 13044109  44.612 7.521e-10 ***
+Residuals 31  9064157   292392                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$S
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value   Pr(>F)   
+Treatment  2 25072811 12536405  6.0054 0.006247 **
+Residuals 31 64712665  2087505                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$K
+Analysis of Variance Table
+
+Response: ppm
+          Df     Sum Sq   Mean Sq F value   Pr(>F)   
+Treatment  2  821999434 410999717  6.8508 0.003436 **
+Residuals 31 1859784895  59993061                    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Ca
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 74344467 37172233  17.352 8.778e-06 ***
+Residuals 31 66408466  2142209                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Ti
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value  Pr(>F)  
+Treatment  2 11.659  5.8294  5.0714 0.01267 *
+Residuals 30 34.484  1.1495                  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Mn
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2  41933 20966.7  34.819 1.184e-08 ***
+Residuals 31  18667   602.2                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Fe
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 20699418 10349709  70.599 2.869e-12 ***
+Residuals 31  4544555   146599                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Cu
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 4671.8 2335.90  15.395 2.275e-05 ***
+Residuals 31 4703.7  151.73                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Zn
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 313926  156963   23.54 6.049e-07 ***
+Residuals 31 206704    6668                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$As
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 0.62740 0.313701  21.333 1.491e-06 ***
+Residuals 31 0.45585 0.014705                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Mo
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 1691.53  845.76  105.15 1.537e-14 ***
+Residuals 31  249.36    8.04                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$R$Pb
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq Mean Sq F value  Pr(>F)  
+Treatment  2  3.3593 1.67965  2.7697 0.07822 .
+Residuals 31 18.7994 0.60643                  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+$S
+$S$Mg
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 68916713 34458357  16.535 5.426e-06 ***
+Residuals 41 85443799  2083995                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$P
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment  2 94474442 47237221  118.27 < 2.2e-16 ***
+Residuals 41 16375513   399403                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$S
+Analysis of Variance Table
+
+Response: ppm
+          Df    Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment  2 294655372 147327686  32.658 3.287e-09 ***
+Residuals 41 184961443   4511255                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$K
+Analysis of Variance Table
+
+Response: ppm
+          Df     Sum Sq  Mean Sq F value Pr(>F)
+Treatment  2   44199291 22099646    0.46 0.6345
+Residuals 41 1969895599 48046234               
+
+$S$Ca
+Analysis of Variance Table
+
+Response: ppm
+          Df    Sum Sq   Mean Sq F value   Pr(>F)    
+Treatment  2 810045919 405022960   20.87 5.61e-07 ***
+Residuals 41 795701199  19407346                     
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$Ti
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq Mean Sq F value Pr(>F)
+Treatment  2  0.2295 0.11473  0.4222 0.6584
+Residuals 41 11.1406 0.27172               
+
+$S$Mn
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 107534   53767  120.45 < 2.2e-16 ***
+Residuals 41  18302     446                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$Fe
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 4231537 2115768   223.6 < 2.2e-16 ***
+Residuals 41  387957    9462                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$Cu
+Analysis of Variance Table
+
+Response: ppm
+          Df  Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 221.450 110.725  45.596 3.779e-11 ***
+Residuals 41  99.565   2.428                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$Zn
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2  33280 16639.8  65.058 1.904e-13 ***
+Residuals 41  10486   255.8                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$As
+Analysis of Variance Table
+
+Response: ppm
+          Df   Sum Sq   Mean Sq F value Pr(>F)
+Treatment  2 0.008364 0.0041819   2.156 0.1287
+Residuals 41 0.079527 0.0019397               
+
+$S$Mo
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 712.17  356.08  146.74 < 2.2e-16 ***
+Residuals 41  99.49    2.43                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$S$Pb
+Analysis of Variance Table
+
+Response: ppm
+          Df Sum Sq Mean Sq F value    Pr(>F)    
+Treatment  2 1.3689 0.68448  17.313 3.543e-06 ***
+Residuals 41 1.6209 0.03954                      
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+

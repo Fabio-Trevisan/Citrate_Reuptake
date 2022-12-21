@@ -1,0 +1,160 @@
+$R
+$R$Mg
+         ppm groups
+P  14486.600      a
+Fe  7859.333      b
+C   6964.014      b
+
+$R$P
+        ppm groups
+Fe 4412.133      a
+C  3833.200      b
+P  1777.200      c
+
+$R$S
+        ppm groups
+C  6057.614      a
+P  4342.400     ab
+Fe 4303.133      b
+
+$R$K
+        ppm groups
+Fe 56865.47      a
+C  47288.96      b
+P  46157.60      b
+
+$R$Ca
+        ppm groups
+P  9062.400      a
+Fe 7356.933      a
+C  5007.857      b
+
+$R$Ti
+        ppm groups
+P  2.867600      a
+Fe 2.014667     ab
+C  1.163231      b
+
+$R$Mn
+         ppm groups
+C  111.34910      a
+P   83.38900      a
+Fe  35.73447      b
+
+$R$Fe
+         ppm groups
+P  2494.5630      a
+C  1052.7322      b
+Fe  184.8855      c
+
+$R$Cu
+        ppm groups
+P  63.52040      a
+C  37.33944      b
+Fe 28.22693      b
+
+$R$Zn
+        ppm groups
+P  439.2220      a
+Fe 220.9332      b
+C  147.3577      b
+
+$R$As
+          ppm groups
+P  0.45380000      a
+C  0.17740000      b
+Fe 0.04698667      c
+
+$R$Mo
+         ppm groups
+P  22.600600      a
+Fe  2.789267      b
+C   2.577086      b
+
+$R$Pb
+        ppm groups
+P  2.263200      a
+Fe 1.409067      a
+C  1.347443      a
+
+
+$S
+$S$Mg
+        ppm groups
+P  9162.569      a
+Fe 7376.200      b
+C  6064.113      c
+
+$S$P
+         ppm groups
+Fe 4317.0667      a
+C  3620.2000      b
+P   810.2769      c
+
+$S$S
+        ppm groups
+Fe 11736.93      a
+C  10637.65      a
+P   5588.40      b
+
+$S$K
+        ppm groups
+C  44575.72      a
+Fe 44404.47      a
+P  42301.75      a
+
+$S$Ca
+        ppm groups
+Fe 42926.60      a
+C  35181.00      b
+P  32786.38      b
+
+$S$Ti
+         ppm groups
+P  0.7747692      a
+C  0.6988125      a
+Fe 0.5949333      a
+
+$S$Mn
+         ppm groups
+P  153.06891      a
+Fe  57.24780      b
+C   36.30541      c
+
+$S$Fe
+         ppm groups
+P  832.66740      a
+C  266.41334      b
+Fe  78.21613      c
+
+$S$Cu
+         ppm groups
+P  12.841338      a
+C   9.063113      b
+Fe  7.286467      c
+
+$S$Zn
+        ppm groups
+P  95.40625      a
+Fe 81.70693      a
+C  32.03009      b
+
+$S$As
+           ppm groups
+C  0.029187500      a
+P  0.001169231      a
+Fe 0.000000000      a
+
+$S$Mo
+         ppm groups
+P  11.782262      a
+Fe  3.862933      b
+C   2.338987      c
+
+$S$Pb
+         ppm groups
+P  0.4584308      a
+C  0.1007250      b
+Fe 0.0474400      b
+
+
