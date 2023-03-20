@@ -1,254 +1,259 @@
-[1];TR50µM;;;;;;;;;;
-$C;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.23614;-0.16332;-0.04725;0.09678;0.47823;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.392872;0.149766;2.623;0.0172;*;;;;;;
-Time;-0.007431;0.011896;-0.625;0.5401;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.2026;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.02122,;Adjusted;R-squared:;-0.03316;;;;;;
-F-statistic:;0.3902;on;1;and;18;DF,;p-value:;0.5401;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$P;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.20673;-0.06817;0.0126;0.09269;0.21773;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.479659;0.093628;5.123;7.12E-05;***;;;;;;
-Time;-0.011539;0.007437;-1.552;0.138;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.1266;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.118,;Adjusted;R-squared:;0.06897;;;;;;
-F-statistic:;2.408;on;1;and;18;DF,;p-value:;0.1382;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$Fe;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.084408;-0.062233;-0.005558;0.018259;0.229231;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.228382;0.063248;3.611;0.002;**;;;;;;
-Time;-0.004679;0.005024;-0.931;0.364;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.08555;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.04598,;Adjusted;R-squared:;-0.007024;;;;;;
-F-statistic:;0.8675;on;1;and;18;DF,;p-value:;0.364;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-[1];TS50µM;;;;;;;;;;
-$C;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.08639;-0.04951;-0.02202;0.02742;0.29489;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.0384059;0.0630713;0.609;0.55;;;;;;;
-Time;-0.0003201;0.0050098;-0.064;0.95;;;;;;;
-;;;;;;;;;;;
-Residual;standard;error:;0.08531;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.0002268,;Adjusted;R-squared:;-0.05532;;;;;;
-F-statistic:;0.004083;on;1;and;18;DF,;p-value:;0.9498;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$P;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.103317;-0.028711;-0.000812;0.026752;0.079277;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.0377983;0.0377572;1.001;0.33;;;;;;;
-Time;-0.0009247;0.0029991;-0.308;0.761;;;;;;;
-;;;;;;;;;;;
-Residual;standard;error:;0.05107;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.005253,;Adjusted;R-squared:;-0.05001;;;;;;
-F-statistic:;0.09506;on;1;and;18;DF,;p-value:;0.7614;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$Fe;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.042545;-0.023088;-0.005501;0.010091;0.12209;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);9.21E-03;2.75E-02;0.334;0.742;;;;;;;
-Time;9.60E-05;2.19E-03;0.044;0.965;;;;;;;
-;;;;;;;;;;;
-Residual;standard;error:;0.03725;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.0001069,;Adjusted;R-squared:;-0.05544;;;;;;
-F-statistic:;0.001924;on;1;and;18;DF,;p-value:;0.9655;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-[1];TR500µM;;;;;;;;;;
-$C;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.6602;-0.3224;0.1028;0.2515;0.6805;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.56748;0.29721;1.909;0.0723;.;;;;;;
-Time;0.01845;0.02361;0.781;0.4447;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.402;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.03281,;Adjusted;R-squared:;-0.02092;;;;;;
-F-statistic:;0.6106;on;1;and;18;DF,;p-value:;0.4447;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$P;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.8752;-0.2881;0.1147;0.3567;0.6384;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.66862;0.38817;1.723;0.102;;;;;;;
-Time;0.03302;0.03083;1.071;0.298;;;;;;;
-;;;;;;;;;;;
-Residual;standard;error:;0.5251;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.05989,;Adjusted;R-squared:;0.007658;;;;;;
-F-statistic:;1.147;on;1;and;18;DF,;p-value:;0.2984;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$Fe;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.5418;-0.37874;0.08742;0.21181;0.51032;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.630863;0.246602;2.558;0.0198;*;;;;;;
-Time;0.002796;0.019588;0.143;0.8881;;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.3336;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.00113,;Adjusted;R-squared:;-0.05436;;;;;;
-F-statistic:;0.02037;on;1;and;18;DF,;p-value:;0.8881;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-[1];TS500µM;;;;;;;;;;
-$C;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.45991;-0.20902;-0.01091;0.09681;0.5547;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);2.01891;0.20462;9.867;1.10E-08;***;;;;;;
-Time;-0.10933;0.01625;-6.727;2.63E-06;***;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.2768;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.7154,;Adjusted;R-squared:;0.6996;;;;;;
-F-statistic:;45.25;on;1;and;18;DF,;p-value:;2.63E-06;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$P;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.17001;-0.10125;-0.02052;0.02874;0.37509;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.45844;0.11205;4.092;0.000685;***;;;;;;
-Time;-0.02176;0.0089;-2.445;0.025019;*;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.1516;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.2493,;Adjusted;R-squared:;0.2075;;;;;;
-F-statistic:;5.976;on;1;and;18;DF,;p-value:;0.02502;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
-$Fe;;;;;;;;;;;
-;;;;;;;;;;;
-Call:;;;;;;;;;;;
-lm(formula;=;Value;~;Time,;data;=;i);;;;
-;;;;;;;;;;;
-Residuals:;;;;;;;;;;;
-;Min;1Q;Median;3Q;Max;;;;;;
--0.44025;-0.18798;-0.02351;0.15782;0.60618;;;;;;;
-;;;;;;;;;;;
-Coefficients:;;;;;;;;;;;
-;Estimate;Std.;Error;t;value;Pr(>|t|);;;;;
-(Intercept);0.95472;0.23109;4.131;0.000627;***;;;;;;
-Time;-0.03634;0.01836;-1.98;0.063229;.;;;;;;
----;;;;;;;;;;;
-Signif.;codes:;;;;;;;;;;
-0;‘***’;0.001;‘**’;0.01;‘*’;0.05;‘.’;0.1;‘;’;1
-;;;;;;;;;;;
-Residual;standard;error:;0.3126;on;18;degrees;of;freedom;;;
-Multiple;R-squared:;0.1788,;Adjusted;R-squared:;0.1332;;;;;;
-F-statistic:;3.919;on;1;and;18;DF,;p-value:;0.06323;;;
+[1] "TR50µM"
+$C
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.034975 -0.025177 -0.005456  0.014534  0.067398 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  0.0580333  0.0222949   2.603    0.018 *
+Time        -0.0009514  0.0017709  -0.537    0.598  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03016 on 18 degrees of freedom
+Multiple R-squared:  0.01578,	Adjusted R-squared:  -0.0389 
+F-statistic: 0.2886 on 1 and 18 DF,  p-value: 0.5977
+
+
+$P
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.030559 -0.010459  0.005814  0.011331  0.032324 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.074273   0.013767   5.395 3.98e-05 ***
+Time        -0.001879   0.001094  -1.718    0.103    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01862 on 18 degrees of freedom
+Multiple R-squared:  0.1409,	Adjusted R-squared:  0.09316 
+F-statistic: 2.952 on 1 and 18 DF,  p-value: 0.1029
+
+
+$Fe
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.014358 -0.010937 -0.002409  0.004730  0.038833 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  0.0351807  0.0108544   3.241  0.00453 **
+Time        -0.0006835  0.0008622  -0.793  0.43825   
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.01468 on 18 degrees of freedom
+Multiple R-squared:  0.03374,	Adjusted R-squared:  -0.01995 
+F-statistic: 0.6284 on 1 and 18 DF,  p-value: 0.4383
+
+
+[1] "TS50µM"
+$C
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.008857 -0.004990 -0.001645  0.004158  0.011888 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.0050538  0.0046687   1.082    0.293
+Time        -0.0001819  0.0003708  -0.490    0.630
+
+Residual standard error: 0.006315 on 18 degrees of freedom
+Multiple R-squared:  0.01319,	Adjusted R-squared:  -0.04164 
+F-statistic: 0.2405 on 1 and 18 DF,  p-value: 0.6298
+
+
+$P
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0150806 -0.0040600 -0.0002001  0.0039824  0.0110653 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  0.0058638  0.0054980   1.067    0.300
+Time        -0.0001744  0.0004367  -0.399    0.694
+
+Residual standard error: 0.007437 on 18 degrees of freedom
+Multiple R-squared:  0.008781,	Adjusted R-squared:  -0.04629 
+F-statistic: 0.1595 on 1 and 18 DF,  p-value: 0.6944
+
+
+$Fe
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-0.0050036 -0.0025786 -0.0006882  0.0013921  0.0138441 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept)  1.664e-03  3.213e-03   0.518    0.611
+Time        -3.578e-05  2.552e-04  -0.140    0.890
+
+Residual standard error: 0.004346 on 18 degrees of freedom
+Multiple R-squared:  0.00109,	Adjusted R-squared:  -0.0544 
+F-statistic: 0.01965 on 1 and 18 DF,  p-value: 0.8901
+
+
+[1] "TR500µM"
+$C
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.11344 -0.05687  0.02019  0.04658  0.11626 
+
+Coefficients:
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  0.1445966  0.0510966   2.830   0.0111 *
+Time        -0.0001557  0.0040586  -0.038   0.9698  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.06912 on 18 degrees of freedom
+Multiple R-squared:  8.173e-05,	Adjusted R-squared:  -0.05547 
+F-statistic: 0.001471 on 1 and 18 DF,  p-value: 0.9698
+
+
+$P
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.13097 -0.05978  0.02255  0.05518  0.09838 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 0.160013   0.059618   2.684   0.0152 *
+Time        0.001311   0.004735   0.277   0.7850  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.08064 on 18 degrees of freedom
+Multiple R-squared:  0.004241,	Adjusted R-squared:  -0.05108 
+F-statistic: 0.07667 on 1 and 18 DF,  p-value: 0.785
+
+
+$Fe
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-0.08718 -0.06396  0.01542  0.04045  0.07296 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)   
+(Intercept)  0.134629   0.040840   3.296  0.00401 **
+Time        -0.001757   0.003244  -0.542  0.59476   
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.05524 on 18 degrees of freedom
+Multiple R-squared:  0.01603,	Adjusted R-squared:  -0.03863 
+F-statistic: 0.2933 on 1 and 18 DF,  p-value: 0.5948
+
+
+[1] "TS500µM"
+$C
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.058625 -0.023640  0.002801  0.013385  0.061159 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.260330   0.024075  10.813 2.65e-09 ***
+Time        -0.014103   0.001912  -7.375 7.65e-07 ***
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03256 on 18 degrees of freedom
+Multiple R-squared:  0.7513,	Adjusted R-squared:  0.7375 
+F-statistic: 54.39 on 1 and 18 DF,  p-value: 7.652e-07
+
+
+$P
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.024796 -0.013693 -0.002840  0.006264  0.053531 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.070718   0.015692   4.506 0.000273 ***
+Time        -0.003549   0.001246  -2.847 0.010695 *  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.02123 on 18 degrees of freedom
+Multiple R-squared:  0.3105,	Adjusted R-squared:  0.2722 
+F-statistic: 8.107 on 1 and 18 DF,  p-value: 0.01069
+
+
+$Fe
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.056512 -0.021898 -0.001859  0.022781  0.079118 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.138986   0.029046   4.785 0.000148 ***
+Time        -0.006078   0.002307  -2.635 0.016827 *  
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03929 on 18 degrees of freedom
+Multiple R-squared:  0.2783,	Adjusted R-squared:  0.2382 
+F-statistic: 6.941 on 1 and 18 DF,  p-value: 0.01683
+
+

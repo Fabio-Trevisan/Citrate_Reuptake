@@ -1,104 +1,104 @@
 $`50然_TR`
 $`50然_TR`$`7`
-       Value groups
-P  0.4279807      a
-C  0.2131847      b
-Fe 0.1720714      b
+        Value groups
+P  0.06354450      a
+C  0.03407009      b
+Fe 0.02599677      b
 
 $`50然_TR`$`10`
-       Value groups
-C  0.5761555      a
-P  0.3941264     ab
-Fe 0.2390407      b
+        Value groups
+C  0.08526309      a
+P  0.06244580     ab
+Fe 0.03894105      b
 
 $`50然_TR`$`14`
-       Value groups
-P  0.1514495      a
-C  0.1133787      a
-Fe 0.1073456      a
+        Value groups
+P  0.02365346      a
+C  0.01665614      a
+Fe 0.01555491      a
 
 $`50然_TR`$`17`
-       Value groups
-P  0.3911958      a
-C  0.3121009     ab
-Fe 0.1704719      b
+        Value groups
+P  0.05726745      a
+C  0.05047658     ab
+Fe 0.02742286      b
 
 
 $`50然_TS`
 $`50然_TS`$`7`
-        Value groups
-C  0.05696288      a
-P  0.03467456      a
-Fe 0.01874925      a
+         Value groups
+C  0.007063034      a
+P  0.005061489      a
+Fe 0.002500938      a
 
 $`50然_TS`$`10`
-         Value groups
-P  0.034422720      a
-Fe 0.006147938      a
-C  0.002536050      a
+          Value groups
+P  0.0050185283      a
+Fe 0.0008041724      a
+C  0.0003166902      a
 
 $`50然_TS`$`14`
            Value groups
-C   4.082449e-02      a
-P  -9.356187e-06      a
-Fe -9.637659e-03      a
+P  -6.848633e-05      a
+Fe -1.287667e-03      a
+C  -1.623485e-03      a
 
 $`50然_TS`$`17`
-        Value groups
-C  0.03793400      a
-P  0.03772128      a
-Fe 0.02617654      a
+         Value groups
+C  0.005729468      a
+P  0.005073447      a
+Fe 0.002922675      a
 
 
 $`500然_TR`
 $`500然_TR`$`7`
        Value groups
-P  1.0318336      a
-C  0.7566986     ab
-Fe 0.6124163      b
+P  0.1890576      a
+C  0.1493255     ab
+Fe 0.1165447      b
 
 $`500然_TR`$`10`
        Value groups
-P  1.1446282      a
-C  0.9057266      a
-Fe 0.8940566      a
+P  0.1958987      a
+C  0.1757728      a
+Fe 0.1552004      a
 
 $`500然_TR`$`14`
-       Value groups
-P  0.3501739      a
-C  0.2667089      a
-Fe 0.2478308      a
+        Value groups
+P  0.05900873      a
+C  0.04664493     ab
+Fe 0.04033301      b
 
 $`500然_TR`$`17`
        Value groups
-P  1.7325921      a
-C  1.2263007      b
-Fe 0.9033357      b
+P  0.2590236      a
+C  0.1991708      b
+Fe 0.1421129      c
 
 
 $`500然_TS`
 $`500然_TS`$`7`
-       Value groups
-C  1.4547879      a
-Fe 0.9742303      b
-P  0.4214060      c
+        Value groups
+C  0.18754496      a
+Fe 0.13170785      b
+P  0.06270526      c
 
 $`500然_TS`$`10`
-       Value groups
-C  0.6833807      a
-Fe 0.2454825      b
-P  0.1083712      b
+        Value groups
+C  0.08890068      a
+Fe 0.03327056      b
+P  0.01572812      b
 
 $`500然_TS`$`14`
         Value groups
-C  0.38262705      a
-Fe 0.33999004      a
-P  0.07879737      b
+C  0.04737629      a
+Fe 0.04116646      a
+P  0.01043047      b
 
 $`500然_TS`$`17`
-       Value groups
-Fe 0.5148956      a
-C  0.3068134      a
-P  0.1808564      a
+        Value groups
+Fe 0.05804161      a
+C  0.04056214      a
+P  0.02365634      a
 
 

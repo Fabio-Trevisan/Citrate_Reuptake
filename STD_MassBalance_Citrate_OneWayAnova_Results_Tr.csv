@@ -3,9 +3,12 @@ $`50µM_TR`$`7`
 Analysis of Variance Table
 
 Response: Value
-          Df   Sum Sq  Mean Sq F value    Pr(>F)    
-Treatment  2 0.188862 0.094431  15.131 0.0005241 ***
-Residuals 12 0.074891 0.006241                      
+          Df    Sum Sq    Mean Sq F value    Pr(>F)
+Treatment  2 0.0039063 0.00195313  14.488 0.0006308
+Residuals 12 0.0016177 0.00013481                  
+             
+Treatment ***
+Residuals    
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -14,9 +17,9 @@ $`50µM_TR`$`10`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq  Mean Sq F value   Pr(>F)   
-Treatment  2 0.28472 0.142360  11.583 0.001579 **
-Residuals 12 0.14749 0.012291                    
+          Df    Sum Sq    Mean Sq F value   Pr(>F)   
+Treatment  2 0.0053647 0.00268236   8.345 0.005354 **
+Residuals 12 0.0038572 0.00032143                    
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -25,17 +28,17 @@ $`50µM_TR`$`14`
 Analysis of Variance Table
 
 Response: Value
-          Df    Sum Sq   Mean Sq F value Pr(>F)
-Treatment  2 0.0057182 0.0028591  1.3893 0.2866
-Residuals 12 0.0246959 0.0020580               
+          Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment  2 0.00019294 9.6468e-05  2.2992 0.1428
+Residuals 12 0.00050349 4.1957e-05               
 
 $`50µM_TR`$`17`
 Analysis of Variance Table
 
 Response: Value
-          Df   Sum Sq  Mean Sq F value   Pr(>F)   
-Treatment  2 0.125056 0.062528  8.1648 0.005776 **
-Residuals 12 0.091899 0.007658                    
+          Df    Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment  2 0.0024471 0.00122357  6.1757 0.01432 *
+Residuals 12 0.0023775 0.00019813                  
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -46,33 +49,33 @@ $`50µM_TS`$`7`
 Analysis of Variance Table
 
 Response: Value
-          Df    Sum Sq   Mean Sq F value Pr(>F)
-Treatment  2 0.0036844 0.0018422  1.4956 0.2631
-Residuals 12 0.0147809 0.0012317               
+          Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment  2 5.2292e-05 2.6146e-05  1.2147 0.3308
+Residuals 12 2.5829e-04 2.1525e-05               
 
 $`50µM_TS`$`10`
 Analysis of Variance Table
 
 Response: Value
-          Df    Sum Sq    Mean Sq F value Pr(>F)
-Treatment  2 0.0030488 0.00152439  1.6345 0.2356
-Residuals 12 0.0111917 0.00093264               
+          Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment  2 6.6843e-05 3.3421e-05  1.6901 0.2256
+Residuals 12 2.3730e-04 1.9775e-05               
 
 $`50µM_TS`$`14`
 Analysis of Variance Table
 
 Response: Value
-          Df   Sum Sq   Mean Sq F value Pr(>F)
-Treatment  2 0.007178 0.0035888  0.3608 0.7044
-Residuals 12 0.119351 0.0099459               
+          Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment  2 0.00000670 3.3480e-06  0.1032 0.9028
+Residuals 12 0.00038936 3.2446e-05               
 
 $`50µM_TS`$`17`
 Analysis of Variance Table
 
 Response: Value
-          Df   Sum Sq   Mean Sq F value Pr(>F)
-Treatment  2 0.000453 0.0002263  0.0654  0.937
-Residuals 12 0.041529 0.0034607               
+          Df    Sum Sq    Mean Sq F value Pr(>F)
+Treatment  2 2.156e-05 1.0779e-05  0.1676 0.8476
+Residuals 12 7.716e-04 6.4300e-05               
 
 
 $`500µM_TR`
@@ -80,9 +83,9 @@ $`500µM_TR`$`7`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq  Mean Sq F value  Pr(>F)  
-Treatment  2 0.45405 0.227023  4.1317 0.04313 *
-Residuals 12 0.65936 0.054947                  
+          Df   Sum Sq   Mean Sq F value  Pr(>F)  
+Treatment  2 0.013186 0.0065928  4.1375 0.04299 *
+Residuals 12 0.019121 0.0015934                  
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -91,17 +94,17 @@ $`500µM_TR`$`10`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq  Mean Sq F value Pr(>F)
-Treatment  2 0.19999 0.099997   2.408 0.1321
-Residuals 12 0.49833 0.041527               
+          Df   Sum Sq   Mean Sq F value Pr(>F)
+Treatment  2 0.004141 0.0020705  1.6691 0.2293
+Residuals 12 0.014886 0.0012405               
 
 $`500µM_TR`$`14`
 Analysis of Variance Table
 
 Response: Value
-          Df   Sum Sq   Mean Sq F value  Pr(>F)  
-Treatment  2 0.029662 0.0148308  3.7476 0.05439 .
-Residuals 12 0.047488 0.0039574                  
+          Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment  2 0.00090248 0.00045124  4.1998 0.04143 *
+Residuals 12 0.00128932 0.00010744                  
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -110,9 +113,9 @@ $`500µM_TR`$`17`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 1.74717 0.87359  23.721 6.769e-05 ***
-Residuals 12 0.44193 0.03683                      
+          Df   Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment  2 0.034177 0.0170884  18.674 0.0002067 ***
+Residuals 12 0.010981 0.0009151                      
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -123,9 +126,9 @@ $`500µM_TS`$`7`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 2.67405 1.33702  24.371 5.945e-05 ***
-Residuals 12 0.65832 0.05486                      
+          Df   Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment  2 0.039107 0.0195534  29.363 2.386e-05 ***
+Residuals 12 0.007991 0.0006659                      
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -134,9 +137,9 @@ $`500µM_TS`$`10`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq Mean Sq F value    Pr(>F)    
-Treatment  2 0.90198 0.45099  31.588 1.654e-05 ***
-Residuals 12 0.17133 0.01428                      
+          Df    Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment  2 0.0145945 0.0072972  35.636 8.956e-06 ***
+Residuals 12 0.0024573 0.0002048                      
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -145,9 +148,9 @@ $`500µM_TS`$`14`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq  Mean Sq F value  Pr(>F)   
-Treatment  2 0.27059 0.135293  9.8165 0.00298 **
-Residuals 12 0.16539 0.013782                   
+          Df    Sum Sq   Mean Sq F value   Pr(>F)   
+Treatment  2 0.0039138 0.0019569    8.37 0.005299 **
+Residuals 12 0.0028056 0.0002338                    
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
@@ -156,9 +159,9 @@ $`500µM_TS`$`17`
 Analysis of Variance Table
 
 Response: Value
-          Df  Sum Sq  Mean Sq F value  Pr(>F)  
-Treatment  2 0.28458 0.142288  3.5238 0.06252 .
-Residuals 12 0.48454 0.040379                  
+          Df    Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment  2 0.0029561 0.00147807  2.8816 0.09505 .
+Residuals 12 0.0061553 0.00051294                  
 ---
 Signif. codes:  
 0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
