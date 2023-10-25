@@ -45,7 +45,7 @@ ggsave(filename = "13C_Scatter-lines_errorbars(bw)_Citrate.pdf", plot = last_plo
 write.table(Summary_table, "13C_Citrate_summary_statistics.csv", quote = FALSE, sep = ";")
 
 
-#######dddddddddddddddddddddddd
+#######
 
 table2 <- read.csv("DATA_13C_Citrate2.csv", sep=";",
                    header=T)
