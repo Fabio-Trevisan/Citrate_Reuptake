@@ -12,7 +12,6 @@ library(scales)
 table <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
                   header=T)
 
-
 table <- table %>% drop_na(Value)
 
 
@@ -70,10 +69,10 @@ plot(Value ~ Treatment, data=table)
 
 
 ##Model fitting and statistics ####
-vector_Species_Tissue <- c("50µM_TR",
-                           "50µM_TS",
-                           "500µM_TR",
-                           "500µM_TS")
+vector_Species_Tissue <- c("50microM_TR",
+                           "50microM_TS",
+                           "500microM_TR",
+                           "500microM_TS")
 vector_Treatment <- c("C",
                       "P",
                       "Fe")
@@ -95,33 +94,33 @@ names(Regression_line) <- vector_Species_Tissue
 
 
 ###Extract statistics/data from model ####
-TR50µM <- lapply(vector_Treatment, function(m){
-  summary(Regression_line[["50µM_TR"]][[m]])
+TR50microM <- lapply(vector_Treatment, function(m){
+  summary(Regression_line[["50microM_TR"]][[m]])
 })
-names(TR50µM) <- vector_Treatment
-TS50µM <- lapply(vector_Treatment, function(m){
-  summary(Regression_line[["50µM_TS"]][[m]])
+names(TR50microM) <- vector_Treatment
+TS50microM <- lapply(vector_Treatment, function(m){
+  summary(Regression_line[["50microM_TS"]][[m]])
 })
-names(TS50µM) <- vector_Treatment
-TR500µM <- lapply(vector_Treatment, function(m){
-  summary(Regression_line[["500µM_TR"]][[m]])
+names(TS50microM) <- vector_Treatment
+TR500microM <- lapply(vector_Treatment, function(m){
+  summary(Regression_line[["500microM_TR"]][[m]])
 })
-names(TR500µM) <- vector_Treatment
-TS500µM <- lapply(vector_Treatment, function(m){
-  summary(Regression_line[["500µM_TS"]][[m]])
+names(TR500microM) <- vector_Treatment
+TS500microM <- lapply(vector_Treatment, function(m){
+  summary(Regression_line[["500microM_TS"]][[m]])
 })
-names(TS500µM) <- vector_Treatment
+names(TS500microM) <- vector_Treatment
 
 ###Save/print results of linear model significance ####
 sink("STD_MassBalance_Citrate_Regression_line.csv")
-"TR50µM"
-TR50µM
-"TS50µM"
-TS50µM
-"TR500µM"
-TR500µM
-"TS500µM"
-TS500µM
+"TR50microM"
+TR50microM
+"TS50microM"
+TS50microM
+"TR500microM"
+TR500microM
+"TS500microM"
+TS500microM
 sink(NULL)
 
 

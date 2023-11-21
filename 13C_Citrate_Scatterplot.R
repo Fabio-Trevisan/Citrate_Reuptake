@@ -47,7 +47,7 @@ write.table(Summary_table, "13C_Citrate_summary_statistics.csv", quote = FALSE, 
 
 #######
 
-table2 <- read.csv("DATA_13C_Citrate2.csv", sep=";",
+table2 <- read.csv("DATA_13C_Citrate_2.csv", sep=";",
                    header=T)
 
 
@@ -76,3 +76,4 @@ f2 + facet_wrap(~Treatment + Tissue, scales="free", ncol = 2) +
   xlab("Time (Days)") 
 
 ggsave(filename = "13C_Scatter-lines_errorbars_conc-comparison_Citrate.pdf", plot = last_plot(), dpi = 600, units = "cm", width = 70, height = 80, scale = 0.5)
+

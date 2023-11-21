@@ -1,59 +1,57 @@
-$`50µM_TR`
+$`500microM_TR`
 Analysis of Variance Table
 
 Response: Value
-               Df    Sum Sq   Mean Sq F value   Pr(>F)
-Time            1 0.0011934 0.0011934  2.4326 0.124677
-Treatment       2 0.0068285 0.0034142  6.9593 0.002046
-Time:Treatment  2 0.0002282 0.0001141  0.2326 0.793289
-Residuals      54 0.0264924 0.0004906                 
-                 
-Time             
-Treatment      **
-Time:Treatment   
-Residuals        
+               Df   Sum Sq   Mean Sq F value    Pr(>F)    
+Time            1 0.012585 0.0125851  8.4131  0.005379 ** 
+Treatment       2 0.054413 0.0272065 18.1874 9.148e-07 ***
+Time:Treatment  2 0.003242 0.0016212  1.0837  0.345569    
+Residuals      54 0.080779 0.0014959                      
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-$`50µM_TS`
+$`500microM_TS`
 Analysis of Variance Table
 
 Response: Value
-               Df     Sum Sq    Mean Sq F value Pr(>F)
-Time            1 0.00001486 1.4856e-05  0.3907 0.5346
-Treatment       2 0.00006613 3.3066e-05  0.8696 0.4249
-Time:Treatment  2 0.00000393 1.9630e-06  0.0516 0.9497
-Residuals      54 0.00205341 3.8026e-05               
-
-$`500µM_TR`
-Analysis of Variance Table
-
-Response: Value
-               Df   Sum Sq   Mean Sq F value  Pr(>F)  
-Time            1 0.000035 0.0000349  0.0073 0.93216  
-Treatment       2 0.038737 0.0193684  4.0542 0.02289 *
-Time:Treatment  2 0.001366 0.0006828  0.1429 0.86714  
-Residuals      54 0.257975 0.0047773                  
+               Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Time            1 0.056493 0.056493 51.0856 2.374e-09 ***
+Treatment       2 0.032506 0.016253 14.6976 8.014e-06 ***
+Time:Treatment  2 0.020480 0.010240  9.2598 0.0003486 ***
+Residuals      54 0.059715 0.001106                      
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-$`500µM_TS`
+$`50microM_TR`
 Analysis of Variance Table
 
 Response: Value
-               Df   Sum Sq  Mean Sq F value    Pr(>F)
-Time            1 0.054434 0.054434 53.4615 1.284e-09
-Treatment       2 0.040199 0.020100 19.7402 3.674e-07
-Time:Treatment  2 0.017610 0.008805  8.6477  0.000552
-Residuals      54 0.054983 0.001018                  
+               Df    Sum Sq   Mean Sq F value    Pr(>F)
+Time            1 0.0000906 0.0000906  0.2581    0.6135
+Treatment       2 0.0114221 0.0057110 16.2672 2.955e-06
+Time:Treatment  2 0.0001435 0.0000717  0.2043    0.8158
+Residuals      54 0.0189582 0.0003511                  
                   
-Time           ***
+Time              
 Treatment      ***
-Time:Treatment ***
+Time:Treatment    
 Residuals         
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+$`50microM_TS`
+Analysis of Variance Table
+
+Response: Value
+               Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Time            1 0.00001406 1.4064e-05  0.2798 0.59900  
+Treatment       2 0.00032602 1.6301e-04  3.2432 0.04676 *
+Time:Treatment  2 0.00001220 6.0980e-06  0.1213 0.88598  
+Residuals      54 0.00271418 5.0263e-05                  
+---
+Signif. codes:  
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 

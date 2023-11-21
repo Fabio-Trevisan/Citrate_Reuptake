@@ -15,10 +15,10 @@ library(agricolae)
 table <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
                   header=T)
 
-vector_Species_Tissue <- c("50µM_TR",
-                           "50µM_TS",
-                           "500µM_TR",
-                           "500µM_TS")
+vector_Species_Tissue <- c("50microM_TR",
+                           "50microM_TS",
+                           "500microM_TR",
+                           "500microM_TS")
 
 
 
@@ -34,10 +34,10 @@ names(Subsets) <- vector_Species_Tissue
 #transform variable to factor ####
 table$Time <- factor(table$Time)
 
-Subsets[["50µM_TR"]][["Time"]] <- factor(Subsets[["50µM_TR"]][["Time"]])
-Subsets[["50µM_TS"]][["Time"]] <- factor(Subsets[["50µM_TS"]][["Time"]])
-Subsets[["500µM_TR"]][["Time"]] <- factor(Subsets[["500µM_TR"]][["Time"]])
-Subsets[["500µM_TS"]][["Time"]] <- factor(Subsets[["500µM_TS"]][["Time"]])
+Subsets[["50microM_TR"]][["Time"]] <- factor(Subsets[["50microM_TR"]][["Time"]])
+Subsets[["50microM_TS"]][["Time"]] <- factor(Subsets[["50microM_TS"]][["Time"]])
+Subsets[["500microM_TR"]][["Time"]] <- factor(Subsets[["500microM_TR"]][["Time"]])
+Subsets[["500microM_TS"]][["Time"]] <- factor(Subsets[["500microM_TS"]][["Time"]])
 
 
 #Assumptions ####
@@ -133,10 +133,10 @@ sink(NULL)
 table <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
                   header=T)
 
-vector_Species_Tissue <- c("50µM_TR",
-                           "50µM_TS",
-                           "500µM_TR",
-                           "500µM_TS")
+vector_Species_Tissue <- c("50microM_TR",
+                           "50microM_TS",
+                           "500microM_TR",
+                           "500microM_TS")
 
 
 
@@ -152,10 +152,10 @@ names(Subsets) <- vector_Species_Tissue
 #transform variable to factor ####
 table$Time <- factor(table$Time)
 
-Subsets[["50µM_TR"]][["Time"]] <- factor(Subsets[["50µM_TR"]][["Time"]])
-Subsets[["50µM_TS"]][["Time"]] <- factor(Subsets[["50µM_TS"]][["Time"]])
-Subsets[["500µM_TR"]][["Time"]] <- factor(Subsets[["500µM_TR"]][["Time"]])
-Subsets[["500µM_TS"]][["Time"]] <- factor(Subsets[["500µM_TS"]][["Time"]])
+Subsets[["50microM_TR"]][["Time"]] <- factor(Subsets[["50microM_TR"]][["Time"]])
+Subsets[["50microM_TS"]][["Time"]] <- factor(Subsets[["50microM_TS"]][["Time"]])
+Subsets[["500microM_TR"]][["Time"]] <- factor(Subsets[["500microM_TR"]][["Time"]])
+Subsets[["500microM_TS"]][["Time"]] <- factor(Subsets[["500microM_TS"]][["Time"]])
 
 
 

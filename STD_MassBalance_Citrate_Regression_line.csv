@@ -1,4 +1,4 @@
-[1] "TR50µM"
+[1] "TR50microM"
 $C
 
 Call:
@@ -6,19 +6,19 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.034975 -0.025177 -0.005456  0.014534  0.067398 
+-0.033840 -0.015743 -0.003485  0.007339  0.061204 
 
 Coefficients:
-              Estimate Std. Error t value Pr(>|t|)  
-(Intercept)  0.0580333  0.0222949   2.603    0.018 *
-Time        -0.0009514  0.0017709  -0.537    0.598  
+             Estimate Std. Error t value Pr(>|t|)  
+(Intercept) 0.0524297  0.0187701   2.793    0.012 *
+Time        0.0002283  0.0014909   0.153    0.880  
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.03016 on 18 degrees of freedom
-Multiple R-squared:  0.01578,	Adjusted R-squared:  -0.0389 
-F-statistic: 0.2886 on 1 and 18 DF,  p-value: 0.5977
+Residual standard error: 0.02539 on 18 degrees of freedom
+Multiple R-squared:  0.001301,	Adjusted R-squared:  -0.05418 
+F-statistic: 0.02345 on 1 and 18 DF,  p-value: 0.88
 
 
 $P
@@ -28,19 +28,19 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.030559 -0.010459  0.005814  0.011331  0.032324 
+-0.017108 -0.006809 -0.002119  0.009264  0.018354 
 
 Coefficients:
-             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.074273   0.013767   5.395 3.98e-05 ***
-Time        -0.001879   0.001094  -1.718    0.103    
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.0688567  0.0083838   8.213 1.68e-07 ***
+Time        -0.0007385  0.0006659  -1.109    0.282    
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.01862 on 18 degrees of freedom
-Multiple R-squared:  0.1409,	Adjusted R-squared:  0.09316 
-F-statistic: 2.952 on 1 and 18 DF,  p-value: 0.1029
+Residual standard error: 0.01134 on 18 degrees of freedom
+Multiple R-squared:  0.06395,	Adjusted R-squared:  0.01194 
+F-statistic:  1.23 on 1 and 18 DF,  p-value: 0.2821
 
 
 $Fe
@@ -50,22 +50,22 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.014358 -0.010937 -0.002409  0.004730  0.038833 
+-0.024347 -0.011403 -0.003609  0.005588  0.036071 
 
 Coefficients:
-              Estimate Std. Error t value Pr(>|t|)   
-(Intercept)  0.0351807  0.0108544   3.241  0.00453 **
-Time        -0.0006835  0.0008622  -0.793  0.43825   
+              Estimate Std. Error t value Pr(>|t|)  
+(Intercept)  0.0341097  0.0123709   2.757    0.013 *
+Time        -0.0004580  0.0009826  -0.466    0.647  
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.01468 on 18 degrees of freedom
-Multiple R-squared:  0.03374,	Adjusted R-squared:  -0.01995 
-F-statistic: 0.6284 on 1 and 18 DF,  p-value: 0.4383
+Residual standard error: 0.01673 on 18 degrees of freedom
+Multiple R-squared:  0.01193,	Adjusted R-squared:  -0.04297 
+F-statistic: 0.2173 on 1 and 18 DF,  p-value: 0.6467
 
 
-[1] "TS50µM"
+[1] "TS50microM"
 $C
 
 Call:
@@ -73,16 +73,16 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.008857 -0.004990 -0.001645  0.004158  0.011888 
+-0.015433 -0.003482 -0.001305  0.005071  0.011533 
 
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)
-(Intercept)  0.0050538  0.0046687   1.082    0.293
-Time        -0.0001819  0.0003708  -0.490    0.630
+(Intercept)  4.304e-03  5.625e-03   0.765    0.454
+Time        -2.406e-05  4.468e-04  -0.054    0.958
 
-Residual standard error: 0.006315 on 18 degrees of freedom
-Multiple R-squared:  0.01319,	Adjusted R-squared:  -0.04164 
-F-statistic: 0.2405 on 1 and 18 DF,  p-value: 0.6298
+Residual standard error: 0.007609 on 18 degrees of freedom
+Multiple R-squared:  0.000161,	Adjusted R-squared:  -0.05539 
+F-statistic: 0.002899 on 1 and 18 DF,  p-value: 0.9577
 
 
 $P
@@ -92,16 +92,16 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
        Min         1Q     Median         3Q        Max 
--0.0150806 -0.0040600 -0.0002001  0.0039824  0.0110653 
+-0.0120784 -0.0055971 -0.0004475  0.0055174  0.0097181 
 
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)
-(Intercept)  0.0058638  0.0054980   1.067    0.300
-Time        -0.0001744  0.0004367  -0.399    0.694
+(Intercept)  5.341e-03  5.317e-03   1.005    0.328
+Time        -6.441e-05  4.223e-04  -0.153    0.880
 
-Residual standard error: 0.007437 on 18 degrees of freedom
-Multiple R-squared:  0.008781,	Adjusted R-squared:  -0.04629 
-F-statistic: 0.1595 on 1 and 18 DF,  p-value: 0.6944
+Residual standard error: 0.007192 on 18 degrees of freedom
+Multiple R-squared:  0.00129,	Adjusted R-squared:  -0.05419 
+F-statistic: 0.02326 on 1 and 18 DF,  p-value: 0.8805
 
 
 $Fe
@@ -111,86 +111,19 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
        Min         1Q     Median         3Q        Max 
--0.0050036 -0.0025786 -0.0006882  0.0013921  0.0138441 
+-0.0140819 -0.0022445  0.0009424  0.0023691  0.0169946 
 
 Coefficients:
               Estimate Std. Error t value Pr(>|t|)
-(Intercept)  1.664e-03  3.213e-03   0.518    0.611
-Time        -3.578e-05  2.552e-04  -0.140    0.890
+(Intercept)  0.0028860  0.0047430   0.608    0.550
+Time        -0.0002930  0.0003767  -0.778    0.447
 
-Residual standard error: 0.004346 on 18 degrees of freedom
-Multiple R-squared:  0.00109,	Adjusted R-squared:  -0.0544 
-F-statistic: 0.01965 on 1 and 18 DF,  p-value: 0.8901
-
-
-[1] "TR500µM"
-$C
-
-Call:
-lm(formula = Value ~ Time, data = i)
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--0.11344 -0.05687  0.02019  0.04658  0.11626 
-
-Coefficients:
-              Estimate Std. Error t value Pr(>|t|)  
-(Intercept)  0.1445966  0.0510966   2.830   0.0111 *
-Time        -0.0001557  0.0040586  -0.038   0.9698  
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.06912 on 18 degrees of freedom
-Multiple R-squared:  8.173e-05,	Adjusted R-squared:  -0.05547 
-F-statistic: 0.001471 on 1 and 18 DF,  p-value: 0.9698
+Residual standard error: 0.006416 on 18 degrees of freedom
+Multiple R-squared:  0.0325,	Adjusted R-squared:  -0.02125 
+F-statistic: 0.6047 on 1 and 18 DF,  p-value: 0.4469
 
 
-$P
-
-Call:
-lm(formula = Value ~ Time, data = i)
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--0.13097 -0.05978  0.02255  0.05518  0.09838 
-
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)  
-(Intercept) 0.160013   0.059618   2.684   0.0152 *
-Time        0.001311   0.004735   0.277   0.7850  
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.08064 on 18 degrees of freedom
-Multiple R-squared:  0.004241,	Adjusted R-squared:  -0.05108 
-F-statistic: 0.07667 on 1 and 18 DF,  p-value: 0.785
-
-
-$Fe
-
-Call:
-lm(formula = Value ~ Time, data = i)
-
-Residuals:
-     Min       1Q   Median       3Q      Max 
--0.08718 -0.06396  0.01542  0.04045  0.07296 
-
-Coefficients:
-             Estimate Std. Error t value Pr(>|t|)   
-(Intercept)  0.134629   0.040840   3.296  0.00401 **
-Time        -0.001757   0.003244  -0.542  0.59476   
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.05524 on 18 degrees of freedom
-Multiple R-squared:  0.01603,	Adjusted R-squared:  -0.03863 
-F-statistic: 0.2933 on 1 and 18 DF,  p-value: 0.5948
-
-
-[1] "TS500µM"
+[1] "TR500microM"
 $C
 
 Call:
@@ -198,19 +131,19 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.058625 -0.023640  0.002801  0.013385  0.061159 
+-0.059082 -0.033467 -0.006964  0.014171  0.108694 
 
 Coefficients:
-             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.260330   0.024075  10.813 2.65e-09 ***
-Time        -0.014103   0.001912  -7.375 7.65e-07 ***
+            Estimate Std. Error t value Pr(>|t|)   
+(Intercept) 0.123477   0.033395   3.697  0.00165 **
+Time        0.004291   0.002653   1.618  0.12316   
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.03256 on 18 degrees of freedom
-Multiple R-squared:  0.7513,	Adjusted R-squared:  0.7375 
-F-statistic: 54.39 on 1 and 18 DF,  p-value: 7.652e-07
+Residual standard error: 0.04517 on 18 degrees of freedom
+Multiple R-squared:  0.1269,	Adjusted R-squared:  0.0784 
+F-statistic: 2.616 on 1 and 18 DF,  p-value: 0.1232
 
 
 $P
@@ -220,19 +153,19 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.024796 -0.013693 -0.002840  0.006264  0.053531 
+-0.066764 -0.023312  0.002104  0.025351  0.042337 
 
 Coefficients:
-             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.070718   0.015692   4.506 0.000273 ***
-Time        -0.003549   0.001246  -2.847 0.010695 *  
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.138282   0.023930   5.778 1.78e-05 ***
+Time        0.005886   0.001901   3.097  0.00622 ** 
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.02123 on 18 degrees of freedom
-Multiple R-squared:  0.3105,	Adjusted R-squared:  0.2722 
-F-statistic: 8.107 on 1 and 18 DF,  p-value: 0.01069
+Residual standard error: 0.03237 on 18 degrees of freedom
+Multiple R-squared:  0.3476,	Adjusted R-squared:  0.3113 
+F-statistic:  9.59 on 1 and 18 DF,  p-value: 0.006224
 
 
 $Fe
@@ -242,18 +175,85 @@ lm(formula = Value ~ Time, data = i)
 
 Residuals:
       Min        1Q    Median        3Q       Max 
--0.056512 -0.021898 -0.001859  0.022781  0.079118 
+-0.075039 -0.022252  0.003877  0.025929  0.056358 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 0.120426   0.027656   4.354 0.000382 ***
+Time        0.001233   0.002197   0.561 0.581420    
+---
+Signif. codes:  
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.03741 on 18 degrees of freedom
+Multiple R-squared:  0.01721,	Adjusted R-squared:  -0.03739 
+F-statistic: 0.3152 on 1 and 18 DF,  p-value: 0.5814
+
+
+[1] "TS500microM"
+$C
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.055465 -0.026579  0.006672  0.019741  0.068532 
 
 Coefficients:
              Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  0.138986   0.029046   4.785 0.000148 ***
-Time        -0.006078   0.002307  -2.635 0.016827 *  
+(Intercept)  0.263189   0.026540   9.917 1.02e-08 ***
+Time        -0.014705   0.002108  -6.976 1.63e-06 ***
 ---
 Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
 
-Residual standard error: 0.03929 on 18 degrees of freedom
-Multiple R-squared:  0.2783,	Adjusted R-squared:  0.2382 
-F-statistic: 6.941 on 1 and 18 DF,  p-value: 0.01683
+Residual standard error: 0.0359 on 18 degrees of freedom
+Multiple R-squared:   0.73,	Adjusted R-squared:  0.715 
+F-statistic: 48.66 on 1 and 18 DF,  p-value: 1.628e-06
+
+
+$P
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.026317 -0.013560 -0.001585  0.003375  0.052879 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.069341   0.015148   4.577 0.000234 ***
+Time        -0.003259   0.001203  -2.709 0.014384 *  
+---
+Signif. codes:  
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.02049 on 18 degrees of freedom
+Multiple R-squared:  0.2896,	Adjusted R-squared:  0.2501 
+F-statistic: 7.337 on 1 and 18 DF,  p-value: 0.01438
+
+
+$Fe
+
+Call:
+lm(formula = Value ~ Time, data = i)
+
+Residuals:
+      Min        1Q    Median        3Q       Max 
+-0.055817 -0.031400 -0.000837  0.024071  0.079416 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.139614   0.029654   4.708 0.000175 ***
+Time        -0.006211   0.002355  -2.637 0.016753 *  
+---
+Signif. codes:  
+0 â€˜***â€™ 0.001 â€˜**â€™ 0.01 â€˜*â€™ 0.05 â€˜.â€™ 0.1 â€˜ â€™ 1
+
+Residual standard error: 0.04011 on 18 degrees of freedom
+Multiple R-squared:  0.2786,	Adjusted R-squared:  0.2385 
+F-statistic: 6.952 on 1 and 18 DF,  p-value: 0.01675
 
 
