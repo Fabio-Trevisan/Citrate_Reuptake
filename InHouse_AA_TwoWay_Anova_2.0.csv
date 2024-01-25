@@ -1,0 +1,276 @@
+$Alanine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 1.3279e-04 6.6396e-05 11.2254 0.0001035 ***
+Time            3 1.2448e-04 4.1495e-05  7.0155 0.0005395 ***
+Treatment:Time  6 3.5542e-05 5.9240e-06  1.0015 0.4356531    
+Residuals      47 2.7799e-04 5.9150e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Arginine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 1.6475e-04 8.2374e-05 53.9383 6.755e-13 ***
+Time            3 4.3600e-07 1.4500e-07  0.0951    0.9624    
+Treatment:Time  6 2.3300e-06 3.8800e-07  0.2543    0.9551    
+Residuals      47 7.1778e-05 1.5270e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Asparagine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00229571 0.00114786 63.4094 4.488e-14 ***
+Time            3 0.00001780 0.00000593  0.3279    0.8052    
+Treatment:Time  6 0.00002451 0.00000409  0.2257    0.9664    
+Residuals      47 0.00085081 0.00001810                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Aspartate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Treatment       2 1.0073e-05 5.0367e-06  1.3480 0.269608   
+Time            3 7.0862e-05 2.3621e-05  6.3219 0.001084 **
+Treatment:Time  6 2.3115e-05 3.8526e-06  1.0311 0.417237   
+Residuals      47 1.7561e-04 3.7364e-06                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Citrulline
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00058788 2.9394e-04 22.2295 1.605e-07 ***
+Time            3 0.00059859 1.9953e-04 15.0895 5.184e-07 ***
+Treatment:Time  6 0.00021443 3.5738e-05  2.7027   0.02451 *  
+Residuals      47 0.00062148 1.3223e-05                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$GABA
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00190582 0.00095291 34.0638 7.188e-10 ***
+Time            3 0.00087277 0.00029092 10.3997 2.302e-05 ***
+Treatment:Time  6 0.00060383 0.00010064  3.5976  0.005129 ** 
+Residuals      47 0.00131479 0.00002797                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Glutamate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00028807 1.4404e-04 11.2055 0.0001049 ***
+Time            3 0.00041178 1.3726e-04 10.6783 1.806e-05 ***
+Treatment:Time  6 0.00010664 1.7773e-05  1.3827 0.2413177    
+Residuals      47 0.00060414 1.2854e-05                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Glutamine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00199235 0.00099617 29.9377 4.127e-09 ***
+Time            3 0.00083151 0.00027717  8.3297 0.0001512 ***
+Treatment:Time  6 0.00087445 0.00014574  4.3799 0.0013621 ** 
+Residuals      47 0.00156392 0.00003327                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Glycine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment       2 0.00007848 3.9238e-05  4.2698 0.01978 *
+Time            3 0.00001348 4.4940e-06  0.4890 0.69157  
+Treatment:Time  6 0.00003118 5.1970e-06  0.5655 0.75555  
+Residuals      47 0.00043191 9.1900e-06                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Histidine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)    
+Treatment       2 2.6946e-04 1.3473e-04 94.6227 <2e-16 ***
+Time            3 1.9130e-06 6.3800e-07  0.4478 0.7200    
+Treatment:Time  6 9.7880e-06 1.6310e-06  1.1457 0.3513    
+Residuals      47 6.6921e-05 1.4240e-06                   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Isoleucine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df    Sum Sq    Mean Sq  F value Pr(>F)    
+Treatment       2 0.0047485 0.00237427 141.7908 <2e-16 ***
+Time            3 0.0000935 0.00003118   1.8622 0.1489    
+Treatment:Time  6 0.0001116 0.00001860   1.1108 0.3705    
+Residuals      47 0.0007870 0.00001674                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Leucine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00057821 2.8911e-04 39.2438 9.488e-11 ***
+Time            3 0.00001082 3.6070e-06  0.4897    0.6911    
+Treatment:Time  6 0.00001893 3.1540e-06  0.4282    0.8564    
+Residuals      47 0.00034624 7.3670e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Lysine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment       2 2.6320e-04 1.316e-04 46.6973 6.785e-12 ***
+Time            3 3.6400e-06 1.213e-06  0.4305    0.7321    
+Treatment:Time  6 2.4784e-05 4.131e-06  1.4658    0.2105    
+Residuals      47 1.3245e-04 2.818e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Methionine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Treatment       2 5.4702e-05 2.7351e-05  5.7752 0.005719 **
+Time            3 1.3474e-05 4.4913e-06  0.9484 0.424939   
+Treatment:Time  6 3.7424e-05 6.2373e-06  1.3170 0.268367   
+Residuals      47 2.2259e-04 4.7359e-06                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Norvaline
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)  
+Treatment       2 1.1096e-05 5.5479e-06  4.4559 0.0169 *
+Time            3 1.2500e-06 4.1660e-07  0.3346 0.8004  
+Treatment:Time  6 9.9520e-06 1.6587e-06  1.3322 0.2619  
+Residuals      47 5.8518e-05 1.2451e-06                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Ornithine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00249688 0.00124844 31.2924 2.292e-09 ***
+Time            3 0.00006563 0.00002188  0.5484   0.65171    
+Treatment:Time  6 0.00051650 0.00008608  2.1577   0.06411 .  
+Residuals      47 0.00187511 0.00003990                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Phenylalanine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 3.9093e-05 1.9546e-05 28.8602 6.661e-09 ***
+Time            3 7.4190e-06 2.4731e-06  3.6515  0.019005 *  
+Treatment:Time  6 1.4108e-05 2.3514e-06  3.4719  0.006373 ** 
+Residuals      47 3.1832e-05 6.7730e-07                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Proline
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value   Pr(>F)   
+Treatment       2 0.00006901 3.4505e-05  2.0370 0.141782   
+Time            3 0.00024039 8.0131e-05  4.7304 0.005774 **
+Treatment:Time  6 0.00016089 2.6815e-05  1.5830 0.173116   
+Residuals      47 0.00079616 1.6940e-05                    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Serine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value   Pr(>F)    
+Treatment       2 7.3211e-05 3.6605e-05 13.4868 2.35e-05 ***
+Time            3 2.7336e-05 9.1120e-06  3.3572   0.0265 *  
+Treatment:Time  6 2.3184e-05 3.8640e-06  1.4236   0.2257    
+Residuals      47 1.2757e-04 2.7140e-06                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Threonine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00066208 0.00033104 74.8466 2.456e-15 ***
+Time            3 0.00000837 0.00000279  0.6311    0.5986    
+Treatment:Time  6 0.00001315 0.00000219  0.4954    0.8085    
+Residuals      47 0.00020788 0.00000442                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Tryptophan
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 6.8578e-05 3.4289e-05 53.3567 8.064e-13 ***
+Time            3 3.4580e-06 1.1530e-06  1.7936    0.1613    
+Treatment:Time  6 3.3300e-06 5.5500e-07  0.8637    0.5285    
+Residuals      47 3.0204e-05 6.4300e-07                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Tyrosine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq  F value  Pr(>F)    
+Treatment       2 1.5384e-04 7.6921e-05 111.2390 < 2e-16 ***
+Time            3 2.1450e-06 7.1500e-07   1.0342 0.38610    
+Treatment:Time  6 1.1534e-05 1.9220e-06   2.7800 0.02138 *  
+Residuals      47 3.2500e-05 6.9100e-07                     
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Valine
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 1.4831e-04 7.4157e-05 19.4643 6.951e-07 ***
+Time            3 2.2284e-05 7.4280e-06  1.9496    0.1345    
+Treatment:Time  6 2.1698e-05 3.6160e-06  0.9492    0.4695    
+Residuals      47 1.7906e-04 3.8100e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

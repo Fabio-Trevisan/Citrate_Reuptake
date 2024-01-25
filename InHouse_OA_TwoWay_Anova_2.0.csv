@@ -1,0 +1,172 @@
+$Aconitate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df    Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment       2 0.0067285 0.0033642 12.6937 4.075e-05 ***
+Time            3 0.0044360 0.0014787  5.5792  0.002381 ** 
+Treatment:Time  6 0.0048832 0.0008139  3.0708  0.013016 *  
+Residuals      46 0.0121915 0.0002650                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Citrate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00165704 0.00082852 25.5131 3.507e-08 ***
+Time            3 0.00018037 0.00006012  1.8515    0.1511    
+Treatment:Time  6 0.00024429 0.00004071  1.2537    0.2973    
+Residuals      46 0.00149381 0.00003247                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Fumarate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment       2 1.5362e-08 7.6809e-09  2.0708 0.1377
+Time            3 6.5140e-09 2.1714e-09  0.5854 0.6276
+Treatment:Time  6 1.3303e-08 2.2172e-09  0.5978 0.7305
+Residuals      46 1.7062e-07 3.7091e-09               
+
+$Glycerate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment       2 2.8858e-06 1.4429e-06  3.8806 0.02771 *
+Time            3 2.3327e-06 7.7758e-07  2.0913 0.11437  
+Treatment:Time  6 2.1408e-06 3.5680e-07  0.9596 0.46291  
+Residuals      46 1.7103e-05 3.7182e-07                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Glycolate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment       2 5.7830e-06 2.8913e-06  0.9233 0.4045
+Time            3 4.6290e-06 1.5429e-06  0.4927 0.6891
+Treatment:Time  6 1.4914e-05 2.4856e-06  0.7937 0.5796
+Residuals      46 1.4406e-04 3.1316e-06               
+
+$Hydroxyglutarate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00027137 1.3568e-04 13.4206 2.563e-05 ***
+Time            3 0.00003666 1.2221e-05  1.2088    0.3172    
+Treatment:Time  6 0.00008672 1.4453e-05  1.4296    0.2240    
+Residuals      46 0.00046507 1.0110e-05                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Isocitrate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00096190 0.00048095 38.4578 1.522e-10 ***
+Time            3 0.00006296 0.00002099  1.6782    0.1848    
+Treatment:Time  6 0.00012857 0.00002143  1.7135    0.1393    
+Residuals      46 0.00057527 0.00001251                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Itaconate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df   Sum Sq  Mean Sq F value    Pr(>F)    
+Treatment       2 0.135705 0.067853 83.9073 4.493e-16 ***
+Time            3 0.004871 0.001624  2.0078    0.1260    
+Treatment:Time  6 0.005290 0.000882  1.0902    0.3825    
+Residuals      46 0.037198 0.000809                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Lactate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment       2 1.1524e-15 5.7620e-16  0.8932 0.4163
+Time            3 5.8030e-16 1.9344e-16  0.2999 0.8253
+Treatment:Time  6 1.4677e-15 2.4461e-16  0.3792 0.8885
+Residuals      46 2.9675e-14 6.4511e-16               
+
+$Malate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 0.00051629 2.5814e-04 29.5575 5.561e-09 ***
+Time            3 0.00006210 2.0699e-05  2.3700   0.08277 .  
+Treatment:Time  6 0.00003873 6.4550e-06  0.7391   0.62086    
+Residuals      46 0.00040175 8.7340e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Oxalate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment       2 2.1666e-05 1.0833e-05  3.9431 0.02627 *
+Time            3 2.7924e-05 9.3080e-06  3.3880 0.02578 *
+Treatment:Time  6 3.0508e-05 5.0847e-06  1.8508 0.11006  
+Residuals      46 1.2638e-04 2.7473e-06                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Oxaloacetate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df   Sum Sq   Mean Sq F value    Pr(>F)    
+Treatment       2 0.030745 0.0153725  8.1617 0.0009257 ***
+Time            3 0.022332 0.0074438  3.9521 0.0137121 *  
+Treatment:Time  6 0.026728 0.0044547  2.3651 0.0448753 *  
+Residuals      46 0.086641 0.0018835                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Oxoglutarate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value    Pr(>F)    
+Treatment       2 1.5929e-05 7.9640e-06  4.1740   0.02159 *  
+Time            3 9.9545e-05 3.3182e-05 17.3898 1.093e-07 ***
+Treatment:Time  6 3.3749e-05 5.6250e-06  2.9479   0.01613 *  
+Residuals      46 8.7773e-05 1.9080e-06                      
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Pyruvate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value  Pr(>F)  
+Treatment       2 9.0040e-06 4.5018e-06  3.8744 0.02786 *
+Time            3 1.3060e-06 4.3530e-07  0.3747 0.77166  
+Treatment:Time  6 2.2440e-06 3.7400e-07  0.3219 0.92220  
+Residuals      46 5.3449e-05 1.1619e-06                  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+$Succinate
+Analysis of Variance Table
+
+Response: mean_enrichment
+               Df     Sum Sq    Mean Sq F value Pr(>F)
+Treatment       2 4.4300e-09 2.2155e-09  0.2955 0.7455
+Time            3 4.4130e-08 1.4708e-08  1.9619 0.1329
+Treatment:Time  6 1.9690e-08 3.2818e-09  0.4377 0.8498
+Residuals      46 3.4487e-07 7.4971e-09               
+

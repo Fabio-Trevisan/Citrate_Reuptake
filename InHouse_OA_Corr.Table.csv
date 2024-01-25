@@ -1,0 +1,2280 @@
+$Aconitate
+$Aconitate$C
+$Aconitate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 202, p-value = 0.5367
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2242424 
+
+
+$Aconitate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 136.07, p-value = 0.7313
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1338924 
+
+
+$Aconitate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 290, p-value = 0.01592
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7575758 
+
+
+$Aconitate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 280, p-value = 0.03114
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.6969697 
+
+
+
+$Aconitate$Fe
+$Aconitate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 184, p-value = 0.1475
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5333333 
+
+
+$Aconitate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 260, p-value = 0.08777
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5757576 
+
+
+$Aconitate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 240, p-value = 0.1909
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4545455 
+
+
+$Aconitate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 230, p-value = 0.2629
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3939394 
+
+
+
+$Aconitate$P
+$Aconitate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 166, p-value = 0.3125
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3833333 
+
+
+$Aconitate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 256, p-value = 0.1043
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5515152 
+
+
+$Aconitate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 230, p-value = 0.2629
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3939394 
+
+
+$Aconitate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 258, p-value = 0.09579
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5636364 
+
+
+
+
+$Citrate
+$Citrate$C
+$Citrate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 193.8, p-value = 0.6296
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1745572 
+
+
+$Citrate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 126.57, p-value = 0.8887
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.05477226 
+
+
+$Citrate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 172.47, p-value = 0.9012
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.04525557 
+
+
+$Citrate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 255.67, p-value = 0.09987
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.549532 
+
+
+
+$Citrate$Fe
+$Citrate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 181.34, p-value = 0.1596
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5112077 
+
+
+$Citrate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 157.53, p-value = 0.9012
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+0.04525557 
+
+
+$Citrate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 227.94, p-value = 0.2768
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3814398 
+
+
+$Citrate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 221.54, p-value = 0.3324
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3426493 
+
+
+
+$Citrate$P
+$Citrate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 207.64, p-value = 0.02546
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7302967 
+
+
+$Citrate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Citrate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 177.39, p-value = 0.8366
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.07510676 
+
+
+$Citrate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 180.77, p-value = 0.7928
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.09559042 
+
+
+
+
+$Fumarate
+$Fumarate$C
+$Fumarate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 97.98, p-value = 0.2441
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4061812 
+
+
+$Fumarate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 204.96, p-value = 0.5002
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2421997 
+
+
+$Fumarate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 212.87, p-value = 0.4161
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2901294 
+
+
+
+$Fumarate$Fe
+$Fumarate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+$Fumarate$P
+$Fumarate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Fumarate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+
+$Glycerate
+$Glycerate$C
+$Glycerate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 78.832, p-value = 0.1215
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.522233 
+
+
+$Glycerate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Glycerate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 174.57, p-value = 0.8735
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.05802589 
+
+
+$Glycerate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+$Glycerate$Fe
+$Glycerate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 166.56, p-value = 0.3022
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3879701 
+
+
+$Glycerate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 193.72, p-value = 0.6305
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1740777 
+
+
+$Glycerate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Glycerate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 254.82, p-value = 0.1038
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5443367 
+
+
+
+$Glycerate$P
+$Glycerate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 136.43, p-value = 0.7254
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1369306 
+
+
+$Glycerate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 110.92, p-value = 0.3552
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3277386 
+
+
+$Glycerate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 199.92, p-value = 0.5572
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2116645 
+
+
+$Glycerate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 230.21, p-value = 0.2583
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3952034 
+
+
+
+
+$Glycolate
+$Glycolate$C
+$Glycolate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 151.47, p-value = 0.8218
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+0.08202334 
+
+
+$Glycolate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 148.48, p-value = 0.5386
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2373464 
+
+
+$Glycolate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 40.192, p-value = 0.01134
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.7564146 
+
+
+$Glycolate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 300.16, p-value = 0.003739
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.8191501 
+
+
+
+$Glycolate$Fe
+$Glycolate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 0, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+  1 
+
+
+$Glycolate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Glycolate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 111.07, p-value = 0.3566
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3268602 
+
+
+$Glycolate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+$Glycolate$P
+$Glycolate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 30.866, p-value = 0.02186
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.7427814 
+
+
+$Glycolate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 183.13, p-value = 0.7625
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1099064 
+
+
+$Glycolate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 129.92, p-value = 0.5554
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.2126038 
+
+
+$Glycolate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 52.247, p-value = 0.02938
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6833491 
+
+
+
+
+$Hydroxyglutarate
+$Hydroxyglutarate$C
+$Hydroxyglutarate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 252.35, p-value = 0.1155
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5294234 
+
+
+$Hydroxyglutarate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Hydroxyglutarate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 217.91, p-value = 0.3664
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3206367 
+
+
+$Hydroxyglutarate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 200.2, p-value = 0.554
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2133477 
+
+
+
+$Hydroxyglutarate$Fe
+$Hydroxyglutarate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 162.72, p-value = 0.3471
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3559833 
+
+
+$Hydroxyglutarate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 91.745, p-value = 0.1987
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4439668 
+
+
+$Hydroxyglutarate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 203.17, p-value = 0.5201
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.231363 
+
+
+$Hydroxyglutarate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 247.43, p-value = 0.1415
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4995967 
+
+
+
+$Hydroxyglutarate$P
+$Hydroxyglutarate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 74.811, p-value = 0.3178
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3765723 
+
+
+$Hydroxyglutarate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 226.19, p-value = 0.2915
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3708224 
+
+
+$Hydroxyglutarate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 117.54, p-value = 0.4203
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.2876405 
+
+
+$Hydroxyglutarate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 190.31, p-value = 0.6723
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1533858 
+
+
+
+
+$Isocitrate
+$Isocitrate$C
+$Isocitrate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 272, p-value = 0.04904
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.6484848 
+
+
+$Isocitrate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 154, p-value = 0.463
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2833333 
+
+
+$Isocitrate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 210, p-value = 0.4483
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2727273 
+
+
+$Isocitrate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 176, p-value = 0.8648
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.06666667 
+
+
+
+$Isocitrate$Fe
+$Isocitrate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 210, p-value = 0.02549
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+  rho 
+-0.75 
+
+
+$Isocitrate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 234, p-value = 0.2324
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4181818 
+
+
+$Isocitrate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 252, p-value = 0.1228
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5272727 
+
+
+$Isocitrate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 284, p-value = 0.02419
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7212121 
+
+
+
+$Isocitrate$P
+$Isocitrate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 152, p-value = 0.4933
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2666667 
+
+
+$Isocitrate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 292, p-value = 0.01367
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.769697 
+
+
+$Isocitrate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 172, p-value = 0.9186
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.04242424 
+
+
+$Isocitrate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 202, p-value = 0.5367
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2242424 
+
+
+
+
+$Itaconate
+$Itaconate$C
+$Itaconate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 242, p-value = 0.1782
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4666667 
+
+
+$Itaconate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 134, p-value = 0.7756
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1166667 
+
+
+$Itaconate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 134, p-value = 0.6076
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1878788 
+
+
+$Itaconate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 216, p-value = 0.3871
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3090909 
+
+
+
+$Itaconate$Fe
+$Itaconate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 210, p-value = 0.02549
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+  rho 
+-0.75 
+
+
+$Itaconate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 88, p-value = 0.1782
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4666667 
+
+
+$Itaconate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 226, p-value = 0.2956
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.369697 
+
+
+$Itaconate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 244, p-value = 0.1661
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4787879 
+
+
+
+$Itaconate$P
+$Itaconate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 210, p-value = 0.02549
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+  rho 
+-0.75 
+
+
+$Itaconate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 164, p-value = 1
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+0.006060606 
+
+
+$Itaconate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 204, p-value = 0.5139
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2363636 
+
+
+$Itaconate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 224, p-value = 0.3128
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3575758 
+
+
+
+
+$Lactate
+$Lactate$C
+$Lactate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 3.6637e-14, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+  1 
+
+
+
+$Lactate$Fe
+$Lactate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+$Lactate$P
+$Lactate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Lactate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+
+$Malate
+$Malate$C
+$Malate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 28, p-value = 0.005557
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.830303 
+
+
+$Malate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 62, p-value = 0.1938
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4833333 
+
+
+$Malate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 34, p-value = 0.009844
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.7939394 
+
+
+$Malate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 32, p-value = 0.008236
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8060606 
+
+
+
+$Malate$Fe
+$Malate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 16, p-value = 0.004508
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8666667 
+
+
+$Malate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 10, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.9393939 
+
+
+$Malate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 18, p-value = 0.00138
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8909091 
+
+
+$Malate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 18, p-value = 0.00138
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8909091 
+
+
+
+$Malate$P
+$Malate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 30, p-value = 0.02549
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+ rho 
+0.75 
+
+
+$Malate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 30, p-value = 0.006811
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8181818 
+
+
+$Malate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 28, p-value = 0.005557
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+     rho 
+0.830303 
+
+
+$Malate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 32, p-value = 0.008236
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8060606 
+
+
+
+
+$Oxalate
+$Oxalate$C
+$Oxalate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Oxalate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Oxalate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 52.247, p-value = 0.02938
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6833491 
+
+
+$Oxalate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 40.192, p-value = 0.01134
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.7564146 
+
+
+
+$Oxalate$Fe
+$Oxalate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Oxalate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Oxalate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 50.577, p-value = 0.02615
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6934701 
+
+
+$Oxalate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 62.881, p-value = 0.05642
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6189034 
+
+
+
+$Oxalate$P
+$Oxalate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 74.849, p-value = 0.3183
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3762561 
+
+
+$Oxalate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 106.48, p-value = 0.3146
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.3546495 
+
+
+$Oxalate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 18.542, p-value = 0.0006079
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8876254 
+
+
+$Oxalate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 30.892, p-value = 0.004259
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8127768 
+
+
+
+
+$Oxaloacetate
+$Oxaloacetate$C
+$Oxaloacetate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 125.52, p-value = 0.5055
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.2392818 
+
+
+$Oxaloacetate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 181.34, p-value = 0.1596
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5112077 
+
+
+$Oxaloacetate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 166, p-value = 1
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+         rho 
+-0.006060606 
+
+
+$Oxaloacetate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 56, p-value = 0.04403
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6606061 
+
+
+
+$Oxaloacetate$Fe
+$Oxaloacetate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 42, p-value = 0.06656
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+ rho 
+0.65 
+
+
+$Oxaloacetate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 144, p-value = 0.7329
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1272727 
+
+
+$Oxaloacetate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 48, p-value = 0.02751
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.7090909 
+
+
+$Oxaloacetate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 50, p-value = 0.03114
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6969697 
+
+
+
+$Oxaloacetate$P
+$Oxaloacetate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 48, p-value = 0.0968
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+0.6 
+
+
+$Oxaloacetate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 224, p-value = 0.3128
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3575758 
+
+
+$Oxaloacetate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 270, p-value = 0.05445
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.6363636 
+
+
+$Oxaloacetate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 286, p-value = 0.02117
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7333333 
+
+
+
+
+$Oxoglutarate
+$Oxoglutarate$C
+$Oxoglutarate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 76, p-value = 0.1133
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.5393939 
+
+
+$Oxoglutarate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 44, p-value = 0.07604
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6333333 
+
+
+$Oxoglutarate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 52, p-value = 0.03509
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.6848485 
+
+
+$Oxoglutarate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 14, p-value = 0.0004667
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.9151515 
+
+
+
+$Oxoglutarate$Fe
+$Oxoglutarate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 146.14, p-value = 0.5734
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2178325 
+
+
+$Oxoglutarate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 145.85, p-value = 0.7495
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.1160741 
+
+
+$Oxoglutarate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 236.19, p-value = 0.2131
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4314607 
+
+
+$Oxoglutarate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 281.27, p-value = 0.02287
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7046939 
+
+
+
+$Oxoglutarate$P
+$Oxoglutarate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 22, p-value = 0.01077
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8166667 
+
+
+$Oxoglutarate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 88, p-value = 0.1782
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4666667 
+
+
+$Oxoglutarate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 4, p-value < 2.2e-16
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.9757576 
+
+
+$Oxoglutarate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 24, p-value = 0.003505
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.8545455 
+
+
+
+
+$Pyruvate
+$Pyruvate$C
+$Pyruvate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 97.98, p-value = 0.2441
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+0.4061812 
+
+
+$Pyruvate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Pyruvate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Pyruvate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 203.54, p-value = 0.5161
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2335497 
+
+
+
+$Pyruvate$Fe
+$Pyruvate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 218.62, p-value = 0.006573
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.8218225 
+
+
+$Pyruvate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 251.17, p-value = 0.1215
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.522233 
+
+
+$Pyruvate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 161.31, p-value = 0.9511
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+    rho 
+0.02237 
+
+
+$Pyruvate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 276.96, p-value = 0.03099
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.6785567 
+
+
+
+$Pyruvate$P
+$Pyruvate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 185.73, p-value = 0.1269
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5477226 
+
+
+$Pyruvate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 289.27, p-value = 0.01191
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.7531234 
+
+
+$Pyruvate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 195.94, p-value = 0.604
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.1874874 
+
+
+$Pyruvate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 254.92, p-value = 0.1033
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5449493 
+
+
+
+
+$Succinate
+$Succinate$C
+$Succinate$C$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Succinate$C$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Succinate$C$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 280.61, p-value = 0.02402
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+      rho 
+-0.700649 
+
+
+$Succinate$C$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 262.05, p-value = 0.07368
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.5881992 
+
+
+
+$Succinate$Fe
+$Succinate$Fe$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 152.86, p-value = 0.4758
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.2738613 
+
+
+$Succinate$Fe$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+$Succinate$Fe$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 242.51, p-value = 0.1707
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.4697701 
+
+
+$Succinate$Fe$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = NA, p-value = NA
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+rho 
+ NA 
+
+
+
+$Succinate$P
+$Succinate$P$`15`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 117.26, p-value = 0.9535
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+0.02282177 
+
+
+$Succinate$P$`30`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 174.57, p-value = 0.8735
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+        rho 
+-0.05802589 
+
+
+$Succinate$P$`60`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 214.95, p-value = 0.3952
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3027496 
+
+
+$Succinate$P$`120`
+
+	Spearman's rank correlation rho
+
+data:  Subset_3[[m]][[i]][[n]][["area"]] and Subset_3[[m]][[i]][[n]][["mean_enrichment"]]
+S = 230.65, p-value = 0.2548
+alternative hypothesis: true rho is not equal to 0
+sample estimates:
+       rho 
+-0.3978995 
+
+
+
+

@@ -1,0 +1,598 @@
+$Alanine
+$Alanine$`15`
+   i$mean_enrichment groups
+Fe              11.5      a
+C                7.2     ab
+P                4.6      b
+
+$Alanine$`30`
+   i$mean_enrichment groups
+Fe              11.2      a
+C                7.8      a
+P                5.0      a
+
+$Alanine$`60`
+   i$mean_enrichment groups
+Fe              10.6      a
+C                9.4     ab
+P                4.0      b
+
+$Alanine$`120`
+   i$mean_enrichment groups
+Fe              12.0      a
+P                6.8     ab
+C                5.2      b
+
+
+$Arginine
+$Arginine$`15`
+   i$mean_enrichment groups
+C              11.40      a
+Fe              5.75      b
+P               5.00      b
+
+$Arginine$`30`
+   i$mean_enrichment groups
+C               12.6      a
+P                6.0      b
+Fe               5.4      b
+
+$Arginine$`60`
+   i$mean_enrichment groups
+C                 13      a
+P                  6      b
+Fe                 5      b
+
+$Arginine$`120`
+   i$mean_enrichment groups
+C                 13      a
+P                  6      b
+Fe                 5      b
+
+
+$Asparagine
+$Asparagine$`15`
+   i$mean_enrichment groups
+P               11.8      a
+Fe               6.5      b
+C                4.0      b
+
+$Asparagine$`30`
+   i$mean_enrichment groups
+P                 13      a
+Fe                 7      b
+C                  4      b
+
+$Asparagine$`60`
+   i$mean_enrichment groups
+P                 13      a
+Fe                 8      b
+C                  3      c
+
+$Asparagine$`120`
+   i$mean_enrichment groups
+P               12.2      a
+Fe               8.6      b
+C                3.2      c
+
+
+$Aspartate
+$Aspartate$`15`
+   i$mean_enrichment groups
+C               9.40      a
+Fe              8.25      a
+P               5.00      a
+
+$Aspartate$`30`
+   i$mean_enrichment groups
+C                8.2      a
+Fe               8.0      a
+P                7.8      a
+
+$Aspartate$`60`
+   i$mean_enrichment groups
+C               11.4      a
+Fe               6.4      a
+P                6.2      a
+
+$Aspartate$`120`
+   i$mean_enrichment groups
+Fe              10.8      a
+C                7.4      a
+P                5.8      a
+
+
+$Citrulline
+$Citrulline$`15`
+   i$mean_enrichment groups
+Fe              12.5      a
+P                6.2      b
+C                4.8      b
+
+$Citrulline$`30`
+   i$mean_enrichment groups
+Fe              10.2      a
+C                7.8      a
+P                6.0      a
+
+$Citrulline$`60`
+   i$mean_enrichment groups
+Fe              10.8      a
+C                8.6      a
+P                4.6      a
+
+$Citrulline$`120`
+   i$mean_enrichment groups
+Fe              12.6      a
+C                7.6      b
+P                3.8      c
+
+
+$GABA
+$GABA$`15`
+   i$mean_enrichment groups
+P               9.80      a
+C               8.60     ab
+Fe              3.25      b
+
+$GABA$`30`
+   i$mean_enrichment groups
+P               12.2      a
+C                6.8      b
+Fe               5.0      b
+
+$GABA$`60`
+   i$mean_enrichment groups
+P               13.0      a
+Fe               6.8      b
+C                4.2      b
+
+$GABA$`120`
+   i$mean_enrichment groups
+P               11.8      a
+Fe               6.2      a
+C                6.0      a
+
+
+$Glutamate
+$Glutamate$`15`
+   i$mean_enrichment groups
+P              12.00      a
+C               6.40      b
+Fe              3.25      c
+
+$Glutamate$`30`
+   i$mean_enrichment groups
+C                9.4      a
+P                8.4      a
+Fe               6.2      a
+
+$Glutamate$`60`
+   i$mean_enrichment groups
+C               10.8      a
+P                9.6      a
+Fe               3.6      b
+
+$Glutamate$`120`
+   i$mean_enrichment groups
+P               11.4      a
+C                7.6      a
+Fe               5.0      a
+
+
+$Glutamine
+$Glutamine$`15`
+   i$mean_enrichment groups
+P              12.00      a
+C               6.80      b
+Fe              2.75      c
+
+$Glutamine$`30`
+   i$mean_enrichment groups
+P                 12      a
+C                  8     ab
+Fe                 4      b
+
+$Glutamine$`60`
+   i$mean_enrichment groups
+P               10.4      a
+C                9.8      a
+Fe               3.8      b
+
+$Glutamine$`120`
+   i$mean_enrichment groups
+P               10.8      a
+Fe               8.4      a
+C                4.8      a
+
+
+$Glycine
+$Glycine$`15`
+   i$mean_enrichment groups
+P               8.40      a
+C               7.60      a
+Fe              6.25      a
+
+$Glycine$`30`
+   i$mean_enrichment groups
+C               10.4      a
+P                8.2      a
+Fe               5.4      a
+
+$Glycine$`60`
+   i$mean_enrichment groups
+C                  9      a
+P                  8      a
+Fe                 7      a
+
+$Glycine$`120`
+   i$mean_enrichment groups
+P               10.0      a
+C                9.4      a
+Fe               4.6      a
+
+
+$Histidine
+$Histidine$`15`
+   i$mean_enrichment groups
+P              11.60      a
+C               6.40      b
+Fe              3.75      b
+
+$Histidine$`30`
+   i$mean_enrichment groups
+P               13.0      a
+Fe               5.6      b
+C                5.4      b
+
+$Histidine$`60`
+   i$mean_enrichment groups
+P               13.0      a
+C                6.2      b
+Fe               4.8      b
+
+$Histidine$`120`
+   i$mean_enrichment groups
+P               11.6      a
+C                6.6      a
+Fe               5.8      a
+
+
+$Isoleucine
+$Isoleucine$`15`
+   i$mean_enrichment groups
+P               12.0      a
+C                7.0      b
+Fe               2.5      c
+
+$Isoleucine$`30`
+   i$mean_enrichment groups
+P                 13      a
+C                  7      b
+Fe                 4      b
+
+$Isoleucine$`60`
+   i$mean_enrichment groups
+P               13.0      a
+C                7.4      b
+Fe               3.6      c
+
+$Isoleucine$`120`
+   i$mean_enrichment groups
+P               12.4      a
+C                7.4      b
+Fe               4.2      b
+
+
+$Leucine
+$Leucine$`15`
+   i$mean_enrichment groups
+P               11.8      a
+Fe               6.0      b
+C                4.4      b
+
+$Leucine$`30`
+   i$mean_enrichment groups
+P               11.6      a
+Fe               8.6     ab
+C                3.8      b
+
+$Leucine$`60`
+   i$mean_enrichment groups
+P               13.0      a
+Fe               7.6      b
+C                3.4      c
+
+$Leucine$`120`
+   i$mean_enrichment groups
+P               11.8      a
+Fe               8.8      a
+C                3.4      b
+
+
+$Lysine
+$Lysine$`15`
+   i$mean_enrichment groups
+Fe              12.5      a
+C                7.2      b
+P                3.8      c
+
+$Lysine$`30`
+   i$mean_enrichment groups
+Fe              12.6      a
+C                7.4      b
+P                4.0      b
+
+$Lysine$`60`
+   i$mean_enrichment groups
+Fe              12.6      a
+C                8.4      b
+P                3.0      c
+
+$Lysine$`120`
+   i$mean_enrichment groups
+Fe              10.2      a
+C                8.6      a
+P                5.2      a
+
+
+$Methionine
+$Methionine$`15`
+   i$mean_enrichment groups
+P               8.60      a
+C               8.20      a
+Fe              5.25      a
+
+$Methionine$`30`
+   i$mean_enrichment groups
+P               12.4      a
+C                7.4      b
+Fe               4.2      b
+
+$Methionine$`60`
+   i$mean_enrichment groups
+Fe                 9      a
+P                  9      a
+C                  6      a
+
+$Methionine$`120`
+   i$mean_enrichment groups
+P               10.8      a
+C                7.4      a
+Fe               5.8      a
+
+
+$Norvaline
+$Norvaline$`15`
+   i$mean_enrichment groups
+C                9.6      a
+P                7.4      a
+Fe               5.0      a
+
+$Norvaline$`30`
+   i$mean_enrichment groups
+C               10.2      a
+Fe               8.2      a
+P                5.6      a
+
+$Norvaline$`60`
+   i$mean_enrichment groups
+P               11.8      a
+C                8.6      a
+Fe               3.6      b
+
+$Norvaline$`120`
+   i$mean_enrichment groups
+C                9.2      a
+P                8.4      a
+Fe               6.4      a
+
+
+$Ornithine
+$Ornithine$`15`
+   i$mean_enrichment groups
+Fe             12.25      a
+C               6.80      b
+P               4.40      b
+
+$Ornithine$`30`
+   i$mean_enrichment groups
+Fe              10.6      a
+C               10.4      a
+P                3.0      b
+
+$Ornithine$`60`
+   i$mean_enrichment groups
+Fe              10.6      a
+C                9.8      a
+P                3.6      b
+
+$Ornithine$`120`
+   i$mean_enrichment groups
+Fe              11.0      a
+C                9.4      a
+P                3.6      b
+
+
+$Phenylalanine
+$Phenylalanine$`15`
+   i$mean_enrichment groups
+Fe             12.25      a
+C               6.40      b
+P               4.80      b
+
+$Phenylalanine$`30`
+   i$mean_enrichment groups
+Fe              11.0      a
+C                9.4      a
+P                3.6      b
+
+$Phenylalanine$`60`
+   i$mean_enrichment groups
+C               10.6      a
+Fe              10.4      a
+P                3.0      b
+
+$Phenylalanine$`120`
+   i$mean_enrichment groups
+Fe              12.8      a
+C                7.0      b
+P                4.2      b
+
+
+$Proline
+$Proline$`15`
+   i$mean_enrichment groups
+P              11.00      a
+Fe              7.75     ab
+C               3.80      b
+
+$Proline$`30`
+   i$mean_enrichment groups
+Fe               9.8      a
+P                7.4      a
+C                6.8      a
+
+$Proline$`60`
+   i$mean_enrichment groups
+Fe              10.0      a
+C                9.6      a
+P                4.4      a
+
+$Proline$`120`
+   i$mean_enrichment groups
+Fe               9.4      a
+C                7.8      a
+P                6.8      a
+
+
+$Serine
+$Serine$`15`
+   i$mean_enrichment groups
+Fe             10.75      a
+P               8.60     ab
+C               3.80      b
+
+$Serine$`30`
+   i$mean_enrichment groups
+Fe              10.4      a
+P                9.2      a
+C                4.4      a
+
+$Serine$`60`
+   i$mean_enrichment groups
+Fe              10.8      a
+C                6.6      a
+P                6.6      a
+
+$Serine$`120`
+   i$mean_enrichment groups
+P               10.4      a
+Fe              10.2      a
+C                3.4      b
+
+
+$Threonine
+$Threonine$`15`
+   i$mean_enrichment groups
+P              12.00      a
+C               5.60      b
+Fe              4.25      b
+
+$Threonine$`30`
+   i$mean_enrichment groups
+P               12.8      a
+C                6.0      b
+Fe               5.2      b
+
+$Threonine$`60`
+   i$mean_enrichment groups
+P               13.0      a
+C                5.8      b
+Fe               5.2      b
+
+$Threonine$`120`
+   i$mean_enrichment groups
+P               11.4      a
+Fe               8.2     ab
+C                4.4      b
+
+
+$Tryptophan
+$Tryptophan$`15`
+   i$mean_enrichment groups
+Fe             11.75      a
+C               8.20      a
+P               3.40      b
+
+$Tryptophan$`30`
+   i$mean_enrichment groups
+Fe              11.2      a
+C                9.6      a
+P                3.2      b
+
+$Tryptophan$`60`
+   i$mean_enrichment groups
+Fe              12.4      a
+C                8.6      b
+P                3.0      c
+
+$Tryptophan$`120`
+   i$mean_enrichment groups
+C               10.0      a
+Fe               9.6      a
+P                4.4      a
+
+
+$Tyrosine
+$Tyrosine$`15`
+   i$mean_enrichment groups
+Fe              12.5      a
+C                7.4      b
+P                3.6      c
+
+$Tyrosine$`30`
+   i$mean_enrichment groups
+Fe              11.4      a
+C                9.6      a
+P                3.0      b
+
+$Tyrosine$`60`
+   i$mean_enrichment groups
+Fe              11.8      a
+C                8.8      a
+P                3.4      b
+
+$Tyrosine$`120`
+   i$mean_enrichment groups
+Fe                13      a
+C                  8      b
+P                  3      c
+
+
+$Valine
+$Valine$`15`
+   i$mean_enrichment groups
+P               10.6      a
+Fe               6.5      a
+C                5.2      a
+
+$Valine$`30`
+   i$mean_enrichment groups
+P                9.6      a
+Fe               9.4      a
+C                5.0      a
+
+$Valine$`60`
+   i$mean_enrichment groups
+P                 12      a
+Fe                 9      a
+C                  3      b
+
+$Valine$`120`
+   i$mean_enrichment groups
+P               11.2      a
+Fe               9.6      a
+C                3.2      b
+
+
