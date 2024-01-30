@@ -59,8 +59,9 @@ df[is.na(df)] <-  runif(sum(is.na(df)), min = x-(x/10), max = x+(x/10))
 
 
 # Vector Significant Molecules ####
-OA_Significant_Molecules <- "Aconitate|Citrate|Hydroxyglutarate|Isocitrate|Oxoglutarate"
-#Pyruvate, Succinare, Oxalate and Oxaloacetate P<0.05 but removed because non-sense 
+OA_Significant_Molecules <- "Citrate|Hydroxyglutarate|Isocitrate|Oxoglutarate"
+#Pyruvate, Succinare, Oxalate and Oxaloacetate P<0.05 but removed because non-sense
+#Aconitate removed P<0.05 but too low abundance and hence unreliable 13C enrichment/incorporation
 
 AA_Significant_Molecules <- "Aspartate|Citrulline|GABA|Glutamate|Glutamine"
 #Lysine and Alanine 0.05<P<0.10 
@@ -124,7 +125,7 @@ f3 <- ggplot(Summary_table_L_Significant, aes(x = Time, y = mean, group = Treatm
   theme_bw() + 
   scale_y_continuous(labels = percent, breaks = seq(0, 0.07, 0.005)) +
   scale_x_continuous(breaks=seq(0,120,15))
-f4 <- f3 + facet_wrap(~metabolite, scales="free") + 
+f4 <- f3 + facet_wrap(~metabolite, scales="fixed") + 
   ylab("% Enrichment") + 
   xlab("Time (min)") 
 f4
@@ -207,8 +208,9 @@ Summary_table_L <- Summary_table %>% filter(str_detect(Labeling, "L"))
 
 
 ##    Graph ####
-OA_Significant_Molecules <- "Aconitate|Citrate|Hydroxyglutarate|Isocitrate|Oxoglutarate"
+OA_Significant_Molecules <- "Citrate|Hydroxyglutarate|Isocitrate|Oxoglutarate"
 #Pyruvate, Succinare, Oxalate and Oxaloacetate P<0.05 but removed because non-sense 
+#Aconitate removed P<0.05 but too low abundance and hence unreliable 13C enrichment/incorporation
 
 AA_Significant_Molecules <- "Aspartate|Citrulline|GABA|Glutamate|Glutamine"
 #Lysine and Alanine 0.05<P<0.10 
