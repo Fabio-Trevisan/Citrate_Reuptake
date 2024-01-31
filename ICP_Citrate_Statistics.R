@@ -6,6 +6,7 @@ library(dplyr)
 library(rstatix)
 library(purrr)
 library(agricolae)
+library(reshape2)
 
 
 #ICP statistics ####
@@ -13,7 +14,7 @@ library(agricolae)
 df <- read.csv("DATA_Citrate_ICP.csv", sep=";",
                   header=T)
 
-df2 <- melt(data = df, id.vars = c("Tissue", "Treatment", "Concentration"), 
+df2 <- melt(data = table, id.vars = c("Tissue", "Treatment", "Concentration"), 
                variable.name = "Element", 
                value.name = "ppm")
 
@@ -27,26 +28,26 @@ Summary_table <- ddply(df2, c("Tissue", "Treatment", "Element"), summarise,
 ICP_table <- Summary_table[,-6]
 ICP_table$mean <- round(ICP_table$mean, 3)
 ICP_table$se <- round(ICP_table$se, 3)
-#ICP_table$Concentration <- paste(ICP_table$mean, ICP_table$se, sep = " +/- ")
-#ICP_table <- ICP_table[,-c(5,6)]
+ICP_table$Concentration <- paste(ICP_table$mean, ICP_table$se, sep = " +/- ")
+ICP_table <- ICP_table[,-c(5,6)]
 
-ICP_table_2 <- dcast(ICP_table, Tissue*Treatment*N~Element, value.var = mean) #### NOT WORKING
+ICP_table_2 <- dcast(ICP_table, Tissue+Treatment+N~Element, value.var = "Concentration") 
 
 
-write.table(ICP_table, file = "ICP_table_Citrate.csv", quote = FALSE, sep = ";")
+write.table(ICP_table_2, file = "ICP_table_Citrate.csv", quote = FALSE, sep = ";")
 
 
 
 #Assumptions ####
 ## 1. Homogeneity of variances
 ##Treatment*Tissue
-Levene_test2 <- table2 %>%
+Levene_test2 <- df2 %>%
   group_by(Element) %>%
   levene_test(ppm ~ Treatment * Tissue)
 
 ##2. Normality
 ##Shapiro-Wilk test for all single treatments
-SW_test <- table2 %>%
+SW_test <- df2 %>%
   group_by(Tissue, Element, Treatment) %>%
   shapiro_test(ppm)
 View(SW_test)
@@ -61,7 +62,7 @@ write.table(SW_test, file = "ICP_ShapiroWilk_Citrate.csv", quote = FALSE, sep = 
 vector_Tissue <- c("R", "S")
 
 Subsets <- lapply(vector_Tissue, function(i){ 
-  i <- subset(table2, Tissue == i)
+  i <- subset(df2, Tissue == i)
 })
 
 names(Subsets) <- vector_Tissue
