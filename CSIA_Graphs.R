@@ -130,7 +130,7 @@ f4 <- f3 + facet_wrap(~metabolite, scales="fixed") +
   xlab("Time (min)") 
 f4
 
-ggsave(filename = paste("InHouse_", Class, "_Scatterplot_Significant_2.pdf", sep=""), plot = f4, dpi = 600, units = "cm", width = 80, height = 60, scale = 0.35)
+ggsave(filename = paste("InHouse_", Class, "_Scatterplot_Significant.pdf", sep=""), plot = f4, dpi = 600, units = "cm", width = 80, height = 60, scale = 0.35)
 
 
 

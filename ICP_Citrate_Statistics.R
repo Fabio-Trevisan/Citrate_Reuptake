@@ -7,15 +7,34 @@ library(rstatix)
 library(purrr)
 library(agricolae)
 
+
 #ICP statistics ####
 #Read CSV ####
-table <- read.csv("DATA_Citrate_ICP.csv", sep=";",
+df <- read.csv("DATA_Citrate_ICP.csv", sep=";",
                   header=T)
 
-table2 <- melt(data = table, 
-               id.vars = c("Tissue", "Treatment", "Concentration"), 
+df2 <- melt(data = df, id.vars = c("Tissue", "Treatment", "Concentration"), 
                variable.name = "Element", 
                value.name = "ppm")
+
+
+Summary_table <- ddply(df2, c("Tissue", "Treatment", "Element"), summarise,
+                       N    = sum(!is.na(ppm)),
+                       mean = mean(ppm, na.rm=TRUE),
+                       sd   = sd(ppm, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+
+ICP_table <- Summary_table[,-6]
+ICP_table$mean <- round(ICP_table$mean, 3)
+ICP_table$se <- round(ICP_table$se, 3)
+#ICP_table$Concentration <- paste(ICP_table$mean, ICP_table$se, sep = " +/- ")
+#ICP_table <- ICP_table[,-c(5,6)]
+
+ICP_table_2 <- dcast(ICP_table, Tissue*Treatment*N~Element, value.var = mean) #### NOT WORKING
+
+
+write.table(ICP_table, file = "ICP_table_Citrate.csv", quote = FALSE, sep = ";")
+
 
 
 #Assumptions ####
