@@ -1,0 +1,156 @@
+$`0microM_TR`
+$`0microM_TR`$`7`
+       Value groups
+P  -34.40847      a
+C  -34.79974      a
+Fe -35.53979      b
+
+$`0microM_TR`$`10`
+       Value groups
+P  -34.44991      a
+C  -36.64216      b
+Fe -36.87052      b
+
+$`0microM_TR`$`14`
+       Value groups
+P  -33.92637      a
+C  -36.80765      b
+Fe -37.15658      b
+
+$`0microM_TR`$`17`
+       Value groups
+P  -33.65239      a
+C  -36.98245      b
+Fe -37.19590      b
+
+
+$`0microM_TS`
+$`0microM_TS`$`7`
+       Value groups
+P  -35.93056      a
+C  -36.81419      b
+Fe -36.95921      b
+
+$`0microM_TS`$`10`
+       Value groups
+P  -35.99425      a
+Fe -37.86298      b
+C  -37.86746      b
+
+$`0microM_TS`$`14`
+       Value groups
+P  -34.85102      a
+Fe -37.16327      b
+C  -37.65633      b
+
+$`0microM_TS`$`17`
+       Value groups
+P  -35.15726      a
+Fe -37.55675      b
+C  -38.28341      b
+
+
+$`50microM_TR`
+$`50microM_TR`$`7`
+       Value groups
+P  -27.82956      a
+C  -31.40028      b
+Fe -32.87099      b
+
+$`50microM_TR`$`10`
+       Value groups
+C  -27.80271      a
+P  -28.19118      a
+Fe -33.02084      b
+
+$`50microM_TR`$`14`
+       Value groups
+P  -28.09673      a
+C  -31.68102      b
+Fe -34.99326      c
+
+$`50microM_TR`$`17`
+       Value groups
+P  -27.68152      a
+C  -31.97651      b
+Fe -34.46775      c
+
+
+$`50microM_TS`
+$`50microM_TS`$`7`
+       Value groups
+P  -35.40190      a
+C  -36.01420     ab
+Fe -36.68596      b
+
+$`50microM_TS`$`10`
+       Value groups
+P  -35.46979      a
+Fe -37.77421      b
+C  -37.83168      b
+
+$`50microM_TS`$`14`
+       Value groups
+P  -34.52230      a
+C  -37.26856      b
+Fe -38.10621      b
+
+$`50microM_TS`$`17`
+       Value groups
+P  -34.60467      a
+Fe -37.20763      b
+C  -37.69565      b
+
+
+$`500microM_TR`
+$`500microM_TR`$`7`
+       Value groups
+P  -16.78730      a
+C  -21.39302     ab
+Fe -24.88408      b
+
+$`500microM_TR`$`10`
+       Value groups
+P  -15.56349      a
+C  -20.72358     ab
+Fe -22.01086      b
+
+$`500microM_TR`$`14`
+       Value groups
+P  -15.28182      a
+C  -19.33626     ab
+Fe -24.56213      b
+
+$`500microM_TR`$`17`
+        Value groups
+P   -6.927656      a
+C  -17.263866      b
+Fe -22.898534      c
+
+
+$`500microM_TS`
+$`500microM_TS`$`7`
+       Value groups
+C  -15.98584      a
+Fe -22.66501      b
+P  -29.44394      c
+
+$`500microM_TS`$`10`
+       Value groups
+C  -28.03538      a
+Fe -34.25676      b
+P  -34.34675      b
+
+$`500microM_TS`$`14`
+       Value groups
+P  -32.78382      a
+Fe -33.06078      a
+C  -34.32258      a
+
+$`500microM_TS`$`17`
+       Value groups
+Fe -30.66230      a
+P  -32.54907      a
+C  -33.83268      a
+
+
