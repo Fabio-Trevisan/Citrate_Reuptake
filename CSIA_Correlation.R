@@ -48,7 +48,7 @@ vector_Treatment <- levels(factor(df$Treatment))
 vector_Time <- levels(factor(df$Time))
 
 #Replace 0
-df["mean_enrichment"][df["mean_enrichment"]==0] <- NA #raplace meanenrichment 0 values with 1/10 ot 1/100 of min values
+df["mean_enrichment"][df["mean_enrichment"]==0] <- NA #raplace meanenrichment 0 values with 1/10 of min values
 x <- min(df$mean_enrichment, na.rm = T)/10 #calculate min values/10
 df[is.na(df)] <- x #raplace meanenrichment 0 values with 1/10 of min values
 
@@ -90,7 +90,7 @@ for(i in vector_metabolite) {
 
 
 
-#Correlation statistic test ####
+#Correlation statistic test (area vs mean enrichment) ####
 res <- lapply(vector_metabolite, function(m){
   lapply(names(Subset_3[[m]]), function(i){ 
     lapply(names(Subset_3[[m]][[i]]), function(n){ 
@@ -109,9 +109,9 @@ for(i in vector_metabolite) {
 } #add names
 
 ##print all ####
-sink(paste("InHouse_", Class, "_Corr.Table.csv", sep=""))
-res
-sink(NULL)
+#sink(paste("InHouse_", Class, "_Corr.Table.csv", sep=""))
+#res
+#sink(NULL)
 
 
 ##print only P-Value and Rho####
@@ -235,8 +235,8 @@ z <- 0.05 #filtering ratio
 Filtered <- Spearman[Spearman$`P_Value`>z,] #P_Value filtering >z
 
 #save
-write.table(Spearman, file = paste("InHouse_", Class, "_Corr.Table_2.0.csv", sep=""), row.names=FALSE, sep = ";")
-write.table(Filtered, file = paste("InHouse_", Class, "_Corr.Table_2.0_(NOT).csv", sep=""), row.names=FALSE, sep = ";")
+write.table(Spearman, file = paste("InHouse_", Class, "_Corr.Table_All.csv", sep=""), row.names=FALSE, sep = ";")
+write.table(Filtered, file = paste("InHouse_", Class, "_Corr.Table_NOT-significant.csv", sep=""), row.names=FALSE, sep = ";")
 
 
 
@@ -275,9 +275,9 @@ p3 <- ggscatter(df, x = "mean_enrichment", y = "area",
 ggsave(filename = paste("InHouse_", Class, "_Corr-matrix.pdf", sep=""), plot = p3, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
 
 #All together
-p4 <- ggscatter(df, x = "mean_enrichment", y = "area", 
-                add = "reg.line", conf.int = TRUE, 
-                cor.coef = TRUE, cor.method = "spearman",
-                xlab = "Enrichment %", ylab = "Relative_abundance")
+#p4 <- ggscatter(df, x = "mean_enrichment", y = "area", 
+                #add = "reg.line", conf.int = TRUE, 
+                #cor.coef = TRUE, cor.method = "spearman",
+                #xlab = "Enrichment %", ylab = "Relative_abundance")
 
-ggsave(filename = paste("InHouse_", Class, "_Correlation.pdf", sep=""), plot = p4, dpi = 600, units = "cm", width = 75, height = 55, scale = 0.3)
+#ggsave(filename = paste("InHouse_", Class, "_Correlation.pdf", sep=""), plot = p4, dpi = 600, units = "cm", width = 75, height = 55, scale = 0.3)
