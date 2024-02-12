@@ -45,6 +45,11 @@ df$Time <- factor(df$Time)
 df$Labeling <- factor(df$Labeling)
 df$Treatment <- factor(df$Treatment)
 
+#filtering only significantly enriched metabolites ####
+df <- subset(df, metabolite%in%metabolites)
+
+
+#define variables levels ####
 vector_metabolite <- levels(factor(df$metabolite))
 vector_Treatment <- levels(factor(df$Treatment))
 vector_Time <- levels(factor(df$Time))
@@ -253,7 +258,7 @@ p1 <- ggscatter(df, x = "mean_enrichment", y = "area",
   scale_fill_manual(values=c("grey77","skyblue3", "blue", "darkblue")) +
   facet_wrap(~metabolite + Treatment, scales="free")
 
-ggsave(filename = paste("InHouse_", Class, "_Corr-matrix_(Time).pdf", sep=""), plot = p1, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
+ggsave(filename = paste("InHouse_", Class, "_Corr-matrix_(Time).pdf", sep=""), plot = p1, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.3)
 
 #Treatment as colour + Time as FacetWrap 
 p2 <- ggscatter(df, x = "mean_enrichment", y = "area", 
@@ -265,7 +270,7 @@ p2 <- ggscatter(df, x = "mean_enrichment", y = "area",
   scale_fill_manual(values=c("grey77","orange", "blue")) +
   facet_wrap(~metabolite + Time, scales="free")
 
-ggsave(filename = paste("InHouse_", Class, "_Corr-matrix_(Treatment).pdf", sep=""), plot = p2, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
+ggsave(filename = paste("InHouse_", Class, "_Corr-matrix_(Treatment).pdf", sep=""), plot = p2, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.3)
 
 #Metabolites as FacetWrap 
 p3 <- ggscatter(df, x = "mean_enrichment", y = "area", 
@@ -274,21 +279,20 @@ p3 <- ggscatter(df, x = "mean_enrichment", y = "area",
                xlab = "Enrichment %", ylab = "Relative_abundance") +
   facet_wrap(~metabolite, scales="free")
 
-ggsave(filename = paste("InHouse_", Class, "_Corr-matrix.pdf", sep=""), plot = p3, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
+ggsave(filename = paste("InHouse_", Class, "_Corr-matrix.pdf", sep=""), plot = p3, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.3)
 
 #All separated only of significant
-df
-
-p2 <- ggscatter(df, x = "mean_enrichment", y = "area", 
-                color = "Treatment",
+p4 <- ggscatter(df, x = "mean_enrichment", y = "area", 
+                color = "Labeling",
+                fill = "Treatment",
                 add = "reg.line", conf.int = TRUE, 
                 cor.coef = TRUE, cor.method = "spearman",
                 xlab = "Enrichment %", ylab = "Relative_abundance") +
-  scale_color_manual(values=c("grey77","orange", "blue")) +
+  scale_color_manual(values=c("grey77","red")) +
   scale_fill_manual(values=c("grey77","orange", "blue")) +
   facet_wrap(~metabolite + Time + Treatment, scales="free")
 
-ggsave(filename = paste("InHouse_", Class, "_Correlation.pdf", sep=""), plot = p2, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
+ggsave(filename = paste("InHouse_", Class, "_Correlation.pdf", sep=""), plot = p4, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
 
 #All together
 #p4 <- ggscatter(df, x = "mean_enrichment", y = "area", 
