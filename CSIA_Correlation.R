@@ -15,11 +15,13 @@ library(reshape2)
 #Read CSV ####
 table <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "OA"
+metabolites <- c("Citrate", "Isocitrate", "Oxoglutarate", "Hydroxyglutarate")
 
 #AA
 #Read CSV ####
 table <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "AA"
+metabolites <- c("Glutamine", "Glutamate", "GABA", "Citrulline", "Aspartate")
 
 #Dataset preparation ####
 #cleaning
@@ -273,6 +275,20 @@ p3 <- ggscatter(df, x = "mean_enrichment", y = "area",
   facet_wrap(~metabolite, scales="free")
 
 ggsave(filename = paste("InHouse_", Class, "_Corr-matrix.pdf", sep=""), plot = p3, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
+
+#All separated only of significant
+df
+
+p2 <- ggscatter(df, x = "mean_enrichment", y = "area", 
+                color = "Treatment",
+                add = "reg.line", conf.int = TRUE, 
+                cor.coef = TRUE, cor.method = "spearman",
+                xlab = "Enrichment %", ylab = "Relative_abundance") +
+  scale_color_manual(values=c("grey77","orange", "blue")) +
+  scale_fill_manual(values=c("grey77","orange", "blue")) +
+  facet_wrap(~metabolite + Time + Treatment, scales="free")
+
+ggsave(filename = paste("InHouse_", Class, "_Correlation.pdf", sep=""), plot = p2, dpi = 600, units = "cm", width = 150, height = 110, scale = 0.5)
 
 #All together
 #p4 <- ggscatter(df, x = "mean_enrichment", y = "area", 
