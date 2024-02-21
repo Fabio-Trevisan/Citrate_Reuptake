@@ -8,10 +8,10 @@ library(tidyverse)
 library(ggpubr)
 
 
-
 #AA
 #Read CSV ####
 df <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0.csv", sep=";", header=T)
+IsoCor <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "AA"
 Class_2 <- "A"
 Std.Conc <- c(1,10,100)
@@ -20,9 +20,11 @@ Std.Conc <- c(1,10,100)
 #OA
 #Read CSV ####
 df <- read.csv("20230711 3-NPH acids from in-house script.csv", sep=";", header=T)
+IsoCor <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "OA"
 Class_2 <- "O"
 Std.Conc <- c(1,10,50,100)
+
 
 
 # df curation ####
@@ -57,15 +59,15 @@ std <- Blank_filtered[!str_detect(names(Blank_filtered), Class_2)] #select only 
 vector_metabolite <- row.names(std) #create vector with metabolites names
 t_std <- as.data.frame(t(std)) #transpose df
 t_std$Std_conc <- Std.Conc #create columns with standard concentration uM
-
-Regression <- lapply(t_std[1:78], function(m){
+n <- ncol(t_std)
+Regression <- lapply(t_std[1:n], function(m){
   lm(m ~ Std_conc, data = t_std)
 }) #create linear regression model
 
 Coefficients <- lapply(vector_metabolite, function(m){
   as.data.frame(Regression[[m]][["coefficients"]])
 }) #extract  intercept and slope
-names(Coefficients) <- vector_metabolite #add names to list
+names(Coefficients) <- vector_metabolite #add names
 for(i in vector_metabolite) {
       names(Coefficients[[i]]) <- "Coefficients"
 } #rename column to Coefficients
@@ -74,24 +76,47 @@ for(i in vector_metabolite) {
 ##  Transform list in dataframe ####
 Coefficients_2 <- lapply(vector_metabolite, function(m){
   as.data.frame(t(Coefficients[[m]][["Coefficients"]]))
-}) #merge P-Values for Time
+}) #transpose coefficients
 names(Coefficients_2) <- vector_metabolite #add names
 for(i in vector_metabolite) {
   names(Coefficients_2[[i]]) <- c("Intercept", "Slope")
 } #rename columns to Intercept and Slope respectively
 
-Coefficients_merged <- do.call(rbind.data.frame, Coefficients_2)
+Coefficients_merged <- do.call(rbind.data.frame, Coefficients_2) #merged coefficients into one df
 
 
-##Conversion area to concentration
+##Conversion area to concentration ####
 ###on raw data file only for m+0 (not isotopologues)!!!
+x <- ncol(Blank_filtered)-1
+Intercept <- as.data.frame(Coefficients_merged$Intercept)
+Intercept <- cbind(Intercept, rep(Intercept[1],x))
+Slope <- as.data.frame(Coefficients_merged$Slope)
+Slope <- cbind(Slope, rep(Slope[1],x))
+
+Concentration <- (Blank_filtered - Intercept) / Slope
+#save concentration table
 
 ## import isocor results
+#cleaning
+IsoCor <- IsoCor[,-c(3,5:7,9:10)] #remove un-useful columns
+IsoCor <- IsoCor[!str_detect(IsoCor$sample, "blank"),] #remove blank samples
+IsoCor <- IsoCor[!str_detect(IsoCor$sample, "std"),] #remove standards
+IsoCor <- IsoCor[!str_detect(IsoCor$sample, "QC"),] #remove QCs
+
+
 ##Calculate concentration of isotopologues with the following formula: 
 ###Excess AA+n * [AA] = [AA+n]
 ###or
 ###Excess OA+n * [OA] = [OA+n]
 ### Where  Excess OA+n = %13C Enrichment 
+
+
+
+
+
+
+
+
 
 
 ##Sum concentration of isotopologues * their mass compared with the monoisotopic form (e.g. m+2 will be multiblied by 2)
