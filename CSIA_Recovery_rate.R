@@ -187,9 +187,6 @@ IsoCor <- IsoCor[!str_detect(IsoCor$sample, "QC"),] #remove QCs
 IsoCor <- IsoCor[!str_detect(IsoCor$isotopologue, "0"),] #remove m+0
 IsoCor <- IsoCor[!str_detect(IsoCor$metabolite, "Norvaline"),] #remove m+0
 
-IsoCor$isotopologue <- as.factor(IsoCor$isotopologue)
-Isotopologues <- levels(IsoCor$isotopologue)
-
 ## Add concentration to IsoCor df
 Conversion <- Conversion
 IsoCor <- IsoCor
@@ -206,7 +203,7 @@ for(i in 1:nrow(Conversion)) {
 
 
 ## Calculate 13C concentration for each isotopologue (Excess AA+n * [AA] * n = [13C AA+n])
-
+IsoCor$Carbon13Conc <- IsoCor$isotopologue * IsoCor$isotopologue_fraction * IsoCor$concentration
 
 
 
