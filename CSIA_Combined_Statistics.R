@@ -49,7 +49,7 @@ vector_Time <- levels(factor(df$Time))
 vector_Labeling <- levels(factor(df$Labeling)) #write vectors for subseting
 
 #Replace 0 with random values of 1/10 +/- 10% of min value
-df["mean_enrichment"][df["mean_enrichment"]==0] <- NA #raplace meanenrichment 0 values with 1/10 ot 1/100 of min values
+df["mean_enrichment"][df["mean_enrichment"]==0] <- NA #raplace meanenrichment 0 values with 1/10 of min values
 x <- min(df$mean_enrichment, na.rm = T)/10 #calculate min values/10
 df[is.na(df)] <-  runif(sum(is.na(df)), min = x-(x/10), max = x+(x/10))
 
