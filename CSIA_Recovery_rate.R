@@ -8,8 +8,8 @@ library(tidyverse)
 library(ggpubr)
 
 
-#AA
-#Read CSV ####
+# AA ####
+#Read CSV
 df <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0.csv", sep=";", header=T)
 IsoCor <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "AA"
@@ -38,9 +38,31 @@ m0 <- c("Ala_260",
         "Glu_318",
         "Ornithine_473") #list of m+0 isotopologues for filtering
 
+m1 <- c("Alanine", 
+        "Arginine", 
+        "Asparagine", 
+        "Aspartate",
+        "Citrulline",
+        "Glutamine", 
+        "Glycine", 
+        "Histidine", 
+        "Isoleucine", 
+        "Leucine", 
+        "Lysine", 
+        "Methionine", 
+        "Phenylalanine",
+        "Proline",
+        "Serine",
+        "Threonine",
+        "Tryptophan", 
+        "Tyrosine", 
+        "Valine",
+        "GABA",
+        "Glutamate",
+        "Ornithine")
 
-#OA
-#Read CSV ####
+# OA ####
+#Read CSV
 df <- read.csv("20230711 3-NPH acids from in-house script.csv", sep=";", header=T)
 IsoCor <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", sep="\t", header=T)
 Class <- "OA"
@@ -62,6 +84,21 @@ m0 <- c("lactate_224",
         "oxalate_359",
         "itaconate_399") #list of m+0 isotopologues for filtering
 
+m1 <- c("Lactate",
+        "Pyruvate",
+        "Fumarate",
+        "Succinate",
+        "Malate",
+        "Isocitrate",
+        "Citrate",
+        "Oxaloacetate",
+        "Oxoglutarate",
+        "Aconitate",
+        "Glycerate",
+        "Glycolate",
+        "Hydroxyglutarate",
+        "Oxalate",
+        "Itaconate")
 
 
 # df curation ####
@@ -72,8 +109,10 @@ df <- df[-1,]
 
 df[,] <- sapply(df[,], as.numeric) #columns from character to numeric
 df <- df[!str_detect(names(df), "QC")] #remove QC
+df$Delete <- row.names(df)
 
-
+df <- df[df$Delete %in% m0, ]
+df <- df[!str_detect(names(df), "Delete")] #remove QC
 
 
 # Sample/Blank ratio filtering ####
@@ -110,7 +149,7 @@ for(i in vector_metabolite) {
 } #rename column to Coefficients
 
 
-##  Transform list in dataframe ####
+## Transform list in dataframe ####
 Coefficients_2 <- lapply(vector_metabolite, function(m){
   as.data.frame(t(Coefficients[[m]][["Coefficients"]]))
 }) #transpose coefficients
@@ -122,23 +161,62 @@ for(i in vector_metabolite) {
 Coefficients_merged <- do.call(rbind.data.frame, Coefficients_2) #merged coefficients into one df
 
 
-##Conversion area to concentration ####
-###on raw data file only for m+0 (not isotopologues)!!!
-x <- ncol(Blank_filtered)-1
-Intercept <- as.data.frame(Coefficients_merged$Intercept)
-Intercept <- cbind(Intercept, rep(Intercept[1],x))
-Slope <- as.data.frame(Coefficients_merged$Slope)
-Slope <- cbind(Slope, rep(Slope[1],x))
+## Conversion area to concentration ####
+x <- ncol(Blank_filtered)-1 #counter adapting df size
+Intercept <- as.data.frame(Coefficients_merged$Intercept) #create df only with intercept values
+Intercept <- cbind(Intercept, rep(Intercept[1],x)) #adapt df size
+Slope <- as.data.frame(Coefficients_merged$Slope) #create df only with slope values
+Slope <- cbind(Slope, rep(Slope[1],x)) #adapt df size
 
-Concentration <- (Blank_filtered - Intercept) / Slope
+Concentration <- (Blank_filtered - Intercept) / Slope #calculate concentration according to x=(y-q)/m inverse of (y=mx+q)
 #save concentration table
+Concentration <- Concentration[!str_detect(names(Concentration), "std")] #remove stds
+Concentration$metabolite <- row.names(Concentration) #create variable metabolites
+row.names(Concentration) <- NULL #remove row names
+Concentration$metabolite <- m1 #rename properly
 
-## import isocor results
-#cleaning
+Conversion <- melt(Concentration, variable.name = "sample", id.vars = "metabolite", value.name = "concentration")
+
+# Import isocor results ####
+## cleaning
 IsoCor <- IsoCor[,-c(3,5:7,9:10)] #remove un-useful columns
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "blank"),] #remove blank samples
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "std"),] #remove standards
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "QC"),] #remove QCs
+
+IsoCor <- IsoCor[!str_detect(IsoCor$isotopologue, "0"),] #remove m+0
+IsoCor <- IsoCor[!str_detect(IsoCor$metabolite, "Norvaline"),] #remove m+0
+
+IsoCor$isotopologue <- as.factor(IsoCor$isotopologue)
+Isotopologues <- levels(IsoCor$isotopologue)
+
+## Add concentration to IsoCor df
+Conversion <- Conversion
+IsoCor <- IsoCor
+Conversion$sample <- as.factor(Conversion$sample)
+Conversion$metabolite <- as.factor(Conversion$metabolite)
+IsoCor$sample <- as.factor(IsoCor$sample)
+IsoCor$metabolite <- as.factor(IsoCor$metabolite)
+
+IsoCor$concentration <- 0
+
+for(i in 1:nrow(Conversion)) {
+  IsoCor$concentration[IsoCor$sample == Conversion[i,]$sample & IsoCor$metabolite == Conversion[i,]$metabolite] <- Conversion[i,]$concentration
+}
+
+
+## Calculate 13C concentration for each isotopologue (Excess AA+n * [AA] * n = [13C AA+n])
+
+
+
+
+lv <- union(levels(two$sample), levels(two$metabolite))
+
+one$sample <- factor(one$sample, levels = lv)
+one$metabolite <- factor(one$metabolite, levels = lv)
+two$sample <- factor(two$sample, levels = lv)
+two$metabolite <- factor(two$metabolite, levels = lv)
+
 
 
 ##Calculate concentration of isotopologues with the following formula: 
