@@ -15,6 +15,28 @@ IsoCor <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor_re
 Class <- "AA"
 Class_2 <- "A"
 Std.Conc <- c(1,10,100)
+m0 <- c("Ala_260", 
+        "Arg_345", 
+        "Asn_303", 
+        "Asp_304",
+        "Citrulline_346",
+        "Gln_317", 
+        "Gly_246", 
+        "His_326", 
+        "Ile_302", 
+        "Leu_302", 
+        "Lys_487", 
+        "Met_320", 
+        "Phe_336",
+        "Pro_286",
+        "Ser_276",
+        "Thr_290",
+        "Trp_375", 
+        "Tyr_352", 
+        "Val_288",
+        "GABA_274",
+        "Glu_318",
+        "Ornithine_473") #list of m+0 isotopologues for filtering
 
 
 #OA
@@ -24,6 +46,21 @@ IsoCor <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", s
 Class <- "OA"
 Class_2 <- "O"
 Std.Conc <- c(1,10,50,100)
+m0 <- c("lactate_224", 
+        "pyruvate_357", 
+        "fumarate_385", 
+        "succinate_387", 
+        "malate_403", 
+        "isocitrate_443", 
+        "citrate_443", 
+        "oxaloacetate_536", 
+        "X2.oxoglutarate_550", 
+        "cis.aconitate_578", 
+        "glycerate_240", 
+        "glycolate_210",
+        "X2.hydroxyglutarate_417",
+        "oxalate_359",
+        "itaconate_399") #list of m+0 isotopologues for filtering
 
 
 
