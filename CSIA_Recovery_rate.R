@@ -1,3 +1,4 @@
+library(plyr)
 library(dplyr)
 library(scales)
 library(tidyr)
@@ -179,8 +180,8 @@ Concentration$metabolite <- m1 #rename properly
 
 Conversion <- melt(Concentration, variable.name = "sample", id.vars = "metabolite", value.name = "concentration")
 
-# Import isocor results ####
-## cleaning ####
+## Import isocor results ####
+### cleaning ####
 IsoCor <- IsoCor[,-c(3,5:7,9:10)] #remove un-useful columns
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "blank"),] #remove blank samples
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "std"),] #remove standards
@@ -194,7 +195,7 @@ IsoCor$sample <- gsub(".{4}$", "", IsoCor$sample)
 Conversion$sample <- gsub("^.{0,4}", "", Conversion$sample)
 Conversion$sample <- gsub(".{4}$", "", Conversion$sample)
 
-## Add concentration to IsoCor df ####
+### Add concentration to IsoCor df ####
 Conversion$metabolite <- as.factor(Conversion$metabolite) #convert character or numeric variable into factor
 IsoCor$metabolite <- as.factor(IsoCor$metabolite)
 
@@ -205,17 +206,21 @@ for(i in 1:nrow(Conversion)) {
 } #add concentration con conversion df in IsoCor df
 
 
-## Calculate 13C content ####
+# Calculate 13C concentration ####
 IsoCor$Carbon13Conc <- 
   IsoCor$isotopologue * IsoCor$isotopologue_fraction * IsoCor$concentration # Calculate 13C concentration (Excess AA+n * [AA] * n = [13C AA+n]) 
 
 IsoCor[is.na(IsoCor)] <- 0 #substitute NA with 0
 IsoCor$Carbon13Conc <- ifelse(IsoCor$Carbon13Conc < 0, 0, IsoCor$Carbon13Conc)#remove negative values
 
-C13Content <- dcast(IsoCor, metabolite ~ sample, sum,  value.var = "Carbon13Conc") #cast dataset (long to wide and sum [C] of isotopologues)
+IsoCor$sample_number <- substr(IsoCor$sample,2,4) #select sample number
+IsoCor$sample_number <- as.numeric(IsoCor$sample_number) #convert character to number
+
+C13Content <- dcast(IsoCor, metabolite ~ sample_number, sum,  value.var = "Carbon13Conc") #cast dataset (long to wide and sum [C] of isotopologues)
 row.names(C13Content) <- C13Content$metabolite #rename rows df
 C13Content <- C13Content[,-1] #remove first row
 
+## Import dataset FW ####
 FW <- read.csv(paste("FreshWeight_", Class, ".csv", sep=""), sep=";", header=T) #get FW (or root weight) weighted for LC-MS analysis approx. 15mg
 row.names(FW) <-  unlist(FW[,1]) #rename rows
 FW <- as.data.frame(t(FW))#transpose df
@@ -223,90 +228,48 @@ FW <- FW[-1,]#remove headings columns/rows
 FW[,] <- sapply(FW[,], as.numeric) #set numeric variables
 FW <- FW[rep(1,nrow(C13Content)),] #create df of equal size
 
-#FW ordine sbagliato aggiustare
+
+## Calculate 13C content ####
 C13Content2 <- C13Content * Dilution / FW * 10 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 10 (FW/DW) = umol 13C / g DW
 
-if (Class == "OA") C13ContentOA <- as.data.frame(colSums(C13Content2)) else
-C13ContentAA <- as.data.frame(colSums(C13Content2))
-
+if (Class == "OA") C13ContentOA <- as.data.frame(colSums(C13Content2)) else C13ContentAA <- as.data.frame(colSums(C13Content2))
 
 
 # Combine AA and OA + summary ####
-CSIA_13C <- C13ContentAA + C13ContentOA
+C13ContentAA <- as.data.frame(C13ContentAA[-39,]) #remove samples where only AA was present & keep only common once
+C13ContentAA <- as.data.frame(C13ContentAA[-22,])
+
+CSIA_13C <- C13ContentAA + C13ContentOA #sum AA & OA df
 
 
+## Import Time-Treatment-Labeling factors file
+Treatment_factors <- read.csv(paste("Treatment_factors_", "OA", ".csv", sep=""), sep=";", header=T) #load file with treatment_factors
+Treatment_factors <- Treatment_factors[1:nrow(CSIA_13C),]
 
-
-
-
-
-
-
-
-
-
-#Time-Treatment-Labeling 
-Treatment_factors <- read.csv(paste("Treatment_factors_", Class, ".csv", sep=""), sep=";", header=T) #load file with treatment_factors
-df$Treatment <- Treatment_factors$Treatment
-df$Time <- Treatment_factors$Time
-df$Labeling <- Treatment_factors$Labeling #add them to df
+Treatment_factors$C13 <- CSIA_13C$`C13ContentAA[-22, ]`
 
 #Uniformation and vectors creation
-df$metabolite <- factor(df$metabolite)
-df$Treatment <- factor(df$Treatment)
-df$Time <- factor(df$Time)
-df$Labeling <- factor(df$Labeling) #convert character and numerbers to factors
+Treatment_factors$Treatment <- factor(Treatment_factors$Treatment)
+Treatment_factors$Time <- factor(Treatment_factors$Time)
+Treatment_factors$Labeling <- factor(Treatment_factors$Labeling) #convert character and numebers to factors
 
-vector_metabolite <- levels(factor(df$metabolite))
-vector_Treatment <- levels(factor(df$Treatment))
-vector_Time <- levels(factor(df$Time))
-vector_Labeling <- levels(factor(df$Labeling)) #write vectors for subseting
+vector_Treatment <- levels(factor(Treatment_factors$Treatment))
+vector_Time <- levels(factor(Treatment_factors$Time))
+vector_Labeling <- levels(factor(Treatment_factors$Labeling)) #write vectors for subseting
 
 
-# Summary table ####
-Summary_table <- ddply(df, c("metabolite", "Time", "Labeling", "Treatment"), summarise,
-                       N    = sum(!is.na(mean_enrichment)),
-                       mean = mean(mean_enrichment, na.rm=TRUE),
-                       sd   = sd(mean_enrichment, na.rm=TRUE),
+## Summary table
+Summary_table <- ddply(Treatment_factors, c("Time", "Labeling", "Treatment"), summarise,
+                       N    = sum(!is.na(C13)),
+                       mean = mean(C13, na.rm=TRUE),
+                       sd   = sd(C13, na.rm=TRUE),
                        se   = sd / sqrt(N))
 
 Summary_table_L <- Summary_table %>% filter(str_detect(Labeling, "L"))
 
 
-
-
-
-
-
-
-
-
-
-#Dataset cleaning and save ####
-FW_norm$metabolite <- row.names(FW_norm)
-row.names(FW_norm) <- NULL
-FW_norm$derivative <- 0
-FW_norm$isotopologue <- 0
-FW_norm$resolution <- 0 #add rown needed by IsoCor
-
-df2 <- melt(FW_norm, value.name = "area", variable.name = "sample", 
-            id = c("metabolite", "derivative", "isotopologue", "resolution")) #melt columns
-
-IsoCor <- read.csv(paste("IsoCor_FileForm_", Class, ".csv", sep=""), sep=";", header=T) #get FW or root weight
-df2$metabolite <- IsoCor$metabolite
-row.names(df2) <- NULL
-df2$derivative <- IsoCor$derivative
-df2$isotopologue <- IsoCor$isotopologue
-df2$resolution <- IsoCor$resolution #add rown needed by IsoCor
-
-if (Class == "OA") {write.table(df2, file = "20230711 3-NPH acids from in-house script_IsoCor.csv", sep =";", row.names=FALSE)} else {write.table(df2, file = "20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor.csv", sep =";", row.names=FALSE)}
-
-if (Class == "OA") {write.table(df2, file = "20230711 3-NPH acids from in-house script_IsoCor.tsv", sep ="\t", quote=FALSE, row.names=FALSE)} else {write.table(df2, file = "20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor.tsv", sep ="\t", quote=FALSE, row.names=FALSE)}
-
-
-
-
-
+## Save table (umol 13C / g DW)  [assuming FW = 10% DW]
+write.table(Summary_table_L, file = "CSIA_Recovery.csv", sep =";", row.names=FALSE)
 
 
 
