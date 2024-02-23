@@ -9,7 +9,48 @@ library(tidyverse)
 library(ggpubr)
 
 # CSIA 
-# AA ####
+## OA ####
+#Read CSV
+df <- read.csv("20230711 3-NPH acids from in-house script.csv", sep=";", header=T)
+IsoCor <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", sep="\t", header=T)
+Class <- "OA"
+Class_2 <- "O"
+Dilution <- 0.1 #mL  or 100uM used for resuspension after extraction
+Std.Conc <- c(1,10,50,100)
+m0 <- c("lactate_224", 
+        "pyruvate_357", 
+        "fumarate_385", 
+        "succinate_387", 
+        "malate_403", 
+        "isocitrate_443", 
+        "citrate_443", 
+        "oxaloacetate_536", 
+        "X2.oxoglutarate_550", 
+        "cis.aconitate_578", 
+        "glycerate_240", 
+        "glycolate_210",
+        "X2.hydroxyglutarate_417",
+        "oxalate_359",
+        "itaconate_399") #list of m+0 isotopologues for filtering
+
+m1 <- c("Lactate",
+        "Pyruvate",
+        "Fumarate",
+        "Succinate",
+        "Malate",
+        "Isocitrate",
+        "Citrate",
+        "Oxaloacetate",
+        "Oxoglutarate",
+        "Aconitate",
+        "Glycerate",
+        "Glycolate",
+        "Hydroxyglutarate",
+        "Oxalate",
+        "Itaconate")
+
+
+## AA ####
 #Read CSV
 df <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0.csv", sep=";", header=T)
 IsoCor <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0_IsoCor_res.tsv", sep="\t", header=T)
@@ -63,48 +104,7 @@ m1 <- c("Alanine",
         "Glutamate",
         "Ornithine")
 
-# OA ####
-#Read CSV
-df <- read.csv("20230711 3-NPH acids from in-house script.csv", sep=";", header=T)
-IsoCor <- read.csv("20230711 3-NPH acids from in-house script_IsoCor_res.tsv", sep="\t", header=T)
-Class <- "OA"
-Class_2 <- "O"
-Dilution <- 0.1 #mL  or 100uM used for resuspension after extraction
-Std.Conc <- c(1,10,50,100)
-m0 <- c("lactate_224", 
-        "pyruvate_357", 
-        "fumarate_385", 
-        "succinate_387", 
-        "malate_403", 
-        "isocitrate_443", 
-        "citrate_443", 
-        "oxaloacetate_536", 
-        "X2.oxoglutarate_550", 
-        "cis.aconitate_578", 
-        "glycerate_240", 
-        "glycolate_210",
-        "X2.hydroxyglutarate_417",
-        "oxalate_359",
-        "itaconate_399") #list of m+0 isotopologues for filtering
-
-m1 <- c("Lactate",
-        "Pyruvate",
-        "Fumarate",
-        "Succinate",
-        "Malate",
-        "Isocitrate",
-        "Citrate",
-        "Oxaloacetate",
-        "Oxoglutarate",
-        "Aconitate",
-        "Glycerate",
-        "Glycolate",
-        "Hydroxyglutarate",
-        "Oxalate",
-        "Itaconate")
-
-
-# df curation ####
+## df curation ####
 df <- df[-1,]
 df <- data.frame(t(df)) #reverse dataframe 
 names(df) <- t(df[1,]) #rename columns
@@ -118,7 +118,7 @@ df <- df[df$Delete %in% m0, ]
 df <- df[!str_detect(names(df), "Delete")] #remove QC
 
 
-# Sample/Blank ratio filtering ####
+## Sample/Blank ratio filtering ####
 Blank_filtering <- df
 y = 3 #blank to sample ratio for filtering
 Blank_filtering$Blank <- pmax(Blank_filtering$`010_blank_50% MeOH.cdf`, 
@@ -133,7 +133,7 @@ Blank_filtered <- Blank_filtering[!str_detect(names(Blank_filtering), "lank")] #
 
 
 
-# Concentration calculation ####
+## Concentration calculation ####
 std <- Blank_filtered[!str_detect(names(Blank_filtered), Class_2)] #select only std
 vector_metabolite <- row.names(std) #create vector with metabolites names
 t_std <- as.data.frame(t(std)) #transpose df
@@ -152,7 +152,7 @@ for(i in vector_metabolite) {
 } #rename column to Coefficients
 
 
-## Transform list in dataframe ####
+### Transform list in dataframe ####
 Coefficients_2 <- lapply(vector_metabolite, function(m){
   as.data.frame(t(Coefficients[[m]][["Coefficients"]]))
 }) #transpose coefficients
@@ -164,7 +164,7 @@ for(i in vector_metabolite) {
 Coefficients_merged <- do.call(rbind.data.frame, Coefficients_2) #merged coefficients into one df
 
 
-## Conversion area to concentration ####
+### Conversion area to concentration ####
 x <- ncol(Blank_filtered)-1 #counter adapting df size
 Intercept <- as.data.frame(Coefficients_merged$Intercept) #create df only with intercept values
 Intercept <- cbind(Intercept, rep(Intercept[1],x)) #adapt df size
@@ -180,8 +180,8 @@ Concentration$metabolite <- m1 #rename properly
 
 Conversion <- melt(Concentration, variable.name = "sample", id.vars = "metabolite", value.name = "concentration")
 
-## Import isocor results ####
-### cleaning ####
+### Import isocor results ####
+#### cleaning ####
 IsoCor <- IsoCor[,-c(3,5:7,9:10)] #remove un-useful columns
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "blank"),] #remove blank samples
 IsoCor <- IsoCor[!str_detect(IsoCor$sample, "std"),] #remove standards
@@ -195,7 +195,7 @@ IsoCor$sample <- gsub(".{4}$", "", IsoCor$sample)
 Conversion$sample <- gsub("^.{0,4}", "", Conversion$sample)
 Conversion$sample <- gsub(".{4}$", "", Conversion$sample)
 
-### Add concentration to IsoCor df ####
+#### Add concentration to IsoCor df ####
 Conversion$metabolite <- as.factor(Conversion$metabolite) #convert character or numeric variable into factor
 IsoCor$metabolite <- as.factor(IsoCor$metabolite)
 
@@ -206,7 +206,7 @@ for(i in 1:nrow(Conversion)) {
 } #add concentration con conversion df in IsoCor df
 
 
-# Calculate 13C concentration ####
+## Calculate 13C concentration ####
 IsoCor$Carbon13Conc <- 
   IsoCor$isotopologue * IsoCor$isotopologue_fraction * IsoCor$concentration # Calculate 13C concentration (Excess AA+n * [AA] * n = [13C AA+n]) 
 
@@ -220,7 +220,7 @@ C13Content <- dcast(IsoCor, metabolite ~ sample_number, sum,  value.var = "Carbo
 row.names(C13Content) <- C13Content$metabolite #rename rows df
 C13Content <- C13Content[,-1] #remove first row
 
-## Import dataset FW ####
+### Import dataset FW ####
 FW <- read.csv(paste("FreshWeight_", Class, ".csv", sep=""), sep=";", header=T) #get FW (or root weight) weighted for LC-MS analysis approx. 15mg
 row.names(FW) <-  unlist(FW[,1]) #rename rows
 FW <- as.data.frame(t(FW))#transpose df
@@ -229,13 +229,13 @@ FW[,] <- sapply(FW[,], as.numeric) #set numeric variables
 FW <- FW[rep(1,nrow(C13Content)),] #create df of equal size
 
 
-## Calculate 13C content ####
+### Calculate 13C content ####
 C13Content2 <- C13Content * Dilution / FW * 20 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 20 (FW/DW) = umol 13C / g DW
 
 if (Class == "OA") C13ContentOA <- as.data.frame(colSums(C13Content2)) else C13ContentAA <- as.data.frame(colSums(C13Content2))
 
-# REPEAT TILL HERE WITH BOTH DATASET "AA" AND "OA" ####
-# Combine AA and OA ####
+## REPEAT TILL HERE WITH BOTH DATASET "AA" AND "OA" ####
+## Combine AA and OA ####
 C13ContentAA <- as.data.frame(C13ContentAA[-39,]) #remove samples where only AA was present & keep only common once
 C13ContentAA <- as.data.frame(C13ContentAA[-22,])
 
@@ -253,16 +253,12 @@ Treatment_factors$Treatment <- factor(Treatment_factors$Treatment)
 Treatment_factors$Time <- factor(Treatment_factors$Time)
 Treatment_factors$Labeling <- factor(Treatment_factors$Labeling) #convert character and numebers to factors
 
-vector_Treatment <- levels(factor(Treatment_factors$Treatment))
-vector_Time <- levels(factor(Treatment_factors$Time))
-vector_Labeling <- levels(factor(Treatment_factors$Labeling)) #write vectors for subseting
-
 Treatment_factors_L <- Treatment_factors %>% filter(str_detect(Labeling, "L"))
 Treatment_factors_L <- Treatment_factors_L[,-4]
 Treatment_factors_L <- Treatment_factors_L[,-1]
 colnames(Treatment_factors_L)[3] ="Value"
 
-## Summary table ####
+### Summary table ####
 Summary_table_CSIA <- ddply(Treatment_factors_L, c("Time", "Treatment"), summarise,
                        N    = sum(!is.na(Value)),
                        mean = mean(Value, na.rm=TRUE),
@@ -294,9 +290,80 @@ Summary_table_BSIA <- ddply(BSIA2, c("Time", "Treatment"), summarise,
                        se   = sd / sqrt(N))
 
 
-# Combine CSIA & BSIA ####
-Summary_table_combined <- rbind(Summary_table_BSIA, Summary_table_CSIA)
-Table_combined <- rbind(BSIA2, Treatment_factors_L)
+# Citrate 2+ and tot-isotopologues ####
+Citrate <- IsoCor[IsoCor$metabolite =="Citrate",]
+Citrate_M2 <- IsoCor[IsoCor$metabolite =="Citrate" & IsoCor$isotopologue =="2",]
+
+Citrate <- dcast(Citrate, metabolite ~ sample_number, sum,  value.var = "Carbon13Conc") #cast dataset (long to wide and sum [C] of isotopologues)
+row.names(Citrate) <- Citrate$metabolite #rename rows df
+Citrate <- Citrate[,-1] #remove first row
+
+Citrate_M2 <- dcast(Citrate_M2, metabolite ~ sample_number, sum,  value.var = "Carbon13Conc") #cast dataset (long to wide and sum [C] of isotopologues)
+row.names(Citrate_M2) <- Citrate_M2$metabolite #rename rows df
+Citrate_M2 <- Citrate_M2[,-1] #remove first row
+
+## Import dataset FW ####
+FW <- read.csv(paste("FreshWeight_", Class, ".csv", sep=""), sep=";", header=T) #get FW (or root weight) weighted for LC-MS analysis approx. 15mg
+row.names(FW) <-  unlist(FW[,1]) #rename rows
+FW <- as.data.frame(t(FW))#transpose df
+FW <- FW[-1,]#remove headings columns/rows
+FW[,] <- sapply(FW[,], as.numeric) #set numeric variables
+
+## Calculate 13C content ####
+Citrate <- Citrate * Dilution / FW * 20 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 20 (FW/DW) = umol 13C / g DW
+Citrate_M2 <- Citrate_M2 * Dilution / FW * 20 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 20 (FW/DW) = umol 13C / g DW
+
+Citrate <- as.data.frame(t(Citrate))
+Citrate_M2 <- as.data.frame(t(Citrate_M2))
+
+## Import Time-Treatment-Labeling factors file
+Treatment_factors <- read.csv(paste("Treatment_factors_", "OA", ".csv", sep=""), sep=";", header=T) #load file with treatment_factors
+Citrate_TF <- Treatment_factors[1:117,]
+Citrate_M2_TF <- Treatment_factors[1:117,]
+
+Citrate_TF$C13 <- Citrate$Citrate
+Citrate_M2_TF$C13 <- Citrate_M2$Citrate
+
+
+## Uniformation and vectors creation
+Citrate_TF$Treatment <- factor(Citrate_TF$Treatment)
+Citrate_TF$Time <- factor(Citrate_TF$Time)
+Citrate_TF$Labeling <- factor(Citrate_TF$Labeling) #convert character and numebers to factors
+
+Citrate_M2_TF$Treatment <- factor(Citrate_M2_TF$Treatment)
+Citrate_M2_TF$Time <- factor(Citrate_M2_TF$Time)
+Citrate_M2_TF$Labeling <- factor(Citrate_M2_TF$Labeling) #convert character and numebers to factors
+
+Citrate_final <- Citrate_TF %>% filter(str_detect(Labeling, "L"))
+Citrate_final <- Citrate_final[,-4]
+Citrate_final <- Citrate_final[,-1]
+colnames(Citrate_final)[3] ="Value"
+
+Citrate_M2_final <- Citrate_M2_TF %>% filter(str_detect(Labeling, "L"))
+Citrate_M2_final <- Citrate_M2_final[,-4]
+Citrate_M2_final <- Citrate_M2_final[,-1]
+colnames(Citrate_M2_final)[3] ="Value"
+
+## Summary table ####
+Summary_table_Citrate <- ddply(Citrate_final, c("Time", "Treatment"), summarise,
+                            N    = sum(!is.na(Value)),
+                            mean = mean(Value, na.rm=TRUE),
+                            sd   = sd(Value, na.rm=TRUE),
+                            se   = sd / sqrt(N))
+
+Summary_table_Citrate_M2 <- ddply(Citrate_M2_final, c("Time", "Treatment"), summarise,
+                               N    = sum(!is.na(Value)),
+                               mean = mean(Value, na.rm=TRUE),
+                               sd   = sd(Value, na.rm=TRUE),
+                               se   = sd / sqrt(N))
+
+
+
+
+
+# Combine CSIA & BSIA & Citrate ####
+Summary_table_combined <- rbind(Summary_table_BSIA, Summary_table_CSIA, Summary_table_Citrate, Summary_table_Citrate_M2)
+Table_combined <- rbind(BSIA2, Treatment_factors_L, Citrate_final, Citrate_M2_final)
 
 
 ## Save table (umol 13C / g DW)  [assuming FW = 5% DW according to the data we have] ####
