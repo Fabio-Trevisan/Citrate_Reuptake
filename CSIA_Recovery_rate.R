@@ -8,7 +8,7 @@ library(reshape2)
 library(tidyverse)
 library(ggpubr)
 
-
+# CSIA 
 # AA ####
 #Read CSV
 df <- read.csv("20230714_AccQ-Tag_AA_peak areas_inhouse_script 2.0.csv", sep=";", header=T)
@@ -230,12 +230,12 @@ FW <- FW[rep(1,nrow(C13Content)),] #create df of equal size
 
 
 ## Calculate 13C content ####
-C13Content2 <- C13Content * Dilution / FW * 10 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 10 (FW/DW) = umol 13C / g DW
+C13Content2 <- C13Content * Dilution / FW * 20 #[C]uM * Volume(0.1 or 0.05mL) / FW (mg) * 20 (FW/DW) = umol 13C / g DW
 
 if (Class == "OA") C13ContentOA <- as.data.frame(colSums(C13Content2)) else C13ContentAA <- as.data.frame(colSums(C13Content2))
 
-
-# Combine AA and OA + summary ####
+# REPEAT TILL HERE WITH BOTH DATASET "AA" AND "OA" ####
+# Combine AA and OA ####
 C13ContentAA <- as.data.frame(C13ContentAA[-39,]) #remove samples where only AA was present & keep only common once
 C13ContentAA <- as.data.frame(C13ContentAA[-22,])
 
@@ -248,7 +248,7 @@ Treatment_factors <- Treatment_factors[1:nrow(CSIA_13C),]
 
 Treatment_factors$C13 <- CSIA_13C$`C13ContentAA[-22, ]`
 
-#Uniformation and vectors creation
+## Uniformation and vectors creation
 Treatment_factors$Treatment <- factor(Treatment_factors$Treatment)
 Treatment_factors$Time <- factor(Treatment_factors$Time)
 Treatment_factors$Labeling <- factor(Treatment_factors$Labeling) #convert character and numebers to factors
@@ -257,30 +257,49 @@ vector_Treatment <- levels(factor(Treatment_factors$Treatment))
 vector_Time <- levels(factor(Treatment_factors$Time))
 vector_Labeling <- levels(factor(Treatment_factors$Labeling)) #write vectors for subseting
 
+Treatment_factors_L <- Treatment_factors %>% filter(str_detect(Labeling, "L"))
+Treatment_factors_L <- Treatment_factors_L[,-4]
+Treatment_factors_L <- Treatment_factors_L[,-1]
+colnames(Treatment_factors_L)[3] ="Value"
 
-## Summary table
-Summary_table <- ddply(Treatment_factors, c("Time", "Labeling", "Treatment"), summarise,
-                       N    = sum(!is.na(C13)),
-                       mean = mean(C13, na.rm=TRUE),
-                       sd   = sd(C13, na.rm=TRUE),
+## Summary table ####
+Summary_table_CSIA <- ddply(Treatment_factors_L, c("Time", "Treatment"), summarise,
+                       N    = sum(!is.na(Value)),
+                       mean = mean(Value, na.rm=TRUE),
+                       sd   = sd(Value, na.rm=TRUE),
                        se   = sd / sqrt(N))
 
-Summary_table_L <- Summary_table %>% filter(str_detect(Labeling, "L"))
-
-
-## Save table (umol 13C / g DW)  [assuming FW = 10% DW]
-write.table(Summary_table_L, file = "CSIA_Recovery.csv", sep =";", row.names=FALSE)
 
 
 
 
+# BSIA ####
+BSIA <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
+                  header=T)
+
+BSIA$Species_Tissue <- as.factor(BSIA$Species_Tissue)
+BSIA$Time <- as.factor(BSIA$Time)
+BSIA$Treatment <- as.factor(BSIA$Treatment)
+
+BSIA2 <- BSIA[BSIA$Time =="14" & BSIA$Species_Tissue == "500microM_TR",]
+
+BSIA2$Value <- BSIA2$Value/13*1000
+BSIA2 <- BSIA2[,-3]
+
+## Summary table
+Summary_table_BSIA <- ddply(BSIA2, c("Time", "Treatment"), summarise,
+                       N    = sum(!is.na(Value)),
+                       mean = mean(Value, na.rm=TRUE),
+                       sd   = sd(Value, na.rm=TRUE),
+                       se   = sd / sqrt(N))
 
 
-# IRMS data ####
-#Read CSV ####
-df <- read.csv("---.csv", sep=";", header=T)
+# Combine CSIA & BSIA ####
+Summary_table_combined <- rbind(Summary_table_BSIA, Summary_table_CSIA)
+Table_combined <- rbind(BSIA2, Treatment_factors_L)
 
-#convert stable isotope ratio in carbon content and 13C carbon concentration 
-#via mass balance / mm of citrate?
-#or
-#via stable carbon isotope ratio knowing the concentration of C in the sample? 
+
+## Save table (umol 13C / g DW)  [assuming FW = 5% DW according to the data we have] ####
+write.table(Summary_table_combined, file = "CSIA_Recovery_summary.csv", sep =";", row.names=FALSE)
+
+write.table(Summary_table_combined, file = "CSIA_Recovery_raw.csv", sep =";", row.names=FALSE)
