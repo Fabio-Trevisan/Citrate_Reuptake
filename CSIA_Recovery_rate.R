@@ -8,7 +8,7 @@ library(reshape2)
 library(tidyverse)
 library(ggpubr)
 
-# CSIA 
+# CSIA (run first script for AA and then for OA)
 ## OA ####
 #Read CSV
 df <- read.csv("20230711 3-NPH acids from in-house script.csv", sep=";", header=T)
@@ -270,20 +270,18 @@ Summary_table_CSIA <- ddply(Treatment_factors_L, c("Time", "Treatment"), summari
 
 
 # BSIA ####
-BSIA <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
+BSIA <- read.csv("DATA_STD_MassBalance_Citrate_RECOVERY.csv", sep=";",
                   header=T)
 
 BSIA$Species_Tissue <- as.factor(BSIA$Species_Tissue)
 BSIA$Time <- as.factor(BSIA$Time)
 BSIA$Treatment <- as.factor(BSIA$Treatment)
 
-BSIA2 <- BSIA[BSIA$Time =="14" & BSIA$Species_Tissue == "500microM_TR",]
-
-BSIA2$Value <- BSIA2$Value/13*1000
-BSIA2 <- BSIA2[,-3]
+BSIA$Value <- BSIA$Value/13*1000
+BSIA <- BSIA[,-3]
 
 ## Summary table
-Summary_table_BSIA <- ddply(BSIA2, c("Time", "Treatment"), summarise,
+Summary_table_BSIA <- ddply(BSIA, c("Time", "Treatment"), summarise,
                        N    = sum(!is.na(Value)),
                        mean = mean(Value, na.rm=TRUE),
                        sd   = sd(Value, na.rm=TRUE),
@@ -363,10 +361,10 @@ Summary_table_Citrate_M2 <- ddply(Citrate_M2_final, c("Time", "Treatment"), summ
 
 # Combine CSIA & BSIA & Citrate ####
 Summary_table_combined <- rbind(Summary_table_BSIA, Summary_table_CSIA, Summary_table_Citrate, Summary_table_Citrate_M2)
-Table_combined <- rbind(BSIA2, Treatment_factors_L, Citrate_final, Citrate_M2_final)
+Table_combined <- rbind(BSIA, Treatment_factors_L, Citrate_final, Citrate_M2_final)
 
 
 ## Save table (umol 13C / g DW)  [assuming FW = 5% DW according to the data we have] ####
 write.table(Summary_table_combined, file = "CSIA_Recovery_summary.csv", sep =";", row.names=FALSE)
 
-write.table(Summary_table_combined, file = "CSIA_Recovery_raw.csv", sep =";", row.names=FALSE)
+write.table(Table_combined, file = "CSIA_Recovery_raw.csv", sep =";", row.names=FALSE)
