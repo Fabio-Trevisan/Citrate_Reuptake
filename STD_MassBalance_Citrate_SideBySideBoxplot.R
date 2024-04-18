@@ -15,6 +15,14 @@ table <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
 table <- table %>% drop_na(Value)
 
 
+Summary_table <- ddply(table, c("Treatment", "Time", "Species_Tissue"), summarise,
+                       N    = sum(!is.na(Value)),
+                       mean = mean(Value, na.rm=TRUE),
+                       sd   = sd(Value, na.rm=TRUE),
+                       se   = sd / sqrt(N))
+write.table(Summary_table, "STD_MassBalance_Citrate_summary_statistics.csv", quote = FALSE, sep = ";")
+
+
 #SideBySide Boxlot ####
 my_order<- c("C", "Fe", "P")
 f1 <- ggplot(table, aes(x = factor(Time), y = Value, fill = Treatment)) +  
