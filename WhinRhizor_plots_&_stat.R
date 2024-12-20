@@ -18,6 +18,15 @@ table <- read.csv("DATA_WinRhizor.csv", sep=";",
 
 table2 <- melt(table, value.name = "Value", id = c("Treatment"), variable.name = "Parameter" )
 
+#Sumamry table####
+Summary_table_Winrhizo <- ddply(table2, c("Parameter", "Treatment"), summarise,
+                            N    = sum(!is.na(Value)),
+                            mean = mean(Value, na.rm=TRUE),
+                            sd   = sd(Value, na.rm=TRUE),
+                            se   = sd / sqrt(N))
+write.table(Summary_table_Winrhizo, file = "WinRhizor_summary_table.csv", quote = FALSE, sep = ";")
+
+
 #Boxlot ####
 my_order<- c("C", "Fe", "P")
 b1 <- ggplot(table2, aes(x = factor(Treatment, level = my_order), y = Value, fill = factor(Treatment, level = my_order))) +  
