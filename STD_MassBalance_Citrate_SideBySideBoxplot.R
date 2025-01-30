@@ -7,7 +7,7 @@ library(plyr)
 library(dplyr)
 library(readxl)
 library(scales)
-
+library(agricolae)
 
 table <- read.csv("DATA_STD_MassBalance_Citrate.csv", sep=";",
                   header=T)
@@ -137,7 +137,26 @@ Regression_model_comparison <- lapply(split(table, table$Species_Tissue), functi
   anova(lm(Value ~ Time*Treatment, data = i))
 })
 
-sink("STD_MassBalance_Citrate_Regression_model_Comparison.csv")
-Regression_model_comparison
-sink(NULL)
+Regression_model_comparison <- lapply(vector_Species_Tissue, function(m){
+  lm(Value ~ Time * Treatment , data = Subsets[[m]])
+})
+names(Regression_model_comparison) <- vector_Species_Tissue
 
+Regression_model_comparison_print <- lapply(vector_Species_Tissue, function(m){
+  summary(Regression_model_comparison[[m]])
+})
+names(Regression_model_comparison_print) <- vector_Species_Tissue
+
+
+
+#Tukey as post hoc test ####
+##Treatment
+HSD_Tr <- lapply(vector_Species_Tissue, function(m){
+  HSD.test(Regression_model_comparison[[m]], "Treatment")
+})
+names(HSD_Tr) <- vector_Species_Tissue
+
+
+sink("STD_MassBalance_Citrate_Regression_model_Comparison.csv")
+HSD_Tr
+sink(NULL)
