@@ -1,388 +1,1890 @@
-$Aconitate;;
-$Aconitate$`15`;;
-;i$mean_enrichment;groups
-Fe;10.75;a
-C;7.8;a
-P;4.6;a
-;;
-$Aconitate$`30`;;
-;i$mean_enrichment;groups
-Fe;10.8;a
-C;7.25;ab
-P;4.4;b
-;;
-$Aconitate$`60`;;
-;i$mean_enrichment;groups
-Fe;11;a
-C;7.4;a
-P;5.6;a
-;;
-$Aconitate$`120`;;
-;i$mean_enrichment;groups
-C;12.8;a
-Fe;7.4;b
-P;3.8;c
-;;
-;;
-$Citrate;;
-$Citrate$`15`;;
-;i$mean_enrichment;groups
-Fe;10;a
-C;9.8;a
-P;3.2;b
-;;
-$Citrate$`30`;;
-;i$mean_enrichment;groups
-C;11.5;a
-Fe;8.8;a
-P;3;b
-;;
-$Citrate$`60`;;
-;i$mean_enrichment;groups
-C;11;a
-Fe;9.8;a
-P;3.2;b
-;;
-$Citrate$`120`;;
-;i$mean_enrichment;groups
-C;12.6;a
-Fe;8.2;b
-P;3.2;c
-;;
-;;
-$Fumarate;;
-$Fumarate$`15`;;
-;i$mean_enrichment;groups
-P;8.6;a
-C;7.4;a
-Fe;6.25;a
-;;
-$Fumarate$`30`;;
-;i$mean_enrichment;groups
-C;9;a
-P;8.4;a
-Fe;5.4;a
-;;
-$Fumarate$`60`;;
-;i$mean_enrichment;groups
-P;9;a
-C;8.4;a
-Fe;6.6;a
-;;
-$Fumarate$`120`;;
-;i$mean_enrichment;groups
-C;10;a
-P;7.6;a
-Fe;6.4;a
-;;
-;;
-$Glycerate;;
-$Glycerate$`15`;;
-;i$mean_enrichment;groups
-Fe;8.5;a
-P;8.4;a
-C;5.8;a
-;;
-$Glycerate$`30`;;
-;i$mean_enrichment;groups
-P;9.6;a
-Fe;6.6;a
-C;6;a
-;;
-$Glycerate$`60`;;
-;i$mean_enrichment;groups
-P;12.2;a
-C;8.4;b
-Fe;3.4;c
-;;
-$Glycerate$`120`;;
-;i$mean_enrichment;groups
-Fe;10.4;a
-P;9.4;a
-C;4.2;a
-;;
-;;
-$Glycolate;;
-$Glycolate$`15`;;
-;i$mean_enrichment;groups
-C;7.6;a
-P;7.6;a
-Fe;7.25;a
-;;
-$Glycolate$`30`;;
-;i$mean_enrichment;groups
-C;8.5;a
-P;7.6;a
-Fe;6.6;a
-;;
-$Glycolate$`60`;;
-;i$mean_enrichment;groups
-C;9.6;a
-P;8.8;a
-Fe;5.6;a
-;;
-$Glycolate$`120`;;
-;i$mean_enrichment;groups
-C;11;a
-P;6.8;a
-Fe;6.2;a
-;;
-;;
-$Hydroxyglutarate;;
-$Hydroxyglutarate$`15`;;
-;i$mean_enrichment;groups
-P;10.2;a
-Fe;9.75;a
-C;3;b
-;;
-$Hydroxyglutarate$`30`;;
-;i$mean_enrichment;groups
-Fe;11.8;a
-P;7.2;b
-C;2.5;c
-;;
-$Hydroxyglutarate$`60`;;
-;i$mean_enrichment;groups
-Fe;11.4;a
-P;8.8;ab
-C;3.8;b
-;;
-$Hydroxyglutarate$`120`;;
-;i$mean_enrichment;groups
-P;10;a
-Fe;7.6;a
-C;6.4;a
-;;
-;;
-$Isocitrate;;
-$Isocitrate$`15`;;
-;i$mean_enrichment;groups
-C;10.8;a
-Fe;8.5;a
-P;3.4;b
-;;
-$Isocitrate$`30`;;
-;i$mean_enrichment;groups
-C;11;a
-Fe;9.2;a
-P;3;b
-;;
-$Isocitrate$`60`;;
-;i$mean_enrichment;groups
-C;13;a
-P;6.4;b
-Fe;4.6;b
-;;
-$Isocitrate$`120`;;
-;i$mean_enrichment;groups
-C;13;a
-Fe;6.4;b
-P;4.6;b
-;;
-;;
-$Itaconate;;
-$Itaconate$`15`;;
-;i$mean_enrichment;groups
-C;11;a
-Fe;8.75;a
-P;3;b
-;;
-$Itaconate$`30`;;
-;i$mean_enrichment;groups
-C;11.25;a
-Fe;9;a
-P;3;b
-;;
-$Itaconate$`60`;;
-;i$mean_enrichment;groups
-C;12.4;a
-Fe;8.6;b
-P;3;c
-;;
-$Itaconate$`120`;;
-;i$mean_enrichment;groups
-C;11.2;a
-Fe;9.4;a
-P;3.4;b
-;;
-;;
-$Lactate;;
-$Lactate$`15`;;
-;i$mean_enrichment;groups
-P;8.2;a
-C;7.8;a
-Fe;6.25;a
-;;
-$Lactate$`30`;;
-;i$mean_enrichment;groups
-Fe;8.8;a
-P;7.6;a
-C;5.75;a
-;;
-$Lactate$`60`;;
-;i$mean_enrichment;groups
-P;9.8;a
-Fe;7.2;a
-C;7;a
-;;
-$Lactate$`120`;;
-;i$mean_enrichment;groups
-P;10;a
-C;7.6;a
-Fe;6.4;a
-;;
-;;
-$Malate;;
-$Malate$`15`;;
-;i$mean_enrichment;groups
-C;12;a
-Fe;5.5;b
-P;4.6;b
-;;
-$Malate$`30`;;
-;i$mean_enrichment;groups
-C;12;a
-P;6.8;b
-Fe;4.6;b
-;;
-$Malate$`60`;;
-;i$mean_enrichment;groups
-C;12.2;a
-Fe;7.2;ab
-P;4.6;b
-;;
-$Malate$`120`;;
-;i$mean_enrichment;groups
-C;12.8;a
-Fe;6.6;b
-P;4.6;b
-;;
-;;
-$Oxalate;;
-$Oxalate$`15`;;
-;i$mean_enrichment;groups
-P;9.4;a
-Fe;7.5;a
-C;5.6;a
-;;
-$Oxalate$`30`;;
-;i$mean_enrichment;groups
-Fe;10;a
-P;6.8;a
-C;5.25;a
-;;
-$Oxalate$`60`;;
-;i$mean_enrichment;groups
-P;12;a
-C;6;b
-Fe;6;b
-;;
-$Oxalate$`120`;;
-;i$mean_enrichment;groups
-C;9.8;a
-Fe;7.2;a
-P;7;a
-;;
-;;
-$Oxaloacetate;;
-$Oxaloacetate$`15`;;
-;i$mean_enrichment;groups
-P;9.4;a
-C;8.8;a
-Fe;3.5;a
-;;
-$Oxaloacetate$`30`;;
-;i$mean_enrichment;groups
-P;9.6;a
-C;8.25;a
-Fe;4.8;a
-;;
-$Oxaloacetate$`60`;;
-;i$mean_enrichment;groups
-P;12.6;a
-C;8.2;b
-Fe;3.2;c
-;;
-$Oxaloacetate$`120`;;
-;i$mean_enrichment;groups
-Fe;11;a
-P;9.8;a
-C;3.2;b
-;;
-;;
-$Oxoglutarate;;
-$Oxoglutarate$`15`;;
-;i$mean_enrichment;groups
-P;10.4;a
-C;8.6;a
-Fe;2.5;b
-;;
-$Oxoglutarate$`30`;;
-;i$mean_enrichment;groups
-P;9.4;a
-C;7.75;a
-Fe;5.4;a
-;;
-$Oxoglutarate$`60`;;
-;i$mean_enrichment;groups
-C;10.8;a
-P;9.6;a
-Fe;3.6;b
-;;
-$Oxoglutarate$`120`;;
-;i$mean_enrichment;groups
-C;10;a
-Fe;9.8;a
-P;4.2;a
-;;
-;;
-$Pyruvate;;
-$Pyruvate$`15`;;
-;i$mean_enrichment;groups
-P;8.6;a
-Fe;7.25;a
-C;6.6;a
-;;
-$Pyruvate$`30`;;
-;i$mean_enrichment;groups
-P;10.6;a
-C;6;a
-Fe;5.6;a
-;;
-$Pyruvate$`60`;;
-;i$mean_enrichment;groups
-P;11.6;a
-Fe;8.2;ab
-C;4.2;b
-;;
-$Pyruvate$`120`;;
-;i$mean_enrichment;groups
-Fe;10;a
-P;9.2;a
-C;4.8;a
-;;
-;;
-$Succinate;;
-$Succinate$`15`;;
-;i$mean_enrichment;groups
-P;9.2;a
-Fe;8.5;a
-C;5;a
-;;
-$Succinate$`30`;;
-;i$mean_enrichment;groups
-P;9.4;a
-C;7.75;a
-Fe;5.4;a
-;;
-$Succinate$`60`;;
-;i$mean_enrichment;groups
-P;8.8;a
-Fe;8.2;a
-C;7;a
-;;
-$Succinate$`120`;;
-;i$mean_enrichment;groups
-P;9.4;a
-C;7.6;a
-Fe;7;a
+$Aconitate
+$Aconitate$`15`
+$statistics
+     Chisq    p.chisq
+  4.842857 0.08879468
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment  rank         std r         Min
+C         0.02260557  7.80 0.013387885 5 0.006187838
+Fe        0.03158848 10.75 0.008511236 4 0.024213582
+P         0.01343428  4.60 0.008260780 5 0.004598773
+          Max        Q25        Q50        Q75
+C  0.03769793 0.01191243 0.02454941 0.03268023
+Fe 0.04288870 0.02548991 0.02962582 0.03572439
+P  0.02441358 0.00706912 0.01201470 0.01907523
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe             10.75      a
+C               7.80      a
+P               4.60      a
+
+attr(,"class")
+[1] "group"
+
+$Aconitate$`30`
+$statistics
+     Chisq    p.chisq
+  5.871429 0.05309278
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment  rank         std r         Min
+C         0.02302913  7.25 0.013486276 4 0.005957744
+Fe        0.03714374 10.80 0.013410718 5 0.021878064
+P         0.01580245  4.40 0.006131233 5 0.008182376
+          Max        Q25        Q50        Q75
+C  0.03803487 0.01678529 0.02406196 0.03030580
+Fe 0.05650339 0.02764350 0.03801876 0.04167499
+P  0.02216973 0.01048941 0.01809119 0.02007955
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe             10.80      a
+C               7.25     ab
+P               4.40      b
+
+attr(,"class")
+[1] "group"
+
+$Aconitate$`60`
+$statistics
+  Chisq   p.chisq
+   3.78 0.1510718
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank        std r         Min
+C         0.04023557  7.4 0.03385970 5 0.004574132
+Fe        0.06301325 11.0 0.01829611 5 0.042053516
+P         0.02264287  5.6 0.01727853 5 0.011632206
+          Max         Q25        Q50        Q75
+C  0.07793630 0.006939438 0.04370445 0.06802350
+Fe 0.08967113 0.051874536 0.06072520 0.07074188
+P  0.05320280 0.013930622 0.01573726 0.01871147
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              11.0      a
+C                7.4      a
+P                5.6      a
+
+attr(,"class")
+[1] "group"
+
+$Aconitate$`120`
+$statistics
+  Chisq    p.chisq
+  10.26 0.00591656
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r        Min
+C         0.06634029 12.8 0.020282800 5 0.04680188
+Fe        0.03608665  7.4 0.009562317 5 0.02600893
+P         0.02103492  3.8 0.010469939 5 0.01058325
+          Max        Q25        Q50        Q75
+C  0.09745895 0.04955286 0.06875398 0.06913376
+Fe 0.04742902 0.02881568 0.03340489 0.04477474
+P  0.03650996 0.01509880 0.01628985 0.02669275
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.8      a
+Fe               7.4      b
+P                3.8      c
+
+attr(,"class")
+[1] "group"
+
+
+$Citrate
+$Citrate$`15`
+$statistics
+     Chisq    p.chisq
+  8.222857 0.01638435
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0068733712  9.8 0.0036776857 5 1.703500e-03
+Fe      0.0082887490 10.0 0.0072148119 4 1.248643e-04
+P       0.0001224684  3.2 0.0002730457 5 3.288062e-07
+            Max          Q25          Q50          Q75
+C  0.0108115359 5.074298e-03 6.968320e-03 9.809202e-03
+Fe 0.0157269593 3.431160e-03 8.651586e-03 1.350918e-02
+P  0.0006109073 3.617063e-07 3.714651e-07 3.727521e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              10.0      a
+C                9.8      a
+P                3.2      b
+
+attr(,"class")
+[1] "group"
+
+$Citrate$`30`
+$statistics
+     Chisq     p.chisq
+  9.925714 0.006992919
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       1.296555e-02 11.5 1.088564e-02 4 4.744543e-03
+Fe      5.427452e-03  8.8 4.513010e-03 5 6.438386e-05
+P       3.413145e-07  3.0 1.532106e-08 5 3.222122e-07
+            Max          Q25          Q50          Q75
+C  2.786738e-02 4.906213e-03 9.625139e-03 1.768448e-02
+Fe 1.071232e-02 2.510442e-03 4.497909e-03 9.352209e-03
+P  3.629771e-07 3.332812e-07 3.404971e-07 3.476050e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               11.5      a
+Fe               8.8      a
+P                3.0      b
+
+attr(,"class")
+[1] "group"
+
+$Citrate$`60`
+$statistics
+  Chisq    p.chisq
+   8.82 0.01215518
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r          Min
+C       0.0143868388 11.0 0.012172408 5 2.113150e-03
+Fe      0.0072538585  9.8 0.004648831 5 2.306928e-03
+P       0.0006880359  3.2 0.000934120 5 3.252716e-07
+           Max          Q25          Q50          Q75
+C  0.033553651 0.0061309126 0.0133992636 0.0167372161
+Fe 0.013703959 0.0031814396 0.0080457894 0.0090311761
+P  0.002268354 0.0001448883 0.0002270383 0.0007995733
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               11.0      a
+Fe               9.8      a
+P                3.2      b
+
+attr(,"class")
+[1] "group"
+
+$Citrate$`120`
+$statistics
+  Chisq     p.chisq
+  11.06 0.003965989
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0191901129 12.6 0.0023311977 5 1.608380e-02
+Fe      0.0090697966  8.2 0.0058890990 5 2.125566e-03
+P       0.0006417053  3.2 0.0008977175 5 3.277962e-07
+           Max          Q25         Q50          Q75
+C  0.021812306 0.0175041004 0.020187229 0.0203631302
+Fe 0.018210045 0.0069158265 0.007971975 0.0101255703
+P  0.002226358 0.0002932493 0.000307071 0.0003815207
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.6      a
+Fe               8.2      b
+P                3.2      c
+
+attr(,"class")
+[1] "group"
+
+
+$Fumarate
+$Fumarate$`15`
+$statistics
+     Chisq   p.chisq
+  2.785714 0.2483647
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       1.631573e-06 9.80 2.844689e-06 5 3.308984e-07
+Fe      3.543719e-07 7.25 2.125641e-08 4 3.230729e-07
+P       3.423475e-07 5.40 1.709081e-08 5 3.273614e-07
+            Max          Q25          Q50          Q75
+C  6.720130e-06 3.424635e-07 3.744378e-07 3.899336e-07
+Fe 3.704935e-07 3.517658e-07 3.619607e-07 3.645668e-07
+P  3.671862e-07 3.295664e-07 3.348900e-07 3.527334e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               9.80      a
+Fe              7.25      a
+P               5.40      a
+
+attr(,"class")
+[1] "group"
+
+$Fumarate$`30`
+$statistics
+      Chisq   p.chisq
+  0.5428571 0.7622897
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.658136e-07  8.0 1.479990e-08 4 3.482543e-07
+Fe      3.595775e-07  6.4 7.363995e-09 5 3.509073e-07
+P       3.631056e-07  8.2 2.832461e-08 5 3.254396e-07
+            Max          Q25          Q50          Q75
+C  3.838322e-07 3.586530e-07 3.655840e-07 3.727446e-07
+Fe 3.702602e-07 3.548104e-07 3.602125e-07 3.616971e-07
+P  3.923139e-07 3.424096e-07 3.712020e-07 3.841628e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                8.2      a
+C                8.0      a
+Fe               6.4      a
+
+attr(,"class")
+[1] "group"
+
+$Fumarate$`60`
+$statistics
+  Chisq   p.chisq
+   0.14 0.9323938
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       6.264747e-05  8.4 1.393079e-04 5 3.256273e-07
+Fe      3.523993e-07  8.2 2.203457e-08 5 3.273686e-07
+P       3.481951e-07  7.4 8.766149e-09 5 3.397202e-07
+            Max          Q25          Q50          Q75
+C  3.118490e-04 3.383413e-07 3.599161e-07 3.644213e-07
+Fe 3.828672e-07 3.388689e-07 3.471875e-07 3.657044e-07
+P  3.582215e-07 3.400894e-07 3.465809e-07 3.563634e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                8.4      a
+Fe               8.2      a
+P                7.4      a
+
+attr(,"class")
+[1] "group"
+
+$Fumarate$`120`
+$statistics
+  Chisq   p.chisq
+   0.54 0.7633795
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       6.853021e-05  8.6 1.524539e-04 5 3.226703e-07
+Fe      3.502273e-07  6.8 2.743562e-08 5 3.230849e-07
+P       3.599008e-07  8.6 1.842323e-08 5 3.400117e-07
+            Max          Q25          Q50          Q75
+C  3.412480e-04 3.457549e-07 3.636219e-07 3.709838e-07
+Fe 3.909553e-07 3.265107e-07 3.544062e-07 3.561795e-07
+P  3.823024e-07 3.416105e-07 3.669995e-07 3.685797e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                8.6      a
+P                8.6      a
+Fe               6.8      a
+
+attr(,"class")
+[1] "group"
+
+
+$Glycerate
+$Glycerate$`15`
+$statistics
+      Chisq   p.chisq
+  0.7714286 0.6799648
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.375057e-06  8.8 6.709023e-06 5 3.570305e-07
+Fe      2.527011e-04  7.0 3.118347e-04 4 3.458128e-07
+P       1.696885e-04  6.6 3.786400e-04 5 3.497330e-07
+            Max          Q25          Q50          Q75
+C  1.537651e-05 3.758348e-07 3.828530e-07 3.830594e-07
+Fe 6.410549e-04 3.471791e-07 1.847018e-04 4.370556e-04
+P  8.470203e-04 3.532303e-07 3.543329e-07 3.647702e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                8.8      a
+Fe               7.0      a
+P                6.6      a
+
+attr(,"class")
+[1] "group"
+
+$Glycerate$`30`
+$statistics
+     Chisq   p.chisq
+  1.985714 0.3705166
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.593539e-07 5.25 3.135904e-08 4 3.222672e-07
+Fe      8.577599e-05 7.60 1.909786e-04 5 3.474864e-07
+P       7.481732e-04 9.20 1.357580e-03 5 3.375848e-07
+            Max          Q25          Q50          Q75
+C  3.897373e-07 3.392940e-07 3.627055e-07 3.827654e-07
+Fe 4.274090e-04 3.620570e-07 3.806561e-07 3.808093e-07
+P  3.156314e-03 3.797964e-07 1.537906e-04 4.300442e-04
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               9.20      a
+Fe              7.60      a
+C               5.25      a
+
+attr(,"class")
+[1] "group"
+
+$Glycerate$`60`
+$statistics
+  Chisq   p.chisq
+   0.08 0.9607894
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.528649e-07  7.6 1.726587e-08 5 3.240343e-07
+Fe      3.578895e-07  8.0 1.017583e-08 5 3.462906e-07
+P       1.079289e-04  8.4 2.405459e-04 5 3.358978e-07
+            Max          Q25          Q50          Q75
+C  3.670655e-07 3.514890e-07 3.570211e-07 3.647143e-07
+Fe 3.706216e-07 3.486765e-07 3.618120e-07 3.620468e-07
+P  5.382305e-04 3.566901e-07 3.581168e-07 3.632548e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                8.4      a
+Fe               8.0      a
+C                7.6      a
+
+attr(,"class")
+[1] "group"
+
+$Glycerate$`120`
+$statistics
+  Chisq    p.chisq
+   7.28 0.02625234
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.555926e-07  3.6 2.005412e-08 5 3.339495e-07
+Fe      5.402191e-04 10.4 9.370863e-04 5 3.804910e-07
+P       1.138256e-03 10.0 1.115361e-03 5 3.673889e-07
+            Max          Q25          Q50          Q75
+C  3.801928e-07 3.363057e-07 3.598997e-07 3.676152e-07
+Fe 2.201363e-03 3.893852e-07 2.247488e-04 2.742136e-04
+P  2.477218e-03 3.792961e-07 1.328315e-03 1.884999e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              10.4      a
+P               10.0      a
+C                3.6      b
+
+attr(,"class")
+[1] "group"
+
+
+$Glycolate
+$Glycolate$`15`
+$statistics
+      Chisq   p.chisq
+  0.3714286 0.8305108
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0015681767  7.6 0.0023327592 5 3.265408e-07
+Fe      0.0004565934  6.5 0.0009124832 4 3.250326e-07
+P       0.0009043130  8.2 0.0014214704 5 3.372796e-07
+           Max          Q25          Q50          Q75
+C  0.005210510 3.397299e-07 3.465164e-07 0.0026293608
+Fe 0.001825318 3.365762e-07 3.651361e-07 0.0004566219
+P  0.003248615 3.467092e-07 3.693951e-07 0.0012718962
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                8.2      a
+C                7.6      a
+Fe               6.5      a
+
+attr(,"class")
+[1] "group"
+
+$Glycolate$`30`
+$statistics
+     Chisq    p.chisq
+  6.165714 0.04582813
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       1.922436e-03 10.0 2.220509e-03 4 3.673260e-07
+Fe      3.475934e-07  3.8 2.251900e-08 5 3.297571e-07
+P       1.348150e-03  9.2 1.300359e-03 5 3.796377e-07
+            Max          Q25          Q50          Q75
+C  3.930222e-03 3.777600e-07 1.879577e-03 3.801635e-03
+Fe 3.856463e-07 3.319526e-07 3.434128e-07 3.471984e-07
+P  2.626565e-03 3.805870e-07 1.560576e-03 2.552850e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.0      a
+P                9.2      a
+Fe               3.8      b
+
+attr(,"class")
+[1] "group"
+
+$Glycolate$`60`
+$statistics
+  Chisq   p.chisq
+   1.26 0.5325918
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0006821796  9.2 0.0005742371 5 3.526657e-07
+Fe      0.0018442167  6.2 0.0041230101 5 3.271780e-07
+P       0.0014404752  8.6 0.0017609535 5 3.447525e-07
+           Max          Q25          Q50          Q75
+C  0.001199049 1.172977e-04 1.019469e-03 1.074730e-03
+Fe 0.009219681 3.432276e-07 3.543678e-07 3.773952e-07
+P  0.003387626 3.448289e-07 4.876757e-04 3.326385e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                9.2      a
+P                8.6      a
+Fe               6.2      a
+
+attr(,"class")
+[1] "group"
+
+$Glycolate$`120`
+$statistics
+  Chisq   p.chisq
+   2.94 0.2299255
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       1.385693e-03 10.8 1.329685e-03 5 3.385632e-07
+Fe      3.645869e-07  6.6 2.391782e-08 5 3.340241e-07
+P       2.612315e-04  6.6 5.833200e-04 5 3.326160e-07
+            Max          Q25          Q50          Q75
+C  2.828827e-03 3.817136e-07 1.681933e-03 2.416982e-03
+Fe 3.871263e-07 3.446789e-07 3.730879e-07 3.840173e-07
+P  1.304706e-03 3.581465e-07 3.792695e-07 3.816566e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.8      a
+Fe               6.6      a
+P                6.6      a
+
+attr(,"class")
+[1] "group"
+
+
+$Hydroxyglutarate
+$Hydroxyglutarate$`15`
+$statistics
+     Chisq    p.chisq
+  9.025714 0.01096708
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment  rank         std r          Min
+C       7.200151e-05  3.00 0.000160234 5 3.250276e-07
+Fe      5.091800e-03  9.75 0.004869229 4 2.290154e-03
+P       3.578024e-03 10.20 0.001897253 5 7.179194e-04
+            Max          Q25          Q50          Q75
+C  0.0003586369 3.319777e-07 3.525624e-07 3.611107e-07
+Fe 0.0123564421 2.326337e-03 2.860303e-03 5.625766e-03
+P  0.0059285820 3.118516e-03 3.984215e-03 4.140889e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P              10.20      a
+Fe              9.75      a
+C               3.00      b
+
+attr(,"class")
+[1] "group"
+
+$Hydroxyglutarate$`30`
+$statistics
+     Chisq     p.chisq
+  11.02286 0.004040331
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.587913e-07  2.5 1.024954e-08 4 3.458462e-07
+Fe      8.242983e-03 11.8 2.141237e-03 5 5.062010e-03
+P       2.021004e-03  7.2 2.142937e-03 5 2.929613e-04
+            Max          Q25          Q50          Q75
+C  3.682874e-07 3.530440e-07 3.605158e-07 3.662630e-07
+Fe 1.075816e-02 7.423942e-03 8.738746e-03 9.232057e-03
+P  5.690393e-03 7.098306e-04 1.691215e-03 1.720620e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              11.8      a
+P                7.2      b
+C                2.5      c
+
+attr(,"class")
+[1] "group"
+
+$Hydroxyglutarate$`60`
+$statistics
+  Chisq    p.chisq
+   7.46 0.02399284
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r          Min
+C        0.001509101  3.8 0.002579513 5 3.257026e-07
+Fe       0.007568236 11.4 0.002833964 5 3.510611e-03
+P        0.005263612  8.8 0.002471733 5 2.134406e-03
+           Max          Q25          Q50         Q75
+C  0.005956603 3.308983e-07 3.685274e-07 0.001587874
+Fe 0.011384265 7.030248e-03 7.455188e-03 0.008460868
+P  0.008509940 3.683452e-03 5.475454e-03 0.006514810
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              11.4      a
+P                8.8     ab
+C                3.8      b
+
+attr(,"class")
+[1] "group"
+
+$Hydroxyglutarate$`120`
+$statistics
+  Chisq   p.chisq
+    1.5 0.4723666
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r          Min
+C        0.002967970    7 0.002005018 5 3.886001e-07
+Fe       0.004881894    7 0.006687705 5 3.246948e-07
+P        0.006301447   10 0.004017689 5 2.034286e-04
+           Max          Q25          Q50         Q75
+C  0.005043435 1.931495e-03 3.805195e-03 0.004059334
+Fe 0.012504212 3.430250e-07 3.604100e-07 0.011904231
+P  0.010595849 4.945962e-03 6.853306e-03 0.008908689
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                 10      a
+C                  7      a
+Fe                 7      a
+
+attr(,"class")
+[1] "group"
+
+
+$Isocitrate
+$Isocitrate$`15`
+$statistics
+     Chisq    p.chisq
+  8.142857 0.01705301
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r         Min
+C        0.013618570 10.8 0.0089980219 5 0.004017621
+Fe       0.007555806  8.5 0.0040789005 4 0.002847233
+P        0.002474137  3.4 0.0007470279 5 0.001581826
+           Max         Q25         Q50         Q75
+C  0.024546098 0.007656413 0.010192801 0.021679915
+Fe 0.012611411 0.005475941 0.007382290 0.009462155
+P  0.003407137 0.001901155 0.002521744 0.002958822
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.8      a
+Fe               8.5      a
+P                3.4      b
+
+attr(,"class")
+[1] "group"
+
+$Isocitrate$`30`
+$statistics
+     Chisq     p.chisq
+  9.411429 0.009043452
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r         Min
+C        0.007399555 11.0 0.004946493 4 0.003813344
+Fe       0.004763182  9.2 0.001417432 5 0.003692406
+P        0.002120498  3.0 0.001059005 5 0.001054982
+           Max         Q25         Q50         Q75
+C  0.014663165 0.004588160 0.005560855 0.008372250
+Fe 0.006923358 0.003780617 0.003918439 0.005501090
+P  0.003411322 0.001090454 0.002135807 0.002909924
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               11.0      a
+Fe               9.2      a
+P                3.0      b
+
+attr(,"class")
+[1] "group"
+
+$Isocitrate$`60`
+$statistics
+  Chisq     p.chisq
+   9.78 0.007521422
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r         Min
+C        0.013443073 13.0 0.002559188 5 0.011193620
+Fe       0.002744729  4.6 0.001904158 5 0.001088399
+P        0.004006555  6.4 0.002404828 5 0.002162576
+           Max         Q25         Q50         Q75
+C  0.016595985 0.011267551 0.012397602 0.015760610
+Fe 0.005857630 0.001432026 0.002262826 0.003082764
+P  0.008025249 0.002471475 0.002972041 0.004401436
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               13.0      a
+P                6.4      b
+Fe               4.6      b
+
+attr(,"class")
+[1] "group"
+
+$Isocitrate$`120`
+$statistics
+  Chisq     p.chisq
+   9.78 0.007521422
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r         Min
+C        0.014109969 13.0 0.0031819232 5 0.009648826
+Fe       0.004307821  6.4 0.0014315219 5 0.002772044
+P        0.003490158  4.6 0.0004511559 5 0.002792722
+           Max         Q25         Q50         Q75
+C  0.017168234 0.012035799 0.015178928 0.016518059
+Fe 0.006529910 0.003375171 0.004414378 0.004447604
+P  0.003932103 0.003308800 0.003663163 0.003754000
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               13.0      a
+Fe               6.4      b
+P                4.6      b
+
+attr(,"class")
+[1] "group"
+
+
+$Itaconate
+$Itaconate$`15`
+$statistics
+     Chisq     p.chisq
+  9.642857 0.008055271
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment  rank        std r       Min
+C          0.7849275 11.00 0.01347016 5 0.7688526
+Fe         0.7710522  8.75 0.00831949 4 0.7614321
+P          0.6853520  3.00 0.02416029 5 0.6430500
+         Max       Q25       Q50       Q75
+C  0.8041985 0.7797194 0.7801516 0.7917153
+Fe 0.7815733 0.7672493 0.7706017 0.7744046
+P  0.7007948 0.6877979 0.6963430 0.6987742
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C              11.00      a
+Fe              8.75      a
+P               3.00      b
+
+attr(,"class")
+[1] "group"
+
+$Itaconate$`30`
+$statistics
+     Chisq     p.chisq
+  9.642857 0.008055271
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment  rank         std r       Min
+C          0.7710933 11.25 0.016820449 4 0.7459211
+Fe         0.7689080  9.00 0.006041746 5 0.7596556
+P          0.6945308  3.00 0.038662798 5 0.6371553
+         Max       Q25       Q50       Q75
+C  0.7809380 0.7700859 0.7787570 0.7797644
+Fe 0.7759952 0.7673442 0.7701492 0.7713957
+P  0.7274044 0.6743194 0.7069251 0.7268497
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C              11.25      a
+Fe              9.00      a
+P               3.00      b
+
+attr(,"class")
+[1] "group"
+
+$Itaconate$`60`
+$statistics
+  Chisq     p.chisq
+  11.18 0.003735028
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r       Min
+C          0.7736469 12.4 0.009577490 5 0.7637481
+Fe         0.7611583  8.6 0.006780989 5 0.7530101
+P          0.6381503  3.0 0.056735824 5 0.5765720
+         Max       Q25       Q50       Q75
+C  0.7879815 0.7660278 0.7748333 0.7756439
+Fe 0.7703630 0.7579755 0.7590265 0.7654165
+P  0.7034801 0.5804143 0.6615838 0.6687012
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.4      a
+Fe               8.6      b
+P                3.0      c
+
+attr(,"class")
+[1] "group"
+
+$Itaconate$`120`
+$statistics
+  Chisq    p.chisq
+   8.34 0.01545226
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank        std r       Min       Max
+C          0.7834791 11.2 0.01131703 5 0.7675984 0.7943434
+Fe         0.7669229  9.4 0.03605582 5 0.7036624 0.7917682
+P          0.6678381  3.4 0.04420688 5 0.6304649 0.7193275
+         Q25       Q50       Q75
+C  0.7759626 0.7878695 0.7916214
+Fe 0.7743252 0.7776750 0.7871837
+P  0.6337101 0.6431733 0.7125148
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               11.2      a
+Fe               9.4      a
+P                3.4      b
+
+attr(,"class")
+[1] "group"
+
+
+$Lactate
+$Lactate$`15`
+$statistics
+     Chisq   p.chisq
+  2.965714 0.2269882
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.770806e-07  9.8 9.907177e-09 5 3.655399e-07
+Fe      3.518462e-07  5.0 1.839056e-08 4 3.316036e-07
+P       3.601298e-07  7.2 2.972280e-08 5 3.247159e-07
+            Max          Q25          Q50          Q75
+C  3.905002e-07 3.693396e-07 3.789560e-07 3.810675e-07
+Fe 3.739358e-07 3.404003e-07 3.509227e-07 3.623686e-07
+P  3.921209e-07 3.354551e-07 3.629393e-07 3.854176e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                9.8      a
+P                7.2      a
+Fe               5.0      a
+
+attr(,"class")
+[1] "group"
+
+$Lactate$`30`
+$statistics
+     Chisq  p.chisq
+  1.285714 0.525788
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.530366e-07  6.5 3.236067e-08 4 3.239837e-07
+Fe      3.550374e-07  6.6 2.531222e-08 5 3.273107e-07
+P       3.733934e-07  9.2 1.736463e-08 5 3.503085e-07
+            Max          Q25          Q50          Q75
+C  3.925100e-07 3.279843e-07 3.478263e-07 3.728786e-07
+Fe 3.907364e-07 3.357012e-07 3.543478e-07 3.670907e-07
+P  3.910912e-07 3.633470e-07 3.727445e-07 3.894758e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.2      a
+Fe               6.6      a
+C                6.5      a
+
+attr(,"class")
+[1] "group"
+
+$Lactate$`60`
+$statistics
+  Chisq   p.chisq
+   3.38 0.1845195
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.544123e-07  5.0 2.183127e-08 5 3.231647e-07
+Fe      3.754685e-07  9.4 1.187883e-08 5 3.621665e-07
+P       3.731894e-07  9.6 2.262428e-08 5 3.347973e-07
+            Max          Q25          Q50          Q75
+C  3.827254e-07 3.473692e-07 3.555934e-07 3.632086e-07
+Fe 3.879805e-07 3.634974e-07 3.800878e-07 3.836102e-07
+P  3.899764e-07 3.751599e-07 3.761131e-07 3.899000e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.6      a
+Fe               9.4      a
+C                5.0      a
+
+attr(,"class")
+[1] "group"
+
+$Lactate$`120`
+$statistics
+  Chisq   p.chisq
+   0.14 0.9323938
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.552219e-07  8.4 2.234495e-08 5 3.235754e-07
+Fe      3.572274e-07  8.2 1.534450e-08 5 3.301112e-07
+P       3.491196e-07  7.4 2.017615e-08 5 3.305331e-07
+            Max          Q25          Q50          Q75
+C  3.814334e-07 3.441607e-07 3.584585e-07 3.684815e-07
+Fe 3.670731e-07 3.610494e-07 3.624436e-07 3.654598e-07
+P  3.749237e-07 3.340187e-07 3.396841e-07 3.664382e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C                8.4      a
+Fe               8.2      a
+P                7.4      a
+
+attr(,"class")
+[1] "group"
+
+
+$Malate
+$Malate$`15`
+$statistics
+     Chisq    p.chisq
+  9.102857 0.01055212
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r         Min
+C         0.01548339 12.0 0.0009640694 5 0.014493788
+Fe        0.00778833  5.5 0.0037998554 4 0.003038975
+P         0.00670793  4.6 0.0015441036 5 0.004722150
+           Max         Q25         Q50         Q75
+C  0.016481347 0.014626930 0.015337659 0.016477236
+Fe 0.012252378 0.006236045 0.007930982 0.009483267
+P  0.008719635 0.005819975 0.006699211 0.007578679
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.0      a
+Fe               5.5      b
+P                4.6      b
+
+attr(,"class")
+[1] "group"
+
+$Malate$`30`
+$statistics
+     Chisq    p.chisq
+  7.171429 0.02771686
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r          Min
+C        0.014324330 12.0 0.001721198 4 0.0118890448
+Fe       0.008093129  4.6 0.004582801 5 0.0006184001
+P        0.009833538  6.8 0.003644577 5 0.0037024896
+          Max        Q25         Q50        Q75
+C  0.01590320 0.01387115 0.014752538 0.01520572
+Fe 0.01254701 0.00723659 0.009875392 0.01018826
+P  0.01346495 0.01024216 0.010849915 0.01090817
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.0      a
+P                6.8      b
+Fe               4.6      b
+
+attr(,"class")
+[1] "group"
+
+$Malate$`60`
+$statistics
+  Chisq    p.chisq
+   7.46 0.02399284
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r         Min
+C        0.015995396 12.2 0.002682049 5 0.011620038
+Fe       0.010232823  7.2 0.003704257 5 0.003876901
+P        0.009109187  4.6 0.002049931 5 0.007032402
+          Max         Q25         Q50         Q75
+C  0.01869112 0.015584396 0.016975238 0.017106192
+Fe 0.01281726 0.010169524 0.011674693 0.012625731
+P  0.01231857 0.007748747 0.008823759 0.009622464
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.2      a
+Fe               7.2     ab
+P                4.6      b
+
+attr(,"class")
+[1] "group"
+
+$Malate$`120`
+$statistics
+  Chisq    p.chisq
+   9.14 0.01035796
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r         Min
+C         0.01629226 12.8 0.001161419 5 0.014675045
+Fe        0.01205800  6.6 0.002845931 5 0.008645595
+P         0.00997750  4.6 0.003901528 5 0.005808214
+          Max         Q25        Q50        Q75
+C  0.01773640 0.015887388 0.01615476 0.01700768
+Fe 0.01558045 0.009671111 0.01302920 0.01336362
+P  0.01453981 0.007304307 0.00857352 0.01366164
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               12.8      a
+Fe               6.6      b
+P                4.6      b
+
+attr(,"class")
+[1] "group"
+
+
+$Oxalate
+$Oxalate$`15`
+$statistics
+     Chisq   p.chisq
+  2.511429 0.2848723
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.688101e-07 9.00 7.088293e-09 5 3.607655e-07
+Fe      3.460439e-07 4.75 2.909181e-08 4 3.263908e-07
+P       1.123701e-03 8.20 2.022555e-03 5 3.353838e-07
+            Max          Q25          Q50          Q75
+C  3.787319e-07 3.635967e-07 3.688858e-07 3.720708e-07
+Fe 3.893002e-07 3.313466e-07 3.342423e-07 3.489396e-07
+P  4.665946e-03 3.482577e-07 3.575341e-07 9.515183e-04
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               9.00      a
+P               8.20      a
+Fe              4.75      a
+
+attr(,"class")
+[1] "group"
+
+$Oxalate$`30`
+$statistics
+      Chisq   p.chisq
+  0.3857143 0.8245998
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.576126e-07 7.25 2.407709e-08 4 3.267625e-07
+Fe      3.533316e-07 6.80 2.317269e-08 5 3.244952e-07
+P       3.808207e-04 8.40 8.507465e-04 5 3.294433e-07
+            Max          Q25          Q50          Q75
+C  3.794852e-07 3.445737e-07 3.621013e-07 3.751402e-07
+Fe 3.836490e-07 3.368608e-07 3.582213e-07 3.634320e-07
+P  1.902682e-03 3.544833e-07 3.634218e-07 3.738280e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               8.40      a
+C               7.25      a
+Fe              6.80      a
+
+attr(,"class")
+[1] "group"
+
+$Oxalate$`60`
+$statistics
+  Chisq    p.chisq
+   5.42 0.06653681
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0004310874  6.0 0.0005928006 5 3.229588e-07
+Fe      0.0005554942  6.2 0.0005072009 5 3.736844e-07
+P       0.0042192717 11.8 0.0044367675 5 3.852626e-07
+            Max          Q25          Q50          Q75
+C  0.0011614198 3.648634e-07 3.866133e-07 0.0009929430
+Fe 0.0009439403 3.773758e-07 8.907398e-04 0.0009420399
+P  0.0116185002 1.877964e-03 3.376478e-03 0.0042230313
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               11.8      a
+Fe               6.2      a
+C                6.0      a
+
+attr(,"class")
+[1] "group"
+
+$Oxalate$`120`
+$statistics
+  Chisq   p.chisq
+   1.58 0.4538448
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0019811646 10.0 0.0013749701 5 3.641461e-07
+Fe      0.0009864598  6.6 0.0009769379 5 3.257838e-07
+P       0.0014420374  7.4 0.0019081997 5 3.337380e-07
+           Max          Q25          Q50         Q75
+C  0.003122557 1.080753e-03 0.0027749274 0.002927221
+Fe 0.002217309 3.684188e-07 0.0011534499 0.001560846
+P  0.004214927 3.550352e-07 0.0003326126 0.002661959
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.0      a
+P                7.4      a
+Fe               6.6      a
+
+attr(,"class")
+[1] "group"
+
+
+$Oxaloacetate
+$Oxaloacetate$`15`
+$statistics
+     Chisq    p.chisq
+  5.171429 0.07534224
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r          Min
+C         0.10688046  8.8 0.079677210 5 3.501011e-07
+Fe        0.01442347  3.5 0.004317529 4 8.077137e-03
+P         0.11257031  9.4 0.073708315 5 1.869230e-02
+          Max        Q25        Q50        Q75
+C  0.22349459 0.09464516 0.09767196 0.11859025
+Fe 0.01731469 0.01352343 0.01615103 0.01705106
+P  0.19610187 0.07445543 0.09609429 0.17750765
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.4      a
+C                8.8      a
+Fe               3.5      a
+
+attr(,"class")
+[1] "group"
+
+$Oxaloacetate$`30`
+$statistics
+     Chisq   p.chisq
+  3.471429 0.1762742
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank        std r        Min
+C         0.08917343 8.25 0.09396217 4 0.01349762
+Fe        0.03403983 4.80 0.01262796 5 0.01893433
+P         0.06276439 9.60 0.01662083 5 0.04475634
+          Max        Q25        Q50        Q75
+C  0.22156788 0.02761957 0.06081411 0.12236798
+Fe 0.05169090 0.02846330 0.02996810 0.04114251
+P  0.07890126 0.04525071 0.06887188 0.07604178
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               9.60      a
+C               8.25      a
+Fe              4.80      a
+
+attr(,"class")
+[1] "group"
+
+$Oxaloacetate$`60`
+$statistics
+  Chisq     p.chisq
+  11.06 0.003965989
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank        std r        Min
+C         0.06623090  8.2 0.02514917 5 0.04159714
+Fe        0.03341892  3.2 0.01044343 5 0.02110249
+P         0.12739568 12.6 0.04357607 5 0.07668924
+          Max        Q25        Q50        Q75
+C  0.10812071 0.05526900 0.05931734 0.06685031
+Fe 0.04652619 0.02660957 0.03151453 0.04134183
+P  0.19353616 0.10539498 0.12218795 0.13917008
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               12.6      a
+C                8.2      b
+Fe               3.2      c
+
+attr(,"class")
+[1] "group"
+
+$Oxaloacetate$`120`
+$statistics
+  Chisq    p.chisq
+   8.82 0.01215518
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank         std r        Min
+C         0.02136724  3.2 0.002934858 5 0.01773624
+Fe        0.03507127 11.0 0.005047496 5 0.02940175
+P         0.03520458  9.8 0.011533970 5 0.02281374
+          Max        Q25        Q50        Q75
+C  0.02549533 0.01963775 0.02149476 0.02247215
+Fe 0.04210910 0.03203367 0.03371341 0.03809842
+P  0.05186455 0.02919012 0.03044940 0.04170512
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              11.0      a
+P                9.8      a
+C                3.2      b
+
+attr(,"class")
+[1] "group"
+
+
+$Oxoglutarate
+$Oxoglutarate$`15`
+$statistics
+     Chisq    p.chisq
+  8.462857 0.01453162
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0016530643  8.6 0.0001357029 5 1.467963e-03
+Fe      0.0003373252  2.5 0.0004170079 4 3.257648e-07
+P       0.0019454675 10.4 0.0004156238 5 1.558838e-03
+           Max          Q25         Q50          Q75
+C  0.001840156 1.604878e-03 0.001653729 0.0016985954
+Fe 0.000883617 1.746449e-05 0.000232679 0.0005525396
+P  0.002575051 1.579234e-03 0.001965942 0.0020482721
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               10.4      a
+C                8.6      a
+Fe               2.5      b
+
+attr(,"class")
+[1] "group"
+
+$Oxoglutarate$`30`
+$statistics
+     Chisq   p.chisq
+  2.062857 0.3564973
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       0.0019915139  7.5 0.0013785801 4 3.330823e-07
+Fe      0.0009429839  5.6 0.0016241625 5 3.643178e-07
+P       0.0025283136  9.4 0.0007566009 5 1.345588e-03
+           Max          Q25          Q50          Q75
+C  0.003047864 1.616906e-03 0.0024589293 0.0028335372
+Fe 0.003819119 6.801642e-05 0.0002332888 0.0005941313
+P  0.003275167 2.273624e-03 0.0027514341 0.0029957549
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.4      a
+C                7.5      a
+Fe               5.6      a
+
+attr(,"class")
+[1] "group"
+
+$Oxoglutarate$`60`
+$statistics
+  Chisq    p.chisq
+   7.44 0.02423397
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C        0.004029717 10.8 0.0016785094 5 0.0011315419
+Fe       0.001532830  3.6 0.0009079613 5 0.0005849244
+P        0.003780462  9.6 0.0009338555 5 0.0026342748
+           Max         Q25         Q50         Q75
+C  0.005195756 0.004153662 0.004515999 0.005151625
+Fe 0.002495099 0.000764388 0.001362937 0.002456801
+P  0.004911735 0.003130669 0.003758081 0.004467549
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.8      a
+P                9.6      a
+Fe               3.6      b
+
+attr(,"class")
+[1] "group"
+
+$Oxoglutarate$`120`
+$statistics
+  Chisq    p.chisq
+   5.42 0.06653681
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C        0.005692216 10.0 0.0004762557 5 5.261743e-03
+Fe       0.005316536  9.8 0.0028742401 5 1.069833e-03
+P        0.003153388  4.2 0.0019959978 5 3.367665e-07
+           Max         Q25         Q50         Q75
+C  0.006330591 0.005267929 0.005564807 0.006036012
+Fe 0.007870633 0.003676958 0.006631070 0.007334186
+P  0.004872071 0.002552266 0.003620014 0.004722253
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               10.0      a
+Fe               9.8      a
+P                4.2      a
+
+attr(,"class")
+[1] "group"
+
+
+$Pyruvate
+$Pyruvate$`15`
+$statistics
+     Chisq   p.chisq
+  1.985714 0.3705166
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.690382e-07 7.40 1.598497e-08 5 3.443323e-07
+Fe      9.173838e-04 9.75 1.093070e-03 4 3.522882e-07
+P       1.165731e-03 5.80 2.605863e-03 5 3.328028e-07
+            Max          Q25          Q50          Q75
+C  3.884208e-07 3.685637e-07 3.688564e-07 3.750178e-07
+Fe 2.166618e-03 3.758405e-07 7.512826e-04 1.668291e-03
+P  5.827241e-03 3.496236e-07 3.630367e-07 3.674056e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe              9.75      a
+C               7.40      a
+P               5.80      a
+
+attr(,"class")
+[1] "group"
+
+$Pyruvate$`30`
+$statistics
+     Chisq   p.chisq
+  2.245714 0.3253489
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.488928e-07  5.5 2.212702e-08 4 3.217730e-07
+Fe      5.562826e-04  7.0 1.243103e-03 5 3.443208e-07
+P       1.216916e-03  9.6 1.294599e-03 5 3.258904e-07
+            Max          Q25          Q50          Q75
+C  3.759659e-07 3.418029e-07 3.489161e-07 3.560060e-07
+Fe 2.780013e-03 3.466058e-07 3.509882e-07 3.575013e-07
+P  3.085472e-03 3.575811e-07 1.283617e-03 1.714806e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.6      a
+Fe               7.0      a
+C                5.5      a
+
+attr(,"class")
+[1] "group"
+
+$Pyruvate$`60`
+$statistics
+  Chisq    p.chisq
+   8.72 0.01277839
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.444476e-07  6.0 1.822794e-08 5 3.307772e-07
+Fe      2.168322e-05  5.2 4.771710e-05 5 3.264292e-07
+P       8.229516e-04 12.8 7.255290e-04 5 3.894668e-07
+            Max          Q25          Q50          Q75
+C  3.754427e-07 3.316398e-07 3.402901e-07 3.440882e-07
+Fe 1.070422e-04 3.291209e-07 3.307111e-07 3.876735e-07
+P  1.587360e-03 1.309411e-04 9.926212e-04 1.403447e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               12.8      a
+C                6.0      b
+Fe               5.2      b
+
+attr(,"class")
+[1] "group"
+
+$Pyruvate$`120`
+$statistics
+  Chisq  p.chisq
+   1.46 0.481909
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       2.133098e-05  6.2 4.686193e-05 5 3.534872e-07
+Fe      8.655573e-04  9.6 1.020115e-03 5 3.630964e-07
+P       6.470845e-04  8.2 9.395495e-04 5 3.355006e-07
+            Max          Q25          Q50          Q75
+C  0.0001051602 3.708808e-07 3.802154e-07 3.901485e-07
+Fe 0.0024820282 3.852541e-07 7.708687e-04 1.074141e-03
+P  0.0020611080 3.697149e-07 3.924894e-07 1.173217e-03
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe               9.6      a
+P                8.2      a
+C                6.2      a
+
+attr(,"class")
+[1] "group"
+
+
+$Succinate
+$Succinate$`15`
+$statistics
+  Chisq  p.chisq
+   2.52 0.283654
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.556587e-07  5.4 2.632780e-08 5 3.309458e-07
+Fe      1.199252e-05  7.5 2.326465e-05 4 3.312827e-07
+P       3.498637e-05  9.6 7.738489e-05 5 3.645074e-07
+            Max          Q25          Q50          Q75
+C  3.889914e-07 3.328692e-07 3.480623e-07 3.774245e-07
+Fe 4.688949e-05 3.591388e-07 3.746607e-07 1.200805e-05
+P  1.734167e-04 3.728392e-07 3.860482e-07 3.917757e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P                9.6      a
+Fe               7.5      a
+C                5.4      a
+
+attr(,"class")
+[1] "group"
+
+$Succinate$`30`
+$statistics
+     Chisq   p.chisq
+  1.322857 0.5161135
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       3.696926e-07 8.75 2.165144e-08 4 3.377863e-07
+Fe      3.576543e-07 5.80 1.456891e-08 5 3.384953e-07
+P       2.517185e-05 8.20 5.547929e-05 5 3.409051e-07
+            Max          Q25          Q50          Q75
+C  3.857361e-07 3.664625e-07 3.776240e-07 3.808541e-07
+Fe 3.735609e-07 3.498320e-07 3.558972e-07 3.704860e-07
+P  1.244162e-04 3.529087e-07 3.684588e-07 3.807773e-07
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+C               8.75      a
+P               8.20      a
+Fe              5.80      a
+
+attr(,"class")
+[1] "group"
+
+$Succinate$`60`
+$statistics
+  Chisq   p.chisq
+   0.86 0.6505091
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       8.518359e-05  7.8 1.323125e-04 5 3.233764e-07
+Fe      8.764329e-05  9.4 1.550215e-04 5 3.448690e-07
+P       6.258565e-05  6.8 8.724079e-05 5 3.251979e-07
+            Max          Q25          Q50          Q75
+C  0.0003020074 3.390850e-07 3.709894e-07 1.228771e-04
+Fe 0.0003626285 3.546307e-07 2.672904e-05 4.815943e-05
+P  0.0001821997 3.290628e-07 3.377100e-07 1.297366e-04
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+Fe               9.4      a
+C                7.8      a
+P                6.8      a
+
+attr(,"class")
+[1] "group"
+
+$Succinate$`120`
+$statistics
+  Chisq   p.chisq
+   2.66 0.2644773
+
+$parameters
+            test p.ajusted      name.t ntr alpha
+  Kruskal-Wallis       fdr i$Treatment   3  0.05
+
+$means
+   i.mean_enrichment rank          std r          Min
+C       8.209545e-05  8.2 1.274658e-04 5 3.321563e-07
+Fe      3.606170e-07  5.6 1.860039e-08 5 3.336284e-07
+P       5.563608e-05 10.2 1.065398e-04 5 3.451770e-07
+            Max          Q25          Q50          Q75
+C  2.909552e-04 3.407145e-07 3.875244e-07 1.184617e-04
+Fe 3.827401e-07 3.519962e-07 3.667178e-07 3.680026e-07
+P  2.445929e-04 3.905617e-07 3.917518e-07 3.246002e-05
+
+$comparison
+NULL
+
+$groups
+   i$mean_enrichment groups
+P               10.2      a
+C                8.2      a
+Fe               5.6      a
+
+attr(,"class")
+[1] "group"
+
+

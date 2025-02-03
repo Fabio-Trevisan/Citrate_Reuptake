@@ -1,0 +1,345 @@
+$Aconitate
+$Aconitate$C
+    i$mean_enrichment groups
+120             15.80      a
+60              10.00     ab
+15               6.80      b
+30               6.75      b
+
+$Aconitate$Fe
+    i$mean_enrichment groups
+60               16.0      a
+120               9.0     ab
+30                8.2      b
+15                6.0      b
+
+$Aconitate$P
+    i$mean_enrichment groups
+120              12.4      a
+60               11.4      a
+30               10.0      a
+15                8.2      a
+
+
+$Citrate
+$Citrate$C
+    i$mean_enrichment groups
+120              14.8      a
+60               10.0      a
+30                9.0      a
+15                6.0      a
+
+$Citrate$Fe
+    i$mean_enrichment groups
+120              11.0      a
+15               11.0      a
+60               10.0      a
+30                8.2      a
+
+$Citrate$P
+    i$mean_enrichment groups
+60               14.2      a
+120              14.0      a
+15                7.4      a
+30                6.4      a
+
+
+$Fumarate
+$Fumarate$C
+    i$mean_enrichment groups
+120             14.80      a
+15              10.60      a
+60               8.00      a
+30               5.75      a
+
+$Fumarate$Fe
+    i$mean_enrichment groups
+60               13.0      a
+120              10.4      a
+30                9.8      a
+15                6.0      a
+
+$Fumarate$P
+    i$mean_enrichment groups
+60               14.0      a
+30               10.6      a
+15                9.8      a
+120               7.6      a
+
+
+$Glycerate
+$Glycerate$C
+    i$mean_enrichment groups
+15               12.4      a
+30               12.0      a
+120               9.4      a
+60                6.6      a
+
+$Glycerate$Fe
+    i$mean_enrichment groups
+120             13.60      a
+15              12.75      a
+30               8.80      a
+60               5.40      a
+
+$Glycerate$P
+    i$mean_enrichment groups
+120              13.0      a
+30               12.4      a
+15                9.8      a
+60                6.8      a
+
+
+$Glycolate
+$Glycolate$C
+    i$mean_enrichment groups
+30              11.25      a
+15               9.80      a
+120              9.60      a
+60               9.60      a
+
+$Glycolate$Fe
+    i$mean_enrichment groups
+60               13.0      a
+15               12.0      a
+120               8.2      a
+30                7.2      a
+
+$Glycolate$P
+    i$mean_enrichment groups
+60               12.2      a
+30               12.0      a
+15               10.6      a
+120               7.2      a
+
+
+$Hydroxyglutarate
+$Hydroxyglutarate$C
+    i$mean_enrichment groups
+120             15.20      a
+60              10.80     ab
+30               7.25     ab
+15               6.20      b
+
+$Hydroxyglutarate$Fe
+    i$mean_enrichment groups
+30              12.00      a
+60              11.00      a
+120              8.40      a
+15               8.25      a
+
+$Hydroxyglutarate$P
+    i$mean_enrichment groups
+120              13.8      a
+60               12.6      a
+15                9.6      a
+30                6.0      a
+
+
+$Isocitrate
+$Isocitrate$C
+    i$mean_enrichment groups
+120              12.2      a
+60               11.6      a
+15               10.2      a
+30                5.0      a
+
+$Isocitrate$Fe
+    i$mean_enrichment groups
+15              14.25      a
+30              11.40      a
+120             10.00      a
+60               5.20      a
+
+$Isocitrate$P
+    i$mean_enrichment groups
+120              14.6      a
+60               12.8      a
+15                8.0      a
+30                6.6      a
+
+
+$Itaconate
+$Itaconate$C
+    i$mean_enrichment groups
+15              12.80      a
+120             12.00      a
+30               8.25      a
+60               6.60      a
+
+$Itaconate$Fe
+    i$mean_enrichment groups
+120             13.60      a
+15              11.25      a
+30              10.00      a
+60               5.40      a
+
+$Itaconate$P
+    i$mean_enrichment groups
+30               14.0      a
+15               11.2      a
+120               9.8      a
+60                7.0      a
+
+
+$Lactate
+$Lactate$C
+    i$mean_enrichment groups
+15               13.0      a
+60               10.0      a
+30                9.0      a
+120               7.8      a
+
+$Lactate$Fe
+    i$mean_enrichment groups
+60              12.20      a
+15              10.25      a
+120              9.60      a
+30               8.00      a
+
+$Lactate$P
+    i$mean_enrichment groups
+30               13.4      a
+15               12.4      a
+60                9.8      a
+120               6.4      a
+
+
+$Malate
+$Malate$C
+    i$mean_enrichment groups
+120              12.4      a
+60               12.2      a
+15                8.6      a
+30                6.0      a
+
+$Malate$Fe
+    i$mean_enrichment groups
+120              13.8      a
+60               11.2      a
+30                7.8      a
+15                6.5      a
+
+$Malate$P
+    i$mean_enrichment groups
+30               12.8      a
+120              11.8      a
+60               11.4      a
+15                6.0      a
+
+
+$Oxalate
+$Oxalate$C
+    i$mean_enrichment groups
+120              15.6      a
+60               12.6      a
+15                7.8      b
+30                2.5      c
+
+$Oxalate$Fe
+    i$mean_enrichment groups
+120              14.0      a
+60               12.8      a
+30                6.4      a
+15                6.0      a
+
+$Oxalate$P
+    i$mean_enrichment groups
+60               14.4      a
+120              11.6      a
+15               10.2      a
+30                5.8      a
+
+
+$Oxaloacetate
+$Oxaloacetate$C
+    i$mean_enrichment groups
+15              13.20      a
+60              11.60      a
+30              10.25      a
+120              5.00      a
+
+$Oxaloacetate$Fe
+    i$mean_enrichment groups
+120              13.0      a
+60               11.6      a
+30               11.4      a
+15                2.5      b
+
+$Oxaloacetate$P
+    i$mean_enrichment groups
+60               15.8      a
+15               12.6      a
+30                9.2     ab
+120               4.4      b
+
+
+$Oxoglutarate
+$Oxoglutarate$C
+    i$mean_enrichment groups
+120              17.0      a
+60               10.4      b
+30                7.0     bc
+15                5.0      c
+
+$Oxoglutarate$Fe
+    i$mean_enrichment groups
+120             16.00      a
+60              11.00     ab
+30               6.80      b
+15               5.25      b
+
+$Oxoglutarate$P
+    i$mean_enrichment groups
+60               15.2      a
+120              12.2     ab
+30                9.2     ab
+15                5.4      b
+
+
+$Pyruvate
+$Pyruvate$C
+    i$mean_enrichment groups
+120             13.20      a
+15              10.00      a
+60               9.00      a
+30               7.25      a
+
+$Pyruvate$Fe
+    i$mean_enrichment groups
+120             11.80      a
+15              11.75      a
+60               9.00      a
+30               7.80      a
+
+$Pyruvate$P
+    i$mean_enrichment groups
+60               12.6      a
+30               12.2      a
+15                8.8      a
+120               8.4      a
+
+
+$Succinate
+$Succinate$C
+    i$mean_enrichment groups
+120             11.80      a
+60              11.00      a
+30              10.75      a
+15               6.60      a
+
+$Succinate$Fe
+    i$mean_enrichment groups
+60               14.4      a
+120               9.0      a
+15                8.5      a
+30                7.8      a
+
+$Succinate$P
+    i$mean_enrichment groups
+60               12.2      a
+15               10.8      a
+120              10.2      a
+30                8.8      a
+
+

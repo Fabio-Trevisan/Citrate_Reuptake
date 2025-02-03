@@ -159,6 +159,11 @@ KW_Tr <- lapply(vector_metabolite, function(m){
 })
 names(KW_Tr) <- vector_metabolite
 
+sink(paste("InHouse_", Class, "_KW_Tr.csv", sep=""))
+KW_Tr 
+sink(NULL)
+
+
 ##Time
 KW_Ti <- lapply(vector_metabolite, function(m){
   lapply(split(Subset_L[[m]], Subset_L[[m]][["Treatment"]]), function(i){ 
@@ -166,6 +171,10 @@ KW_Ti <- lapply(vector_metabolite, function(m){
   })
 })
 names(KW_Ti) <- vector_metabolite
+
+sink(paste("InHouse_", Class, "_KW_Ti.csv", sep=""))
+KW_Ti 
+sink(NULL)
 
 ## Save
 ##Treatment
@@ -179,7 +188,7 @@ for(i in vector_metabolite) {
   list <- names(KW_Tr[[i]]) 
   names(KW_Tr_groups[[i]]) <- list
 }
-sink(paste("InHouse_", Class, "_KW_Tr.csv", sep=""))
+sink(paste("InHouse_", Class, "_KW_Tr_groups.csv", sep=""))
 KW_Tr_groups 
 sink(NULL)
 
@@ -194,7 +203,7 @@ for(i in vector_metabolite) {
   list <- names(KW_Ti[[i]]) 
   names(KW_Ti_groups[[i]]) <- list
 }
-sink(paste("InHouse_", Class, "_KW_Ti.csv", sep=""))
+sink(paste("InHouse_", Class, "_KW_Ti_groups.csv", sep=""))
 KW_Ti_groups 
 sink(NULL)
 
